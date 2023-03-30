@@ -18,10 +18,14 @@ export const GlobalButton = styled.a<GlobalButton>`
       ? fontSize.md
       : fontSize.lg};
   text-transform: uppercase;
-  border: 2px solid ${colors.textColor};
+  border: 1px solid ${colors.textColor};
   border-radius: 15px;
   padding: 0.1em 1.1em;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.1;
   transition: all 0.5s ease;
 
   &:hover {
