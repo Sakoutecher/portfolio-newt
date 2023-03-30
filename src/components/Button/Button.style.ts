@@ -10,7 +10,7 @@ type GlobalButton = {
 
 export const GlobalButton = styled.a<GlobalButton>`
   font-family: ${fonts.OTR};
-  color: ${colors.textColor};
+  color: ${colors.primary};
   font-size: ${(props) =>
     props.size === 's'
       ? fontSize.s
@@ -18,7 +18,7 @@ export const GlobalButton = styled.a<GlobalButton>`
       ? fontSize.md
       : fontSize.lg};
   text-transform: uppercase;
-  border: 1px solid ${colors.textColor};
+  border: 1px solid ${colors.primary};
   border-radius: 15px;
   padding: 0.1em 1.1em;
   cursor: pointer;
@@ -30,6 +30,6 @@ export const GlobalButton = styled.a<GlobalButton>`
 
   &:hover {
     color: ${colors.secondary};
-    background-color: ${colors.textColor};
+    background-color: ${colors.primary};
   }
 `

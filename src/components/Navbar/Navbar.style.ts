@@ -25,7 +25,7 @@ export const PseudoElement = styled.div`
   &::before {
     position: absolute;
     content: '';
-    background-color: ${colors.textColor};
+    background-color: ${colors.primary};
     width: 0%;
     height: 2.5px;
     bottom: -15%;
@@ -38,7 +38,7 @@ export const PseudoElement = styled.div`
 `
 
 export const NavbarLinks = styled.a`
-  color: ${colors.textColor};
+  color: ${colors.primary};
   text-transform: uppercase;
   font-family: ${fonts.OTR};
   font-size: ${fontSize.md};

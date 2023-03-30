@@ -14,7 +14,7 @@ export const FooterContainer = styled.footer`
 export const Line = styled.div`
   position: asbolute;
   height: 2px;
-  background-color: ${colors.textColor};
+  background-color: ${colors.primary};
   width: 90%;
   border-radius: 8px;
   top: 0;
@@ -31,7 +31,7 @@ export const ContentContainer = styled.div`
 `
 
 export const GoTop = styled.button`
-  color: ${colors.textColor};
+  color: ${colors.primary};
   text-transform: uppercase;
   font-family: ${fonts.OTR};
   font-size: ${fontSize.md};
@@ -51,7 +51,7 @@ export const LinksContainer = styled.div`
 `
 
 export const Links = styled.a`
-  color: ${colors.textColor};
+  color: ${colors.primary};
   text-transform: uppercase;
   font-family: ${fonts.OTR};
   font-size: ${fontSize.md};

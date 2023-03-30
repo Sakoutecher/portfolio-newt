@@ -6,7 +6,7 @@ export const fonts = {
 
 /**Colors */
 export const colors = {
-  textColor: '#212121',
+  primary: '#212121',
   secondary: '#dddddd',
 }
 
