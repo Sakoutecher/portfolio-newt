@@ -43,4 +43,5 @@ export const NavbarLinks = styled.a`
   font-family: ${fonts.OTR};
   font-size: ${fontSize.md};
   cursor: pointer;
+  letter-spacing: 2px;
 `
