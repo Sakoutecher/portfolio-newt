@@ -4,11 +4,13 @@ import styled from 'styled-components'
 
 //Components
 import Navbar from './components/Navbar/Navbar'
+import Footer from './components/Footer/Footer'
 
 const App = () => {
   return (
     <MainContainer>
       <Navbar />
+      <Footer />
     </MainContainer>
   )
 }
