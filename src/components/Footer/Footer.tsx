@@ -12,11 +12,19 @@ import {
 } from './Footer.style'
 
 const Footer = () => {
+  const scrollTop = () => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth',
+    })
+  }
+
   return (
     <FooterContainer>
       <Line />
       <ContentContainer>
-        <GoTop>REVENIR EN HAUT</GoTop>
+        <GoTop onClick={scrollTop}>REVENIR EN HAUT</GoTop>
         <LinksContainer>
           <Links href='mailto:antoinegervais.motion@outlook.fr'>MAIL</Links>
           <Links href='https://www.behance.net/antoinegvs'>BEHANCE</Links>
