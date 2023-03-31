@@ -7,8 +7,7 @@ import { colors, fonts, fontSize } from '../../config/variables'
 export const NavbarContainer = styled.nav`
   width: 100vw;
   height: 13vh;
-  position: fixed;
-  top: 0;
+  position: absolute;
 `
 
 export const LinksContainer = styled.div`
