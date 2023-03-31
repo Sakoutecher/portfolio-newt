@@ -13,6 +13,9 @@ import {
 //Variables
 import { fontSize, colors } from '../config/variables'
 
+//Components
+import TypeText from '../components/TypeText/TypeText'
+
 //Icons
 import { FaArrowDown } from 'react-icons/fa'
 
@@ -26,7 +29,7 @@ const Home = () => {
       <Stickers />
       <DrawingArrow src={drawingArrow} />
       <TextContainer>
-        <Text>MOTION</Text>
+        <TypeText />
         <Text>DESIGNER</Text>
         <Text>+ART DIRECTOR</Text>
       </TextContainer>
