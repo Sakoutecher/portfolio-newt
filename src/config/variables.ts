@@ -20,3 +20,11 @@ export const fontSize = {
   xxl: '2em',
   xxxl: '2.5em',
 }
+
+export const bigLetters = {
+  md: '6em',
+  lg: '7em',
+  xl: '8em',
+  xxl: '9em',
+  xxxl: '10em',
+}
