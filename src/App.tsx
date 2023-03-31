@@ -7,12 +7,15 @@ import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar/Navbar'
 import Footer from './components/Footer/Footer'
 
+//Pages
+import Home from './pages/Home'
+
 const App = () => {
   return (
     <MainContainer>
       <Navbar />
       <Routes>
-        <Route path={'/'} />
+        <Route path={'/'} element={<Home />} />
       </Routes>
       <Footer />
     </MainContainer>
