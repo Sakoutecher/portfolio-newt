@@ -16,13 +16,17 @@ const Navbar = () => {
   return (
     <NavbarContainer>
       <LinksContainer>
-        <PseudoElement>
+        <PseudoElement active={window.location.pathname === '/' ? true : false}>
           <NavbarLinks>ACCUEIL</NavbarLinks>
         </PseudoElement>
-        <PseudoElement>
+        <PseudoElement
+          active={window.location.pathname === '/about' ? true : false}
+        >
           <NavbarLinks>A PROPOS</NavbarLinks>
         </PseudoElement>
-        <PseudoElement>
+        <PseudoElement
+          active={window.location.pathname === '/projects' ? true : false}
+        >
           <NavbarLinks>PROJETS</NavbarLinks>
         </PseudoElement>
       </LinksContainer>

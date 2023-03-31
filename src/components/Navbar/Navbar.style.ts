@@ -4,6 +4,10 @@ import styled from 'styled-components'
 //Variables
 import { colors, fonts, fontSize } from '../../config/variables'
 
+type PseudoElement = {
+  active: boolean
+}
+
 export const NavbarContainer = styled.nav`
   width: 100vw;
   height: 13vh;
@@ -18,14 +22,15 @@ export const LinksContainer = styled.div`
   gap: 8em;
 `
 
-export const PseudoElement = styled.div`
+export const PseudoElement = styled.div<PseudoElement>`
   position: relative;
+  z-index: 90;
 
   &::before {
     position: absolute;
     content: '';
     background-color: ${colors.primary};
-    width: 0%;
+    width: ${(props) => (props.active === true ? '100%' : '0%')};
     height: 2.5px;
     bottom: -15%;
     transition: width 0.7s ease;
