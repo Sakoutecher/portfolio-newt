@@ -24,7 +24,9 @@ const MainContainer = styled.div`
   width: 100vw;
   background: url('./assets/background.svg');
   background-size: cover;
-  overflow-y: scroll;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 `
 
 export default App

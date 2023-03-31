@@ -7,8 +7,6 @@ import { fontSize, fonts, colors } from '../../config/variables'
 export const FooterContainer = styled.footer`
   width: 100vw;
   height: 13vh;
-  position: fixed;
-  bottom: 0;
 `
 
 export const Line = styled.div`
