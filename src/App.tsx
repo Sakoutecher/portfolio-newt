@@ -1,6 +1,7 @@
 //Librairies
 import React from 'react'
 import styled from 'styled-components'
+import { Routes, Route } from 'react-router-dom'
 
 //Components
 import Navbar from './components/Navbar/Navbar'
@@ -10,6 +11,9 @@ const App = () => {
   return (
     <MainContainer>
       <Navbar />
+      <Routes>
+        <Route path={'/'} />
+      </Routes>
       <Footer />
     </MainContainer>
   )
