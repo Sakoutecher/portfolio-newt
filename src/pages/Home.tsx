@@ -24,7 +24,6 @@ const Home = () => {
   return (
     <HomeContainer>
       <Stickers />
-      {/*<Sticker src={sticker} />*/}
       <DrawingArrow src={drawingArrow} />
       <TextContainer>
         <Text>MOTION</Text>
