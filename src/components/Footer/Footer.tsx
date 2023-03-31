@@ -18,11 +18,13 @@ const Footer = () => {
       <ContentContainer>
         <GoTop>REVENIR EN HAUT</GoTop>
         <LinksContainer>
-          <Links>MAIL</Links>
-          <Links>BEHANCE</Links>
-          <Links>INSTRAGRAM</Links>
-          <Links>LINKEDIN</Links>
-          <Links>TWITTER</Links>
+          <Links href='mailto:antoinegervais.motion@outlook.fr'>MAIL</Links>
+          <Links href='https://www.behance.net/antoinegvs'>BEHANCE</Links>
+          <Links href='https://www.instagram.com/newwwwt_/'>INSTRAGRAM</Links>
+          <Links href='https://www.linkedin.com/in/antoine-gervais-2475911aa/'>
+            LINKEDIN
+          </Links>
+          <Links href='https://twitter.com/newwwwt_'>TWITTER</Links>
         </LinksContainer>
       </ContentContainer>
     </FooterContainer>
