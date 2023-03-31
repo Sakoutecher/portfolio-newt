@@ -2,9 +2,9 @@
 import styled from 'styled-components'
 
 //Variaables
-import { bigLetters, colors, fonts } from '../../config/variables'
+import { bigLetters, colors, fonts, fontSize } from '../../config/variables'
 
-export const HomeContainer = styled.div`
+export const HomeContainer = styled.main`
   width: 85vw;
   height: 87vh;
   margin-top: 13vh;
@@ -49,4 +49,23 @@ export const DrawingArrow = styled.img`
   width: 70vw;
   top: -22%;
   right: -35%;
+`
+
+export const HardSkillsContainer = styled.div`
+  width: 85vw;
+  height: 87vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+`
+
+export const HardSkillsTitle = styled.h3`
+  font-family: ${fonts.OTR};
+  color: ${colors.primary};
+  text-transform: uppercase;
+  font-size: ${fontSize.xxl};
+  font-weight: normal;
+  letter-spacing: 8px;
+  margin-bottom: 2em;
 `
