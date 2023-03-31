@@ -7,7 +7,6 @@ import {
   ArrowContainer,
   TextContainer,
   Text,
-  Sticker,
   DrawingArrow,
 } from '../styles/pages/Home.style'
 
@@ -18,13 +17,14 @@ import { fontSize, colors } from '../config/variables'
 import { FaArrowDown } from 'react-icons/fa'
 
 //SVG
-import sticker from '../../public/assets/stickers.svg'
+import Stickers from '../components/CustomSVG/Stickers'
 import drawingArrow from '../../public/assets/fleche.svg'
 
 const Home = () => {
   return (
     <HomeContainer>
-      <Sticker src={sticker} />
+      <Stickers />
+      {/*<Sticker src={sticker} />*/}
       <DrawingArrow src={drawingArrow} />
       <TextContainer>
         <Text>MOTION</Text>

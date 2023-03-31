@@ -33,3 +33,25 @@
     opacity: 0;
   }
 }
+
+.cls-1 {
+  fill: #ddd;
+}
+.cls-2 {
+  fill: #fff;
+}
+.cls-3 {
+  font-size: 38.13px;
+}
+.cls-3,
+.cls-4 {
+  fill: #fffdfd;
+  font-family: OTRtype-Regular, 'OTR type';
+  font-variation-settings: 'wght' 100;
+}
+.cls-5 {
+  fill: #212121;
+}
+.cls-4 {
+  font-size: 35.41px;
+}

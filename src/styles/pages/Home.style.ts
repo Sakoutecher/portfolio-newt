@@ -44,13 +44,6 @@ export const ArrowContainer = styled.div`
   transform: translate(-50%, -3%);
 `
 
-export const Sticker = styled.img`
-  position: absolute;
-  width: 40vw;
-  top: 15%;
-  right: 3%;
-`
-
 export const DrawingArrow = styled.img`
   position: absolute;
   width: 70vw;
