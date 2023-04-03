@@ -1,6 +1,10 @@
 //Librairies
 import styled from 'styled-components'
 
+type TitleContainer = {
+  active: boolean
+}
+
 export const AboutContainer = styled.main`
   width: 85vw;
   height: 87vh;
@@ -47,9 +51,13 @@ export const ExperienceContainer = styled.div`
   gap: 1em;
 `
 
-export const TitleContainer = styled.div`
+export const TitleContainer = styled.div<TitleContainer>`
   display: flex;
   justify-container: center;
   align-items: center;
   gap: 0.8em;
+  opacity: ${(props) => (props.active === true ? '1' : '0')};
+  transform: ${(props) =>
+    props.active === true ? 'translateY(0)' : 'translateY(-10px)'};
+  transition: all 500ms ease;
 `

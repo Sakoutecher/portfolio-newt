@@ -1,5 +1,5 @@
 //Librairies
-import React from 'react'
+import React, { useState } from 'react'
 
 //Styles
 import {
@@ -23,17 +23,40 @@ import DescriptionAbout from '../components/DescriptionAbout/DescriptionAbout'
 import TitleAbout from '../components/TitleAbout/TitleAbout'
 
 const About = () => {
+  const [hoverGraphisme, isHoverGraphisme] = useState<boolean>(false)
+
+  const handleMouseEnterGraphisme = (): void => {
+    isHoverGraphisme(true)
+  }
+
+  const handleMouseLeaveGraphisme = (): void => {
+    isHoverGraphisme(false)
+  }
+
+  const [hoverExperience, isHoverExperience] = useState<boolean>(false)
+
+  const handleMouseEnterExperience = (): void => {
+    isHoverExperience(true)
+  }
+
+  const handleMouseLeaveExperience = (): void => {
+    isHoverExperience(false)
+  }
+
   return (
     <AboutContainer>
       <MainGraphismeContainer>
         <StickersPhoto />
         <GraphismeContainer>
-          <TitleContainer>
+          <TitleContainer active={hoverGraphisme}>
             <FaArrowRight className='arrowRight' color={colors.primary} />
             <TitleAbout>GRAPHISME</TitleAbout>
             <FaArrowLeft className='arrowLeft' color={colors.primary} />
           </TitleContainer>
-          <DescriptionAbout>
+          <DescriptionAbout
+            handleMouseEnter={handleMouseEnterGraphisme}
+            handleMouseLeave={handleMouseLeaveGraphisme}
+          >
             Hey ! Je m’appelle Antoine Gervais, je suis un étudiant de 20 ans
             résident dans l’Oise. Je suis actuellement en deuxième année à Ynov
             Paris Campus en bachelor création et design à Nanterre. Depuis tout
@@ -52,12 +75,15 @@ const About = () => {
       </MainGraphismeContainer>
       <MainExperienceContainer>
         <ExperienceContainer>
-          <TitleContainer>
+          <TitleContainer active={hoverExperience}>
             <FaArrowRight className='arrowRight' color={colors.primary} />
             <TitleAbout>EXPERIENCE</TitleAbout>
             <FaArrowLeft className='arrowLeft' color={colors.primary} />
           </TitleContainer>
-          <DescriptionAbout>
+          <DescriptionAbout
+            handleMouseEnter={handleMouseEnterExperience}
+            handleMouseLeave={handleMouseLeaveExperience}
+          >
             Mon expérience professionnelle débute dès ma première création. Ma
             première animation en motion design est un cv vidéo pour un coach et
             un manager esport. À partir de cette vidéo, j’ai décroché mes
