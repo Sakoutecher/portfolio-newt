@@ -66,6 +66,16 @@
   animation: 15s linear 0s infinite normal none running rotate;
 }
 
+.stickers-photo {
+  fill: #dddddd;
+  font-family: 'OTR';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: 15s linear 0s infinite normal none running rotate;
+}
+
 @keyframes rotate {
   0% {
     transform: translate(-50%, -50%) rotate(0deg);
