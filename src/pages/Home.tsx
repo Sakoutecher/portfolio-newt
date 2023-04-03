@@ -23,7 +23,7 @@ import HardSkills from '../components/HardSkills/HardSkills'
 import { FaArrowDown } from 'react-icons/fa'
 
 //SVG
-import Stickers from '../components/CustomSVG/Stickers'
+import Stickers from '../components/Stickers/Stickers'
 import drawingArrow from '../../public/assets/fleche.svg'
 
 const Home = () => {
