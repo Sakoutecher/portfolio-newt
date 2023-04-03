@@ -1,5 +1,6 @@
 //Librairies
 import React from 'react'
+import { Link, useLocation } from 'react-router-dom'
 
 //Styles
 import {
@@ -13,21 +14,27 @@ import {
 import Button from '../Button/Button'
 
 const Navbar = () => {
+  const location = useLocation()
+
   return (
     <NavbarContainer>
       <LinksContainer>
-        <PseudoElement active={window.location.pathname === '/' ? true : false}>
-          <NavbarLinks>ACCUEIL</NavbarLinks>
+        <PseudoElement active={location.pathname === '/' ? true : false}>
+          <Link to='/'>
+            <NavbarLinks>ACCUEIL</NavbarLinks>
+          </Link>
+        </PseudoElement>
+        <PseudoElement active={location.pathname === '/about' ? true : false}>
+          <Link to='/about'>
+            <NavbarLinks>A PROPOS</NavbarLinks>
+          </Link>
         </PseudoElement>
         <PseudoElement
-          active={window.location.pathname === '/about' ? true : false}
+          active={location.pathname === '/projects' ? true : false}
         >
-          <NavbarLinks>A PROPOS</NavbarLinks>
-        </PseudoElement>
-        <PseudoElement
-          active={window.location.pathname === '/projects' ? true : false}
-        >
-          <NavbarLinks>PROJETS</NavbarLinks>
+          <Link to='projects'>
+            <NavbarLinks>PROJETS</NavbarLinks>
+          </Link>
         </PseudoElement>
       </LinksContainer>
       <Button
