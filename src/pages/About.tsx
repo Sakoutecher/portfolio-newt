@@ -29,9 +29,9 @@ const About = () => {
         <StickersPhoto />
         <GraphismeContainer>
           <TitleContainer>
-            <FaArrowRight color={colors.primary} />
+            <FaArrowRight className='arrowRight' color={colors.primary} />
             <TitleAbout>GRAPHISME</TitleAbout>
-            <FaArrowLeft color={colors.primary} />
+            <FaArrowLeft className='arrowLeft' color={colors.primary} />
           </TitleContainer>
           <DescriptionAbout>
             Hey ! Je m’appelle Antoine Gervais, je suis un étudiant de 20 ans
@@ -53,9 +53,9 @@ const About = () => {
       <MainExperienceContainer>
         <ExperienceContainer>
           <TitleContainer>
-            <FaArrowRight color={colors.primary} />
+            <FaArrowRight className='arrowRight' color={colors.primary} />
             <TitleAbout>EXPERIENCE</TitleAbout>
-            <FaArrowLeft color={colors.primary} />
+            <FaArrowLeft className='arrowLeft' color={colors.primary} />
           </TitleContainer>
           <DescriptionAbout>
             Mon expérience professionnelle débute dès ma première création. Ma
