@@ -22,6 +22,6 @@ export const GridContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 15px;
-  grid-auto-rows: 320px;
+  grid-auto-rows: 400px;
   margin-bottom: 3%;
 `
