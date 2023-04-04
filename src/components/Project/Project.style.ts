@@ -76,6 +76,7 @@ export const TagContainer = styled.div<TagContainer>`
 
 export const ProjectTitle = styled.div`
   font-family: ${fonts.OTR};
-  font-size: ${fontSize.lg};
+  font-size: ${fontSize.md};
   color: ${colors.primary};
+  letter-spacing: 2px;
 `
