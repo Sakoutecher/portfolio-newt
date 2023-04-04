@@ -6,11 +6,13 @@ import { fontSize, colors, fonts } from '../../config/variables'
 
 type GlobalButton = {
   size: 's' | 'md' | 'lg'
+  active?: boolean
 }
 
 export const GlobalButton = styled.a<GlobalButton>`
   font-family: ${fonts.OTR};
-  color: ${colors.primary};
+  color: ${(props) =>
+    props.active === true ? colors.secondary : colors.primary};
   font-size: ${(props) =>
     props.size === 's'
       ? fontSize.s
@@ -28,9 +30,14 @@ export const GlobalButton = styled.a<GlobalButton>`
   line-height: 1.1;
   transition: all 0.5s ease;
   z-index: 90;
+  background-color: ${(props) =>
+    props.active === true ? colors.primary : 'transparent'};
+}
 
   &:hover {
-    color: ${colors.secondary};
-    background-color: ${colors.primary};
+    color: ${(props) =>
+      props.active === true ? colors.secondary : colors.primary};
+    background-color: ${(props) =>
+      props.active === true ? colors.primary : 'transparent'};
   }
 `
