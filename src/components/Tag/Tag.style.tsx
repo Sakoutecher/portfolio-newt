@@ -10,7 +10,7 @@ type GlobalTag = {
 }
 
 export const GlobalTag = styled.a<GlobalTag>`
-  font-family: ${fonts.OTR};
+  font-family: ${fonts.WorkSans};
   color: ${colors.secondary};
   font-size: ${(props) =>
     props.size === 's'
