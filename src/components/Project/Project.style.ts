@@ -64,6 +64,8 @@ export const TagContainer = styled.div<TagContainer>`
       ? '220%'
       : props.width === 5
       ? '270%'
+      : props.width === 0
+      ? '110%'
       : 'null'};
   display: flex;
   justify-content: flex-start;
