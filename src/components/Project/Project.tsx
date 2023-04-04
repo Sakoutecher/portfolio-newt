@@ -33,7 +33,7 @@ const Project: FC<ProjectProps> = ({
   return (
     <Container>
       <ImgContainer>
-        <Img src={imgPath} />
+        <Img loading='lazy' src={imgPath} />
       </ImgContainer>
       <InfoContainer>
         <ProjectTitleContainer>
