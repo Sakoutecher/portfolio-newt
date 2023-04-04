@@ -5,11 +5,11 @@ import React from 'react'
 import { SkillsContainer, SkillsText, Img, Skills } from './HardSkills.style'
 
 //Images
-import FichiersMo from '../../../public/assets/fichiers-mo.png'
-import FichiersGr from '../../../public/assets/fichiers-gr.png'
-import FichiersUx from '../../../public/assets/fichiers-ux.png'
-import FichiersV from '../../../public/assets/fichiers-v.png'
-import Fichiers3d from '../../../public/assets/fichiers-3d.png'
+import FichiersMo from '/assets/fichiers-mo.png'
+import FichiersGr from '/assets/fichiers-gr.png'
+import FichiersUx from '/public/assets/fichiers-ux.png'
+import FichiersV from '/public/assets/fichiers-v.png'
+import Fichiers3d from '/public/assets/fichiers-3d.png'
 
 const HardSkills = () => {
   return (
