@@ -24,7 +24,7 @@ import { FaArrowDown } from 'react-icons/fa'
 
 //SVG
 import Stickers from '../components/Stickers/Stickers'
-import drawingArrow from '../../public/assets/fleche.svg'
+import drawingArrow from '/assets/fleche.svg'
 
 const Home = () => {
   return (
