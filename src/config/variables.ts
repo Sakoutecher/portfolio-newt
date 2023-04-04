@@ -8,6 +8,7 @@ export const fonts = {
 export const colors = {
   primary: '#212121',
   secondary: '#dddddd',
+  projectTag: '#7A97DD',
 }
 
 /**Font Size */
