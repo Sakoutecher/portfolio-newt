@@ -1,0 +1,102 @@
+# Changelog
+
+<a name="0.0.0"></a>
+## 0.0.0 (2023-04-04)
+
+### Added
+
+- ✨ filter [[897fc82](https://github.com/Sakoutecher/portfolio-newt/commit/897fc82c85ad279f68ce4e24c28854db700b2e30)]
+- ✨ multiple main tags [[b20efc0](https://github.com/Sakoutecher/portfolio-newt/commit/b20efc05554489adf8a23efafbce19c18ef5e72d)]
+- ✨ add projects [[d88215e](https://github.com/Sakoutecher/portfolio-newt/commit/d88215eeca0a118f926839cee5c737f4eb584e0c)]
+- ✨ add projects page [[05fc49b](https://github.com/Sakoutecher/portfolio-newt/commit/05fc49be6ff17d65c85b6b23a1b9053411cee310)]
+- ✨ add project component [[795eabd](https://github.com/Sakoutecher/portfolio-newt/commit/795eabd63183cbaf8003b64388c2894d9fcd2a2c)]
+- ✨ add tag component [[8c66fc6](https://github.com/Sakoutecher/portfolio-newt/commit/8c66fc6588b3d319890cbf894ffe798a67b8c245)]
+- ➕ react-uuid [[1026c50](https://github.com/Sakoutecher/portfolio-newt/commit/1026c50d284a7fb66ede13379b966ed0d0ff3acc)]
+- ✨ add about [[4cf4765](https://github.com/Sakoutecher/portfolio-newt/commit/4cf4765df630988a04410b647fbaf84671f175eb)]
+- ✨ add about [[0b0a16d](https://github.com/Sakoutecher/portfolio-newt/commit/0b0a16d1ac278b7cef4c7e93faee8acff13e778d)]
+- ✨ add stickersphoto component [[22b36cd](https://github.com/Sakoutecher/portfolio-newt/commit/22b36cd158fd0b721bb5da40d1129d4f5aedeb63)]
+- ✨ add titleabout component [[bbfdfbf](https://github.com/Sakoutecher/portfolio-newt/commit/bbfdfbf4a9baf4084555647ce824f5615ba4204e)]
+- ✨ add descriptionabout component [[017a5d3](https://github.com/Sakoutecher/portfolio-newt/commit/017a5d3fd42ead5683814b8eeebe2ffa2570e66a)]
+- ✨ link active from the url [[f82bd73](https://github.com/Sakoutecher/portfolio-newt/commit/f82bd731aca5e46d89490306d3cfadb22b2126db)]
+- ✨ add hardskills [[d9c570a](https://github.com/Sakoutecher/portfolio-newt/commit/d9c570a66c4ef65c6e78c35a278abb632760da27)]
+- ✨ add hardskills component [[5f81f4c](https://github.com/Sakoutecher/portfolio-newt/commit/5f81f4c4bcaff69ab70e5c77893f18dd58f85c2e)]
+- ✨ scroll to top [[5eb71cf](https://github.com/Sakoutecher/portfolio-newt/commit/5eb71cfbf69de00b213bb24486022b3b97e0c0ef)]
+- ➕ react-type-animation and prop-types [[a28e87c](https://github.com/Sakoutecher/portfolio-newt/commit/a28e87c96687cef8be2ffea2ff2d4706fcabe80c)]
+- ✨ add stickers component [[d582436](https://github.com/Sakoutecher/portfolio-newt/commit/d58243631f254baf7a35446a071dc59180543e64)]
+- ✨ add home [[3c9eb5b](https://github.com/Sakoutecher/portfolio-newt/commit/3c9eb5b65d6080f5114dbd19daac707049e009e0)]
+- ✨ add home page [[98e4c72](https://github.com/Sakoutecher/portfolio-newt/commit/98e4c72ef6d1b7d4c95714dd715e435b621e80c8)]
+- ➕ react-icons [[a1dcc03](https://github.com/Sakoutecher/portfolio-newt/commit/a1dcc036a1542ecf1a49ba7024bad014044be322)]
+- ✨ main router [[aa42bf8](https://github.com/Sakoutecher/portfolio-newt/commit/aa42bf89cd78c69709a10f73213188d7d0d092fb)]
+- ✨ add footer component [[52dfdd1](https://github.com/Sakoutecher/portfolio-newt/commit/52dfdd1cc3a8908a824462116ba06e73fb8bd0e5)]
+- ✨ add footer [[7f0a9e0](https://github.com/Sakoutecher/portfolio-newt/commit/7f0a9e04dd146a9fe8a02d70a4154cd0f46c2eb1)]
+- ✨ navbar [[0e59456](https://github.com/Sakoutecher/portfolio-newt/commit/0e5945632f11133e188184342d84d20d63941d64)]
+- ✨ add navbar component [[a582eb1](https://github.com/Sakoutecher/portfolio-newt/commit/a582eb1a34e3612ce3ee4be9e85094f5b4c8fc00)]
+- ✨ add button component [[6ce9b1d](https://github.com/Sakoutecher/portfolio-newt/commit/6ce9b1d5fd301e06bc721990f2f7b1deb7f9f6be)]
+- ➕ change from dev to dependencies and add types for styled-components [[99cca0c](https://github.com/Sakoutecher/portfolio-newt/commit/99cca0cc29ae74373376d7425ad4830607c1e347)]
+- 🎉 initial commit [[6adfc4c](https://github.com/Sakoutecher/portfolio-newt/commit/6adfc4c6b6c1a667e9addb05891d6f7b0d41bac0)]
+
+### Changed
+
+- 💄 fix width row [[7fc2896](https://github.com/Sakoutecher/portfolio-newt/commit/7fc28967fbf72da77a3432340cb8e0f1aa65c66d)]
+- 💬 update projects data [[7852715](https://github.com/Sakoutecher/portfolio-newt/commit/78527159d8b59b1b288a17bcaa8b7926719503b0)]
+- ⚡ lazy loading [[39e5858](https://github.com/Sakoutecher/portfolio-newt/commit/39e58589468805bf0a4054bfe99cd6d291225f1b)]
+- 💄 fix style issue [[eb7a330](https://github.com/Sakoutecher/portfolio-newt/commit/eb7a3306e653c44115d62133fccefac4a64d1c2b)]
+- ♻️ active property [[bf65145](https://github.com/Sakoutecher/portfolio-newt/commit/bf65145d88f56179fdce9e1069304f5d9c9289ba)]
+- 💄 change font [[7541434](https://github.com/Sakoutecher/portfolio-newt/commit/7541434272e2a997dedd68ab314dbcd67b597171)]
+- 💄 font-size and letter-spacing [[08bb15f](https://github.com/Sakoutecher/portfolio-newt/commit/08bb15fdb04e658c3a65ac83f3cf60ad5cb0bccf)]
+- 💄 size [[af203ea](https://github.com/Sakoutecher/portfolio-newt/commit/af203ea0898d7a7fdb629bb7dbc49dd9198c7b75)]
+- 💬 projects data [[a6f962f](https://github.com/Sakoutecher/portfolio-newt/commit/a6f962f9879f36c3fea412faeed8955da5946769)]
+- 💄 size [[f1b7062](https://github.com/Sakoutecher/portfolio-newt/commit/f1b706259d3830860c8c8373380417ada4aefaa9)]
+- 💄 overflow-y [[892211a](https://github.com/Sakoutecher/portfolio-newt/commit/892211af0e2fadc0312d8ad189ef2114c972a85b)]
+- 🔧 new color [[4dd5f8a](https://github.com/Sakoutecher/portfolio-newt/commit/4dd5f8a3d955363a1a3deaf0b158ccb5a915c17a)]
+- 🚚 import css [[6c3c85b](https://github.com/Sakoutecher/portfolio-newt/commit/6c3c85bb0f7ce4a4a97a7d894a657727071aa369)]
+- 🚚 move css to global folder [[a67a20f](https://github.com/Sakoutecher/portfolio-newt/commit/a67a20fcd6537193b1960c2d76e7c2cb2a163aee)]
+- 🚚 change import [[9c8d0e9](https://github.com/Sakoutecher/portfolio-newt/commit/9c8d0e9bbe32970b3e850eb8bae074de4ac0f208)]
+- 💄 update stickersphoto component [[c81c01b](https://github.com/Sakoutecher/portfolio-newt/commit/c81c01b720a4373da41f93d6db795e417e0cf777)]
+- 🚚 move and rename stickers components [[a24a5f6](https://github.com/Sakoutecher/portfolio-newt/commit/a24a5f6293de047d483f6b8f652bf349146c9cac)]
+- 🍱 add asset [[401a8a1](https://github.com/Sakoutecher/portfolio-newt/commit/401a8a1834e2492330ecde2c7800f8c47ad4887f)]
+- ♻️ links logic [[1030b4e](https://github.com/Sakoutecher/portfolio-newt/commit/1030b4ebfa31e7b1707dcc15418064a6a40ba2f9)]
+- 💄 zindex [[9c7cb1e](https://github.com/Sakoutecher/portfolio-newt/commit/9c7cb1e9c19b33e71dcf18f4a893a8d8245c6db6)]
+- 🍱 add assets [[e4a64b6](https://github.com/Sakoutecher/portfolio-newt/commit/e4a64b66725e51f19aa2825fcb6b0ce339d2ce6f)]
+- ⚡ href [[fd3c536](https://github.com/Sakoutecher/portfolio-newt/commit/fd3c53645f477ebb9ee4ba272ec88af063a04017)]
+- 🍱 add asset [[f72f738](https://github.com/Sakoutecher/portfolio-newt/commit/f72f738f74a11fe2395425edd403bc33c5ef54b6)]
+- ⚡ change logic for the svg [[305fb97](https://github.com/Sakoutecher/portfolio-newt/commit/305fb97cff8a0d3bfea09829a7412f03f573e0f4)]
+- 🔧 add bigLetters [[42716d0](https://github.com/Sakoutecher/portfolio-newt/commit/42716d0467efc4ae812822749e96a8ada5d4185a)]
+- 💄 hide overflow-x [[462eb3c](https://github.com/Sakoutecher/portfolio-newt/commit/462eb3c109f35d74763c53a067e4f91f248c1d15)]
+- 💄 change navbar position [[c3fbe30](https://github.com/Sakoutecher/portfolio-newt/commit/c3fbe3051cad717c3aaba44d3f8dae16a0a22059)]
+- 🍱 add asset [[c1dc283](https://github.com/Sakoutecher/portfolio-newt/commit/c1dc283b086ff2db7587db3e77581ab8ed6f17aa)]
+- 💄 adjust scroll [[7a836ea](https://github.com/Sakoutecher/portfolio-newt/commit/7a836eaeb2014d34273840b8f11b809c0a2bd529)]
+- 🚚 rename textColor into primary [[bd43627](https://github.com/Sakoutecher/portfolio-newt/commit/bd4362752461dfb1bb9373895d5773fe5b591b0c)]
+- 💄 add background [[48f6ad7](https://github.com/Sakoutecher/portfolio-newt/commit/48f6ad7f4621a3ccbb85d63393ffe890472c5de2)]
+- 💄 add letter spacing [[68788da](https://github.com/Sakoutecher/portfolio-newt/commit/68788da550ac3b6d5ca14e667ab0d690e2ee110c)]
+- 💄 reduce border width and adjust line height [[9a4d0f0](https://github.com/Sakoutecher/portfolio-newt/commit/9a4d0f07ea8b1c71478c3a1cc80ab0868672666d)]
+- ♻️ router [[0196231](https://github.com/Sakoutecher/portfolio-newt/commit/0196231322dde1ca5d1ef129d20acfb48170e259)]
+- 🔧 add variables [[59bf984](https://github.com/Sakoutecher/portfolio-newt/commit/59bf98407d8a30df88a5d804315ccd7ebd9f0bc4)]
+- 💄 reset css [[e1a998d](https://github.com/Sakoutecher/portfolio-newt/commit/e1a998d9af320ffc9ff25e4f7d431708b55d452a)]
+- 🍱 add assets for the app [[a5fa4f4](https://github.com/Sakoutecher/portfolio-newt/commit/a5fa4f4139550529e89871875cb183fd8d610709)]
+- 💄 add OTR and Work Sans fonts [[d51042f](https://github.com/Sakoutecher/portfolio-newt/commit/d51042fde15805550e1c9c56654803d9a71d0cc3)]
+
+### Removed
+
+- 🔥 delete old stickers component [[6dc71e0](https://github.com/Sakoutecher/portfolio-newt/commit/6dc71e0ea0f582eafb25693cb26530aa23ff6d6c)]
+- 🔥 remove comment [[52117bf](https://github.com/Sakoutecher/portfolio-newt/commit/52117bf9a1400931b0f743274016aa05fe477d34)]
+
+### Fixed
+
+- 🐛 fix import errors [[7d8e233](https://github.com/Sakoutecher/portfolio-newt/commit/7d8e2333af43903e180d2a5cfd5c0126073e6b4a)]
+- 🐛 import errors [[6f5a761](https://github.com/Sakoutecher/portfolio-newt/commit/6f5a761b34a36963cfc1cf80a423428a7cc6af9b)]
+- 🐛 fix path erros [[6ab3b8e](https://github.com/Sakoutecher/portfolio-newt/commit/6ab3b8e8cac50c9e78183ec605383c2811cabfb8)]
+- 🐛 fix react jsx scope eslint erros [[65cc0fb](https://github.com/Sakoutecher/portfolio-newt/commit/65cc0fbf8933babff627a8436a994e29c8638ae4)]
+
+### Miscellaneous
+
+- 🏷️ update projects type [[836f4b8](https://github.com/Sakoutecher/portfolio-newt/commit/836f4b8d5851ce9aa7759ae15b39e50753992e86)]
+- 🙈 update [[5a7a601](https://github.com/Sakoutecher/portfolio-newt/commit/5a7a601fbc8ada4fcdcd45d8895be4be50af1990)]
+- 🏷️ project type [[562132e](https://github.com/Sakoutecher/portfolio-newt/commit/562132e0153f87addeca2f3c819a69e1450bf17e)]
+- 💫 hover animation title [[e7bc99c](https://github.com/Sakoutecher/portfolio-newt/commit/e7bc99c01c495139711e8ce7426cb40beb26c458)]
+- 💫 title animation [[0f47bba](https://github.com/Sakoutecher/portfolio-newt/commit/0f47bbae6e6e8ed9fc64fe5c3d15a2b7646eb2e1)]
+- 💫 type animation [[82711ed](https://github.com/Sakoutecher/portfolio-newt/commit/82711ed49ddd69887555be829eb7f04d72da1f72)]
+- 💫 rotate animations [[4e15832](https://github.com/Sakoutecher/portfolio-newt/commit/4e1583241ba0e88d04a71ad59c9ff2114974b09a)]
+- 💫 animation on arrow down [[3a06636](https://github.com/Sakoutecher/portfolio-newt/commit/3a06636ab689efec46fb851e10c6657ad33a58f3)]
+
+
