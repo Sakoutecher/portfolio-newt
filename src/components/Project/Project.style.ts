@@ -55,15 +55,15 @@ export const TagContainer = styled.div<TagContainer>`
   height: 100%;
   width: ${(props) =>
     props.width === 1
-      ? '100%'
+      ? '120%'
       : props.width === 2
-      ? '125%'
+      ? '160%'
       : props.width === 3
-      ? '170%'
+      ? '190%'
       : props.width === 4
-      ? '200%'
+      ? '220%'
       : props.width === 5
-      ? '250%'
+      ? '270%'
       : 'null'};
   display: flex;
   justify-content: flex-start;
