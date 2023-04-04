@@ -15,7 +15,7 @@ export const Container = styled.div`
 `
 
 export const ImgContainer = styled.div`
-  height: 65%;
+  height: 70%;
   width: 100%;
   border-bottom: 2px solid ${colors.primary};
 `
@@ -28,7 +28,7 @@ export const Img = styled.img`
 
 export const InfoContainer = styled.div`
   width: 100%;
-  height: 35%;
+  height: 30%;
   background-color: ${colors.secondary};
   border-bottom-left-radius: 2%;
   border-bottom-right-radius: 2%;
@@ -38,7 +38,7 @@ export const ProjectTitleContainer = styled.div`
   height: 65%;
   width: 100%;
   padding-top: 0.3em;
-  padding-left: 0.3em;
+  padding-left: 0.5em;
 `
 
 export const BottomContainer = styled.div`
@@ -46,7 +46,7 @@ export const BottomContainer = styled.div`
   width: 100%;
   overflow-x: scroll;
 
-  &&::-webkit-scrollbar {
+  &::-webkit-scrollbar {
     display: none;
   }
 `
@@ -71,7 +71,7 @@ export const TagContainer = styled.div<TagContainer>`
   justify-content: flex-start;
   align-items: center;
   gap: 0.5em;
-  padding-left: 0.3em;
+  padding-left: 0.5em;
 `
 
 export const ProjectTitle = styled.div`
