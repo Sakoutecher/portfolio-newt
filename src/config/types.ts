@@ -3,4 +3,5 @@ export type ProjectType = {
   imgPath: string
   mainsTag: Array<string>
   secondsTags: Array<string>
+  filter: string
 }
