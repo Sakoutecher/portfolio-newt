@@ -27,12 +27,12 @@ const Projects = () => {
         <Button text={`3D`} href={'#'} size={'s'} />
       </FilterContainer>
       <GridContainer>
-        {projects.map(({ title, imgPath, mainTag, secondsTags }) => (
+        {projects.map(({ title, imgPath, mainsTag, secondsTags }) => (
           <Project
             key={uuid()}
             title={title}
             imgPath={imgPath}
-            mainTag={mainTag}
+            mainsTag={mainsTag}
             secondsTags={secondsTags}
           />
         ))}

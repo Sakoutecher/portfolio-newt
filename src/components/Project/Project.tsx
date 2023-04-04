@@ -20,14 +20,14 @@ import Tag from '../Tag/Tag'
 type ProjectProps = {
   title: string
   imgPath: string
-  mainTag: string
+  mainsTag: Array<string>
   secondsTags: Array<string>
 }
 
 const Project: FC<ProjectProps> = ({
   title,
   imgPath,
-  mainTag,
+  mainsTag,
   secondsTags,
 }) => {
   return (
@@ -41,7 +41,9 @@ const Project: FC<ProjectProps> = ({
         </ProjectTitleContainer>
         <BottomContainer>
           <TagContainer width={secondsTags.length}>
-            <Tag text={mainTag} size='s' main={true} />
+            {mainsTag.map((tag) => (
+              <Tag key={uuid()} text={tag} size='s' main={true} />
+            ))}
             {secondsTags.map((tag) => (
               <Tag key={uuid()} text={tag} size='s' main={false} />
             ))}

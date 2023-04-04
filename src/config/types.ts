@@ -1,6 +1,6 @@
 export type ProjectType = {
   title: string
   imgPath: string
-  mainTag: string
+  mainsTag: Array<string>
   secondsTags: Array<string>
 }
