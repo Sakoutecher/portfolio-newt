@@ -12,18 +12,24 @@ export const Container = styled.div`
   border-radius: 2%;
   border: 2px solid ${colors.primary};
   overflow: hidden;
+
+  &:hover img {
+    transform: scale(1.1);
+  }
 `
 
 export const ImgContainer = styled.div`
   height: 70%;
   width: 100%;
   border-bottom: 2px solid ${colors.primary};
+  overflow: hidden;
 `
 
 export const Img = styled.img`
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transition: all 500ms ease;
 `
 
 export const InfoContainer = styled.div`
