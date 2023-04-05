@@ -35,9 +35,7 @@ export const GlobalButton = styled.a<GlobalButton>`
 }
 
   &:hover {
-    color: ${(props) =>
-      props.active === true ? colors.secondary : colors.primary};
-    background-color: ${(props) =>
-      props.active === true ? colors.primary : 'transparent'};
+    color: ${colors.secondary};
+    background-color: ${colors.primary};
   }
 `
