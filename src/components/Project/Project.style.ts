@@ -12,6 +12,7 @@ export const Container = styled.div`
   border-radius: 2%;
   border: 2px solid ${colors.primary};
   overflow: hidden;
+  cursor: pointer;
 
   &:hover img {
     transform: scale(1.1);
