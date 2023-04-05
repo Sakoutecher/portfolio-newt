@@ -23,6 +23,7 @@ export const fontSize = {
 }
 
 export const bigLetters = {
+  s: '5em',
   md: '6em',
   lg: '7em',
   xl: '8em',
