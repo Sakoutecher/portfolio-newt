@@ -39,6 +39,7 @@ export const MainExperienceContainer = styled.div`
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  margin-bottom: 2em;
 `
 
 export const ExperienceContainer = styled.div`

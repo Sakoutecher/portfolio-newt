@@ -21,6 +21,7 @@ import { FaArrowLeft, FaArrowRight } from 'react-icons/fa'
 import StickersPhoto from '../components/StickersPhoto/StickersPhoto'
 import DescriptionAbout from '../components/DescriptionAbout/DescriptionAbout'
 import TitleAbout from '../components/TitleAbout/TitleAbout'
+import Button from '../components/Button/Button'
 
 const About = () => {
   const [hoverGraphisme, isHoverGraphisme] = useState<boolean>(false)
@@ -105,6 +106,7 @@ const About = () => {
           </DescriptionAbout>
         </ExperienceContainer>
       </MainExperienceContainer>
+      <Button text={'VOIR MON CV'} size={'md'} />
     </AboutContainer>
   )
 }
