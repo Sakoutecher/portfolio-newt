@@ -29,7 +29,7 @@ const App = () => {
 const MainContainer = styled.div`
   min-height: 100vh;
   width: 100vw;
-  background: url('./assets/background.svg');
+  background: url('../public/assets/background.svg');
   background-size: cover;
   display: flex;
   align-items: center;
