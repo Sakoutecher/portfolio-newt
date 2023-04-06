@@ -9,6 +9,6 @@ export const Description = styled.p`
   color: ${colors.primary};
   font-size: ${fontSize.s};
   font-weight: normal;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   line-height: 1.2;
 `
