@@ -11,6 +11,7 @@ import Footer from './components/Footer/Footer'
 import Home from './pages/Home'
 import About from './pages/About'
 import Projects from './pages/Projects'
+import OneProject from './pages/OneProject'
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Route path={'/'} element={<Home />} />
         <Route path={'/about'} element={<About />} />
         <Route path={'/projects'} element={<Projects />} />
+        <Route path={'/one-project/:id'} element={<OneProject />} />
       </Routes>
       <Footer />
     </MainContainer>
