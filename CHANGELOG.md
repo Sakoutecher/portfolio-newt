@@ -1,10 +1,17 @@
 # Changelog
 
 <a name="0.0.0"></a>
-## 0.0.0 (2023-04-04)
+## 0.0.0 (2023-04-06)
 
 ### Added
 
+- ✨ add one project [[4667cec](https://github.com/Sakoutecher/portfolio-newt/commit/4667cec6f44a14d8fd592ce05664a4850cf4aee8)]
+- ✨ add one project page [[590ea5a](https://github.com/Sakoutecher/portfolio-newt/commit/590ea5ad7783c10989446d2f845e4c8ef83b9b24)]
+- ✨ project have link [[1337ece](https://github.com/Sakoutecher/portfolio-newt/commit/1337ece2d55ef91f05147b94af20be11bb6be2b6)]
+- ✨ add descriptionproject component [[9ce2e78](https://github.com/Sakoutecher/portfolio-newt/commit/9ce2e78850abdfa4c38ce21696c8d144a06526f9)]
+- ✨ add rendufinal component [[614419a](https://github.com/Sakoutecher/portfolio-newt/commit/614419a105ced1f4367a8ad17387849d4751ee94)]
+- ✨ add credits component [[1753993](https://github.com/Sakoutecher/portfolio-newt/commit/175399363bf8f75daa9c9da5c292c3f0cfa74b67)]
+- 🔊 add logs [[12aa9d1](https://github.com/Sakoutecher/portfolio-newt/commit/12aa9d1cc5d31a3533fb592af822601b3e798bcb)]
 - ✨ filter [[897fc82](https://github.com/Sakoutecher/portfolio-newt/commit/897fc82c85ad279f68ce4e24c28854db700b2e30)]
 - ✨ multiple main tags [[b20efc0](https://github.com/Sakoutecher/portfolio-newt/commit/b20efc05554489adf8a23efafbce19c18ef5e72d)]
 - ✨ add projects [[d88215e](https://github.com/Sakoutecher/portfolio-newt/commit/d88215eeca0a118f926839cee5c737f4eb584e0c)]
@@ -37,6 +44,13 @@
 
 ### Changed
 
+- ♻️ add id [[c468c14](https://github.com/Sakoutecher/portfolio-newt/commit/c468c1430f0dd5301276905b572494e601d54dbe)]
+- 💬 update data projects [[0a1d856](https://github.com/Sakoutecher/portfolio-newt/commit/0a1d856c6a5eca369771a13568142ea83c516f2f)]
+- 💄 letter-spacing [[3227408](https://github.com/Sakoutecher/portfolio-newt/commit/3227408adb099cc2caead239806342b74c4a1437)]
+- 🔧 new size [[ba43f7b](https://github.com/Sakoutecher/portfolio-newt/commit/ba43f7bba2b9aa733bfab5f585778c033f249ae4)]
+- ♻️ img path [[4ccae36](https://github.com/Sakoutecher/portfolio-newt/commit/4ccae36c513337719c9b915a1546aabc5db6ccc3)]
+- 💄 cursor pointer [[6aa2760](https://github.com/Sakoutecher/portfolio-newt/commit/6aa276044451af821ac63f9bc8807e177ef03b0f)]
+- 💄 add button on about page [[2e41d92](https://github.com/Sakoutecher/portfolio-newt/commit/2e41d92894cfee9deae6c864eb31430bc636e47f)]
 - 💄 fix width row [[7fc2896](https://github.com/Sakoutecher/portfolio-newt/commit/7fc28967fbf72da77a3432340cb8e0f1aa65c66d)]
 - 💬 update projects data [[7852715](https://github.com/Sakoutecher/portfolio-newt/commit/78527159d8b59b1b288a17bcaa8b7926719503b0)]
 - ⚡ lazy loading [[39e5858](https://github.com/Sakoutecher/portfolio-newt/commit/39e58589468805bf0a4054bfe99cd6d291225f1b)]
@@ -83,6 +97,9 @@
 
 ### Fixed
 
+- 🐛 fix import errors [[0e4138a](https://github.com/Sakoutecher/portfolio-newt/commit/0e4138aeed0db1cb830854b200a45f5b21194eaf)]
+- 🐛 fix bg oneproject route [[b0ff3a2](https://github.com/Sakoutecher/portfolio-newt/commit/b0ff3a242f8de2c25369df0ccc7aeec8384428b7)]
+- 🐛 fix hover button [[cd6f068](https://github.com/Sakoutecher/portfolio-newt/commit/cd6f0687cb403d73c0b28418d6a94accd3cd31f6)]
 - 🐛 fix import errors [[7d8e233](https://github.com/Sakoutecher/portfolio-newt/commit/7d8e2333af43903e180d2a5cfd5c0126073e6b4a)]
 - 🐛 import errors [[6f5a761](https://github.com/Sakoutecher/portfolio-newt/commit/6f5a761b34a36963cfc1cf80a423428a7cc6af9b)]
 - 🐛 fix path erros [[6ab3b8e](https://github.com/Sakoutecher/portfolio-newt/commit/6ab3b8e8cac50c9e78183ec605383c2811cabfb8)]
@@ -90,6 +107,8 @@
 
 ### Miscellaneous
 
+- 🏷️ update project type [[e3337b8](https://github.com/Sakoutecher/portfolio-newt/commit/e3337b84d7719695a63fb35c4230d50c1873f774)]
+- 💫 card hover [[64e722b](https://github.com/Sakoutecher/portfolio-newt/commit/64e722bb9f930b443f61d1615db4c2acc8dd8a33)]
 - 🏷️ update projects type [[836f4b8](https://github.com/Sakoutecher/portfolio-newt/commit/836f4b8d5851ce9aa7759ae15b39e50753992e86)]
 - 🙈 update [[5a7a601](https://github.com/Sakoutecher/portfolio-newt/commit/5a7a601fbc8ada4fcdcd45d8895be4be50af1990)]
 - 🏷️ project type [[562132e](https://github.com/Sakoutecher/portfolio-newt/commit/562132e0153f87addeca2f3c819a69e1450bf17e)]
