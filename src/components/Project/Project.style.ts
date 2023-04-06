@@ -13,6 +13,7 @@ export const Container = styled.div`
   border: 2px solid ${colors.primary};
   overflow: hidden;
   cursor: pointer;
+  height: 100%;
 
   &:hover img {
     transform: scale(1.1);

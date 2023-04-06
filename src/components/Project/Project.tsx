@@ -1,6 +1,7 @@
 //Librairies
 import React, { FC } from 'react'
 import uuid from 'react-uuid'
+import { Link } from 'react-router-dom'
 
 //Styles
 import {
@@ -22,6 +23,7 @@ type ProjectProps = {
   imgPath: string
   mainsTag: Array<string>
   secondsTags: Array<string>
+  id: number
 }
 
 const Project: FC<ProjectProps> = ({
@@ -29,28 +31,31 @@ const Project: FC<ProjectProps> = ({
   imgPath,
   mainsTag,
   secondsTags,
+  id,
 }) => {
   return (
-    <Container>
-      <ImgContainer>
-        <Img loading='lazy' src={imgPath} />
-      </ImgContainer>
-      <InfoContainer>
-        <ProjectTitleContainer>
-          <ProjectTitle>{title}</ProjectTitle>
-        </ProjectTitleContainer>
-        <BottomContainer>
-          <TagContainer width={secondsTags.length}>
-            {mainsTag.map((tag) => (
-              <Tag key={uuid()} text={tag} size='s' main={true} />
-            ))}
-            {secondsTags.map((tag) => (
-              <Tag key={uuid()} text={tag} size='s' main={false} />
-            ))}
-          </TagContainer>
-        </BottomContainer>
-      </InfoContainer>
-    </Container>
+    <Link style={{ height: '100%' }} to={'/one-project/' + id}>
+      <Container>
+        <ImgContainer>
+          <Img loading='lazy' src={imgPath} />
+        </ImgContainer>
+        <InfoContainer>
+          <ProjectTitleContainer>
+            <ProjectTitle>{title}</ProjectTitle>
+          </ProjectTitleContainer>
+          <BottomContainer>
+            <TagContainer width={secondsTags.length}>
+              {mainsTag.map((tag) => (
+                <Tag key={uuid()} text={tag} size='s' main={true} />
+              ))}
+              {secondsTags.map((tag) => (
+                <Tag key={uuid()} text={tag} size='s' main={false} />
+              ))}
+            </TagContainer>
+          </BottomContainer>
+        </InfoContainer>
+      </Container>
+    </Link>
   )
 }
 
