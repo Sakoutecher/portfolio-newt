@@ -97,15 +97,18 @@ const Projects = () => {
         />
       </FilterContainer>
       <GridContainer>
-        {filteredProjects.map(({ title, imgPath, mainsTag, secondsTags }) => (
-          <Project
-            key={uuid()}
-            title={title}
-            imgPath={imgPath}
-            mainsTag={mainsTag}
-            secondsTags={secondsTags}
-          />
-        ))}
+        {filteredProjects.map(
+          ({ title, imgPath, mainsTag, secondsTags, id }) => (
+            <Project
+              id={id}
+              key={uuid()}
+              title={title}
+              imgPath={imgPath}
+              mainsTag={mainsTag}
+              secondsTags={secondsTags}
+            />
+          )
+        )}
       </GridContainer>
     </ProjectsContainer>
   )
