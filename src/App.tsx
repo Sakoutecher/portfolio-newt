@@ -36,8 +36,7 @@ const MainContainer = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
-  overflow-x: hidden;
-  overflo-y: scroll;
+  overflow: hidden;
 `
 
 export default App
