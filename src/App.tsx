@@ -37,6 +37,10 @@ const MainContainer = styled.div`
   align-items: center;
   flex-direction: column;
   overflow: hidden;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
 `
 
 export default App
