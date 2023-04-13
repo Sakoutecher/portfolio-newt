@@ -20,6 +20,7 @@ import {
 import Credits from '../components/Credits/Credits'
 import DescriptionProject from '../components/DescriptionProject/DescriptionProject'
 import RenduFinal from '../components/RenduFinal/RenduFinal'
+import PageTransition from '../components/PageTransition/PageTransition'
 
 //Data
 import { projects } from '../data/projects'
@@ -34,46 +35,48 @@ const OneProject = () => {
 
   return (
     <>
-      <NavRoute>
-        <NavText>PROJETS</NavText>
-        <NavText>{'>'}</NavText>
-        <Link to='/projects'>
-          <NavText>{projects[index].mainsTag[0]}</NavText>
-        </Link>
-        <NavText>{'>'}</NavText>
-        <NavText style={{ textDecoration: 'underline' }}>
-          {projects[index].title}
-        </NavText>
-      </NavRoute>
-      <ImgProjectContainer>
-        <ImgProject src={projects[index].imgAccueil} />
-      </ImgProjectContainer>
-      <OneProjectContainer>
-        <TitleContainer>
-          <Title>{projects[index].title}</Title>
-        </TitleContainer>
-        <CreditsContainer>
-          <Credits text={projects[index].client} />
-          <Credits text={projects[index].role} />
-          <Credits text={projects[index].credits} />
-        </CreditsContainer>
-        <DescriptionContainer>
-          {projects[index].description.map(({ title, desc, side }) => (
-            <DescriptionProject key={uuid()} title={title} side={side}>
-              {desc}
-            </DescriptionProject>
-          ))}
-        </DescriptionContainer>
-        <RenduFinal
-          url={
-            projects[index].type === 'video'
-              ? projects[index].videoPath
-              : projects[index].imgPath
-          }
-          type={projects[index].type}
-          hrefButton={projects[index].hrefButton}
-        />
-      </OneProjectContainer>
+      <PageTransition>
+        <NavRoute>
+          <NavText>PROJETS</NavText>
+          <NavText>{'>'}</NavText>
+          <Link to='/projects'>
+            <NavText>{projects[index].mainsTag[0]}</NavText>
+          </Link>
+          <NavText>{'>'}</NavText>
+          <NavText style={{ textDecoration: 'underline' }}>
+            {projects[index].title}
+          </NavText>
+        </NavRoute>
+        <ImgProjectContainer>
+          <ImgProject src={projects[index].imgAccueil} />
+        </ImgProjectContainer>
+        <OneProjectContainer>
+          <TitleContainer>
+            <Title>{projects[index].title}</Title>
+          </TitleContainer>
+          <CreditsContainer>
+            <Credits text={projects[index].client} />
+            <Credits text={projects[index].role} />
+            <Credits text={projects[index].credits} />
+          </CreditsContainer>
+          <DescriptionContainer>
+            {projects[index].description.map(({ title, desc, side }) => (
+              <DescriptionProject key={uuid()} title={title} side={side}>
+                {desc}
+              </DescriptionProject>
+            ))}
+          </DescriptionContainer>
+          <RenduFinal
+            url={
+              projects[index].type === 'video'
+                ? projects[index].videoPath
+                : projects[index].imgPath
+            }
+            type={projects[index].type}
+            hrefButton={projects[index].hrefButton}
+          />
+        </OneProjectContainer>
+      </PageTransition>
     </>
   )
 }

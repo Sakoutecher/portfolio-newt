@@ -18,6 +18,7 @@ import { fontSize, colors } from '../config/variables'
 //Components
 import TypeText from '../components/TypeText/TypeText'
 import HardSkills from '../components/HardSkills/HardSkills'
+import PageTransition from '../components/PageTransition/PageTransition'
 
 //Icons
 import { FaArrowDown } from 'react-icons/fa'
@@ -29,36 +30,38 @@ import drawingArrow from '/assets/fleche.svg'
 const Home = () => {
   return (
     <>
-      <HomeContainer>
-        <Stickers />
-        <DrawingArrow src={drawingArrow} />
-        <TextContainer>
-          <TypeText />
-          <Text>DESIGNER</Text>
-          <Text>+ART DIRECTOR</Text>
-        </TextContainer>
-        <ArrowContainer>
-          <FaArrowDown
-            size={fontSize.xl}
-            color={colors.primary}
-            className='arrowDown'
-          />
-          <FaArrowDown
-            size={fontSize.xl}
-            color={colors.primary}
-            className='arrowDown'
-          />
-          <FaArrowDown
-            size={fontSize.xl}
-            color={colors.primary}
-            className='arrowDown'
-          />
-        </ArrowContainer>
-      </HomeContainer>
-      <HardSkillsContainer>
-        <HardSkillsTitle>HARD SKILLS</HardSkillsTitle>
-        <HardSkills />
-      </HardSkillsContainer>
+      <PageTransition>
+        <HomeContainer>
+          <Stickers />
+          <DrawingArrow src={drawingArrow} />
+          <TextContainer>
+            <TypeText />
+            <Text>DESIGNER</Text>
+            <Text>+ART DIRECTOR</Text>
+          </TextContainer>
+          <ArrowContainer>
+            <FaArrowDown
+              size={fontSize.xl}
+              color={colors.primary}
+              className='arrowDown'
+            />
+            <FaArrowDown
+              size={fontSize.xl}
+              color={colors.primary}
+              className='arrowDown'
+            />
+            <FaArrowDown
+              size={fontSize.xl}
+              color={colors.primary}
+              className='arrowDown'
+            />
+          </ArrowContainer>
+        </HomeContainer>
+        <HardSkillsContainer>
+          <HardSkillsTitle>HARD SKILLS</HardSkillsTitle>
+          <HardSkills />
+        </HardSkillsContainer>
+      </PageTransition>
     </>
   )
 }
