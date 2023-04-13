@@ -2,7 +2,24 @@
 import styled from 'styled-components'
 
 //Variables
-import { colors, fonts, bigLetters } from '../../config/variables'
+import { colors, fonts, bigLetters, fontSize } from '../../config/variables'
+
+export const NavRoute = styled.div`
+  height: 8vh;
+  width: 90vw;
+  margin-top: 13vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1em;
+`
+
+export const NavText = styled.p`
+  font-family: ${fonts.OTR};
+  font-size: ${fontSize.md};
+  color: ${colors.primary};
+  text-transform: uppercase;
+`
 
 export const ImgProjectContainer = styled.div`
   height: 65vh;

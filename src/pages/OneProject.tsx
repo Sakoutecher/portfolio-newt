@@ -13,6 +13,8 @@ import {
   CreditsContainer,
   DescriptionContainer,
   ButtonContainer,
+  NavRoute,
+  NavText,
 } from '../styles/pages/OneProject.style'
 
 //Components
@@ -30,6 +32,15 @@ const OneProject = () => {
 
   return (
     <>
+      <NavRoute>
+        <NavText>PROJETS</NavText>
+        <NavText>{'>'}</NavText>
+        <NavText>{projects[index].mainsTag[0]}</NavText>
+        <NavText>{'>'}</NavText>
+        <NavText style={{ textDecoration: 'underline' }}>
+          {projects[index].title}
+        </NavText>
+      </NavRoute>
       <ImgProjectContainer>
         <ImgProject src={projects[index].imgAccueil} />
       </ImgProjectContainer>
