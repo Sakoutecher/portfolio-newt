@@ -51,7 +51,7 @@ const About = () => {
         <GraphismeContainer>
           <TitleContainer active={hoverGraphisme}>
             <FaArrowRight className='arrowRight' color={colors.primary} />
-            <TitleAbout>GRAPHISME</TitleAbout>
+            <TitleAbout>LA CREATION & MOI</TitleAbout>
             <FaArrowLeft className='arrowLeft' color={colors.primary} />
           </TitleContainer>
           <DescriptionAbout
@@ -78,7 +78,7 @@ const About = () => {
         <ExperienceContainer>
           <TitleContainer active={hoverExperience}>
             <FaArrowRight className='arrowRight' color={colors.primary} />
-            <TitleAbout>EXPERIENCE</TitleAbout>
+            <TitleAbout>MON EXPERIENCE</TitleAbout>
             <FaArrowLeft className='arrowLeft' color={colors.primary} />
           </TitleContainer>
           <DescriptionAbout
