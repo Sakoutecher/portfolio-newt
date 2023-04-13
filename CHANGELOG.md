@@ -1,10 +1,12 @@
 # Changelog
 
 <a name="0.0.0"></a>
-## 0.0.0 (2023-04-06)
+## 0.0.0 (2023-04-13)
 
 ### Added
 
+- ✨ useFilter [[c6a9714](https://github.com/Sakoutecher/portfolio-newt/commit/c6a9714b4b2e83777de90b51f75861d217b82c3d)]
+- 🔊 update logs [[883f00a](https://github.com/Sakoutecher/portfolio-newt/commit/883f00a0c60138d54907899cc25fb3fd86f51dd1)]
 - ✨ add one project [[4667cec](https://github.com/Sakoutecher/portfolio-newt/commit/4667cec6f44a14d8fd592ce05664a4850cf4aee8)]
 - ✨ add one project page [[590ea5a](https://github.com/Sakoutecher/portfolio-newt/commit/590ea5ad7783c10989446d2f845e4c8ef83b9b24)]
 - ✨ project have link [[1337ece](https://github.com/Sakoutecher/portfolio-newt/commit/1337ece2d55ef91f05147b94af20be11bb6be2b6)]
@@ -44,6 +46,9 @@
 
 ### Changed
 
+- ♻️ custom hooks useFilter [[49fd6c1](https://github.com/Sakoutecher/portfolio-newt/commit/49fd6c164ec2ead80e06b19f9fae41e59536419f)]
+- 💄 nav on oneproject [[a9a2a7a](https://github.com/Sakoutecher/portfolio-newt/commit/a9a2a7afe9e1129af9c94ad6a7d4c76b255825df)]
+- 💄 hide scrollbar [[f3b7d49](https://github.com/Sakoutecher/portfolio-newt/commit/f3b7d49be5f25a61d7326b9d7edeec640c7ef182)]
 - ♻️ add id [[c468c14](https://github.com/Sakoutecher/portfolio-newt/commit/c468c1430f0dd5301276905b572494e601d54dbe)]
 - 💬 update data projects [[0a1d856](https://github.com/Sakoutecher/portfolio-newt/commit/0a1d856c6a5eca369771a13568142ea83c516f2f)]
 - 💄 letter-spacing [[3227408](https://github.com/Sakoutecher/portfolio-newt/commit/3227408adb099cc2caead239806342b74c4a1437)]
@@ -97,6 +102,7 @@
 
 ### Fixed
 
+- 🐛 fix scroll [[05dfd77](https://github.com/Sakoutecher/portfolio-newt/commit/05dfd77c8b43bfaf1df48fd7c2513fed4b244b4e)]
 - 🐛 fix import errors [[0e4138a](https://github.com/Sakoutecher/portfolio-newt/commit/0e4138aeed0db1cb830854b200a45f5b21194eaf)]
 - 🐛 fix bg oneproject route [[b0ff3a2](https://github.com/Sakoutecher/portfolio-newt/commit/b0ff3a242f8de2c25369df0ccc7aeec8384428b7)]
 - 🐛 fix hover button [[cd6f068](https://github.com/Sakoutecher/portfolio-newt/commit/cd6f0687cb403d73c0b28418d6a94accd3cd31f6)]
