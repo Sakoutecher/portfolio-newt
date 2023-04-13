@@ -1,6 +1,6 @@
 //Librairies
 import React, { useEffect } from 'react'
-import { useLocation } from 'react-router-dom'
+import { useLocation, Link } from 'react-router-dom'
 import uuid from 'react-uuid'
 
 //Styles
@@ -39,7 +39,9 @@ const OneProject = () => {
       <NavRoute>
         <NavText>PROJETS</NavText>
         <NavText>{'>'}</NavText>
-        <NavText>{projects[index].mainsTag[0]}</NavText>
+        <Link to='/projects'>
+          <NavText>{projects[index].mainsTag[0]}</NavText>
+        </Link>
         <NavText>{'>'}</NavText>
         <NavText style={{ textDecoration: 'underline' }}>
           {projects[index].title}
