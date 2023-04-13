@@ -2,7 +2,7 @@
 import { useState } from 'react'
 
 const useFilter = () => {
-  const [filter, setFilter] = useState<string>('ALL')
+  const [filter, setFilter] = useState<string | null>('ALL')
 
   const setFilterALL = () => {
     setFilter('ALL')
