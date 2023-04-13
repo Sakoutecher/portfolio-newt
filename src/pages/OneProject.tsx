@@ -1,5 +1,5 @@
 //Librairies
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import uuid from 'react-uuid'
 
@@ -29,6 +29,10 @@ import { projects } from '../data/projects'
 const OneProject = () => {
   const location = useLocation()
   const index = Number(location.pathname.replace('/one-project/', ''))
+
+  useEffect(() => {
+    localStorage.setItem('filter', projects[index].mainsTag[0])
+  }, [])
 
   return (
     <>
