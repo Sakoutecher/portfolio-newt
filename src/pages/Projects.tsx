@@ -1,5 +1,5 @@
 //Librairies
-import React, { useState } from 'react'
+import React from 'react'
 import uuid from 'react-uuid'
 
 //Styles
@@ -16,32 +16,19 @@ import { projects } from '../data/projects'
 import Button from '../components/Button/Button'
 import Project from '../components/Project/Project'
 
+//Hooks
+import useFilter from '../hooks/useFilter'
+
 const Projects = () => {
-  const [filter, setFilter] = useState<string>('ALL')
-
-  const setFilterALL = () => {
-    setFilter('ALL')
-  }
-
-  const setFilterMO = () => {
-    setFilter('MOTION DESIGN')
-  }
-
-  const setFilterGD = () => {
-    setFilter('GRAPHIC DESIGN')
-  }
-
-  const setFilterUX = () => {
-    setFilter('UX UI DESIGN')
-  }
-
-  const setFilterVE = () => {
-    setFilter('VIDEO EDITING')
-  }
-
-  const setFilter3D = () => {
-    setFilter('3D')
-  }
+  const {
+    filter,
+    setFilterALL,
+    setFilterMO,
+    setFilterGD,
+    setFilterUX,
+    setFilterVE,
+    setFilter3D,
+  } = useFilter()
 
   let filteredProjects = projects
 
