@@ -68,11 +68,3 @@ export const DescriptionContainer = styled.div`
   gap: 2em;
   margin-bottom: 4em;
 `
-
-export const ButtonContainer = styled.div`
-  width: 20%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 4em auto;
-`

@@ -12,7 +12,6 @@ import {
   Title,
   CreditsContainer,
   DescriptionContainer,
-  ButtonContainer,
   NavRoute,
   NavText,
 } from '../styles/pages/OneProject.style'
@@ -21,7 +20,6 @@ import {
 import Credits from '../components/Credits/Credits'
 import DescriptionProject from '../components/DescriptionProject/DescriptionProject'
 import RenduFinal from '../components/RenduFinal/RenduFinal'
-import Button from '../components/Button/Button'
 
 //Data
 import { projects } from '../data/projects'
@@ -66,24 +64,15 @@ const OneProject = () => {
             </DescriptionProject>
           ))}
         </DescriptionContainer>
-        {projects[index].renduFinal === true ? (
-          <RenduFinal
-            url={
-              projects[index].video === true
-                ? projects[index].videoPath
-                : projects[index].imgAccueil
-            }
-            video={projects[index].video === true ? true : false}
-          />
-        ) : (
-          <ButtonContainer>
-            <Button
-              href={projects[index].hrefButton}
-              text={`VOIR LE PROJET`}
-              size={'md'}
-            />
-          </ButtonContainer>
-        )}
+        <RenduFinal
+          url={
+            projects[index].type === 'video'
+              ? projects[index].videoPath
+              : projects[index].imgPath
+          }
+          type={projects[index].type}
+          hrefButton={projects[index].hrefButton}
+        />
       </OneProjectContainer>
     </>
   )
