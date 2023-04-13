@@ -6,27 +6,41 @@ import {
   RenduFinalContainer,
   Title,
   Img,
+  ImgContainer,
   VideoContainer,
   Video,
 } from './RenduFinal.style'
 
+//Components
+import Button from '../Button/Button'
+
 type RenduFinalProps = {
-  url: string
-  video: boolean
+  url: string | undefined
+  type: string
+  hrefButton: string | undefined
 }
 
-const RenduFinal: FC<RenduFinalProps> = ({ url, video }) => {
+const RenduFinal: FC<RenduFinalProps> = ({ url, type, hrefButton }) => {
   return (
     <RenduFinalContainer>
       <Title>RENDU FINAL</Title>
-      {video === true ? (
+      {type === 'video' ? (
         <VideoContainer>
           <Video controls>
             <source src={url} />
           </Video>
         </VideoContainer>
       ) : (
-        <Img src={url} />
+        <ImgContainer>
+          <Img src={url} />
+          <Button
+            style={{ position: 'absolute', bottom: '4%', left: '4%' }}
+            text={'VOIR LE PROJET'}
+            size={'md'}
+            href={hrefButton}
+            active={true}
+          />
+        </ImgContainer>
       )}
     </RenduFinalContainer>
   )

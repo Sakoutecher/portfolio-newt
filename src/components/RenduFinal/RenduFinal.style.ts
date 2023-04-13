@@ -22,18 +22,23 @@ export const Title = styled.h4`
   letter-spacing: 2px;
 `
 
-export const Img = styled.img`
-  width: 75%;
-  border-radius: 10px;
-  border: 2px solid ${colors.primary};
-  object-fit: cover;
-`
-
 export const VideoContainer = styled.div`
   width: 75%;
 `
 
 export const Video = styled.video`
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid ${colors.primary};
+  object-fit: cover;
+`
+
+export const ImgContainer = styled.div`
+  width: 75%;
+  position: relative;
+`
+
+export const Img = styled.img`
   width: 100%;
   border-radius: 10px;
   border: 2px solid ${colors.primary};
