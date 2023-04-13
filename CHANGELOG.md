@@ -5,6 +5,10 @@
 
 ### Added
 
+- ✨ page transition component [[acc573b](https://github.com/Sakoutecher/portfolio-newt/commit/acc573b2a3a4b87e1092499e24f44d267e8e5983)]
+- ➕ framer-motion [[86aa7dc](https://github.com/Sakoutecher/portfolio-newt/commit/86aa7dcf6139a76e159a3748058fd9949b03a188)]
+- ✨ local storage for filter [[9ea8823](https://github.com/Sakoutecher/portfolio-newt/commit/9ea88234296346942dd9d61ceb505812eeda4593)]
+- 🔊 update logs [[1693637](https://github.com/Sakoutecher/portfolio-newt/commit/1693637d6cf2ac7d99eaa3321af25265fb767215)]
 - ✨ useFilter [[c6a9714](https://github.com/Sakoutecher/portfolio-newt/commit/c6a9714b4b2e83777de90b51f75861d217b82c3d)]
 - 🔊 update logs [[883f00a](https://github.com/Sakoutecher/portfolio-newt/commit/883f00a0c60138d54907899cc25fb3fd86f51dd1)]
 - ✨ add one project [[4667cec](https://github.com/Sakoutecher/portfolio-newt/commit/4667cec6f44a14d8fd592ce05664a4850cf4aee8)]
@@ -46,6 +50,10 @@
 
 ### Changed
 
+- 💬 update title [[b78c7ba](https://github.com/Sakoutecher/portfolio-newt/commit/b78c7ba5d94868339f1ba885736b6d34273c5cc2)]
+- 💬 update projects data [[8b8a36e](https://github.com/Sakoutecher/portfolio-newt/commit/8b8a36e010807dd4c4810ebe9f2fe7238b277de9)]
+- ♻️ logic for video and img [[a7c4850](https://github.com/Sakoutecher/portfolio-newt/commit/a7c4850a71d5c735537e630d777c916ef2db8be6)]
+- ⚡ link [[6404f00](https://github.com/Sakoutecher/portfolio-newt/commit/6404f0043d50823578ea9a4d1d168d61586fa61d)]
 - ♻️ custom hooks useFilter [[49fd6c1](https://github.com/Sakoutecher/portfolio-newt/commit/49fd6c164ec2ead80e06b19f9fae41e59536419f)]
 - 💄 nav on oneproject [[a9a2a7a](https://github.com/Sakoutecher/portfolio-newt/commit/a9a2a7afe9e1129af9c94ad6a7d4c76b255825df)]
 - 💄 hide scrollbar [[f3b7d49](https://github.com/Sakoutecher/portfolio-newt/commit/f3b7d49be5f25a61d7326b9d7edeec640c7ef182)]
@@ -97,6 +105,9 @@
 
 ### Removed
 
+- 🔥 old logic for rendu final [[0eb6a3e](https://github.com/Sakoutecher/portfolio-newt/commit/0eb6a3eebff3247810e66097b9215f63372df913)]
+- 🔥 remove strict mode [[9a27867](https://github.com/Sakoutecher/portfolio-newt/commit/9a278672afe4f8e6bc53143cadc0e73c2660d2ec)]
+- 🔥 console.log [[e773101](https://github.com/Sakoutecher/portfolio-newt/commit/e773101fb639374dd7b0cc3dbc209100d953cf91)]
 - 🔥 delete old stickers component [[6dc71e0](https://github.com/Sakoutecher/portfolio-newt/commit/6dc71e0ea0f582eafb25693cb26530aa23ff6d6c)]
 - 🔥 remove comment [[52117bf](https://github.com/Sakoutecher/portfolio-newt/commit/52117bf9a1400931b0f743274016aa05fe477d34)]
 
@@ -113,6 +124,9 @@
 
 ### Miscellaneous
 
+- 💫 page transitions [[ea3154b](https://github.com/Sakoutecher/portfolio-newt/commit/ea3154b83e55b2245f32bb25fad6c59c2dced572)]
+- 🏷️ update projects type [[ae6f651](https://github.com/Sakoutecher/portfolio-newt/commit/ae6f651405890eac84d0f8756e6edcf802be8931)]
+- 🏷️ update types [[b84ab0d](https://github.com/Sakoutecher/portfolio-newt/commit/b84ab0d7c8d0c0c663140d03aa6d757590e5a15b)]
 - 🏷️ update project type [[e3337b8](https://github.com/Sakoutecher/portfolio-newt/commit/e3337b84d7719695a63fb35c4230d50c1873f774)]
 - 💫 card hover [[64e722b](https://github.com/Sakoutecher/portfolio-newt/commit/64e722bb9f930b443f61d1615db4c2acc8dd8a33)]
 - 🏷️ update projects type [[836f4b8](https://github.com/Sakoutecher/portfolio-newt/commit/836f4b8d5851ce9aa7759ae15b39e50753992e86)]
