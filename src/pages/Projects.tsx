@@ -33,10 +33,8 @@ const Projects = () => {
   let filteredProjects = projects
 
   if (filter === 'ALL') {
-    console.log('Filter ALL')
     filteredProjects = projects.filter((project) => project.filter === filter)
   } else {
-    console.log('Filter pas ALL')
     filteredProjects = projects.filter(
       (project) => project.mainsTag[0] === filter
     )
