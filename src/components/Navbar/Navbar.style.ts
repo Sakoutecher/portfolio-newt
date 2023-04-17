@@ -52,7 +52,7 @@ export const PseudoElement = styled.div<PseudoElement>`
   }
 `
 
-export const NavbarLinks = styled.a`
+export const NavbarLinks = styled.span`
   color: ${colors.primary};
   text-transform: uppercase;
   font-family: ${fonts.OTR};
