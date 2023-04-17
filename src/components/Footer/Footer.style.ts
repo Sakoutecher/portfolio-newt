@@ -2,7 +2,7 @@
 import styled from 'styled-components'
 
 //Variables
-import { fontSize, fonts, colors } from '../../config/variables'
+import { fontSize, fonts, colors, mediaSize } from '../../config/variables'
 
 export const FooterContainer = styled.footer`
   width: 100vw;
@@ -38,6 +38,10 @@ export const GoTop = styled.button`
   text-decoration: underline;
   background-color: transparent;
   border: none;
+
+  @media ${mediaSize} {
+    font-size: ${fontSize.xs};
+  }
 `
 
 export const LinksContainer = styled.div`
@@ -46,6 +50,14 @@ export const LinksContainer = styled.div`
   justify-content: flex-end;
   align-items: center;
   gap: 1.5em;
+
+  @media ${mediaSize.phone} {
+    gap: 0.2em;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    height: 60%;
+  }
 `
 
 export const Links = styled.a`
@@ -56,4 +68,8 @@ export const Links = styled.a`
   cursor: pointer;
   letter-spacing: 2px;
   text-decoration: underline;
+
+  @media ${mediaSize.phone} {
+    font-size: ${fontSize.xxs};
+  }
 `
