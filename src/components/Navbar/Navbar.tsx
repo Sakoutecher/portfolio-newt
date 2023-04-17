@@ -22,23 +22,30 @@ import { colors } from '../../config/variables'
 const Navbar = () => {
   const location = useLocation()
 
-  let responsive = {}
+  let responsiveButton = {}
+  let responsiveMenuBar = {}
 
   if (window.matchMedia('(max-width: 576px)').matches) {
-    responsive = {}
+    responsiveButton = {}
+    responsiveMenuBar = {}
   } else {
-    responsive = {
+    responsiveButton = {
       position: 'absolute',
       top: '50%',
       right: '6%',
       transform: 'translate(-6%, -50%)',
     }
+    responsiveMenuBar = { display: 'none' }
   }
 
   return (
     <NavbarContainer>
       <LinksContainer>
-        <FaBars color={colors.primary} size={'1.5em'} />
+        <FaBars
+          color={colors.primary}
+          size={'1.5em'}
+          style={responsiveMenuBar}
+        />
         <PseudoElement active={location.pathname === '/' ? true : false}>
           <Link to='/'>
             <NavbarLinks>ACCUEIL</NavbarLinks>
@@ -57,7 +64,12 @@ const Navbar = () => {
           </Link>
         </PseudoElement>
       </LinksContainer>
-      <Button text={`CONTACT`} href={'#'} size={'md'} style={responsive} />
+      <Button
+        text={`CONTACT`}
+        href={'#'}
+        size={'md'}
+        style={responsiveButton}
+      />
     </NavbarContainer>
   )
 }
