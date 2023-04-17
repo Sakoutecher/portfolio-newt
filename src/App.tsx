@@ -21,6 +21,7 @@ const MainContainer = styled.div`
   min-height: 100vh;
   width: 100vw;
   background: url('/assets/background.svg');
+  background-position: center;
   background-size: cover;
   display: flex;
   align-items: center;
