@@ -1,6 +1,9 @@
 //Librairies
 import styled from 'styled-components'
 
+//Variables
+import { mediaSize } from '../../config/variables'
+
 type ContainerTitleDescription = {
   active: boolean
 }
@@ -19,6 +22,10 @@ export const SideContainer = styled.div<SideContainer>`
 
 export const DescriptionProjectContainer = styled.div`
   width: 70%;
+
+  @media ${mediaSize.phone} {
+    width: 100%;
+  }
 `
 
 export const ContainerTitleDescription = styled.div<ContainerTitleDescription>`
@@ -31,4 +38,9 @@ export const ContainerTitleDescription = styled.div<ContainerTitleDescription>`
     props.active === true ? 'translateY(0)' : 'translateY(-10px)'};
   transition: all 500ms ease;
   margin-bottom: 1em;
+
+  @media ${mediaSize.phone} {
+    opacity: 1;
+    transform: translateY(0);
+  }
 `

@@ -10,7 +10,7 @@ import {
 
 //Components
 import TitleAbout from '../TitleAbout/TitleAbout'
-import DescriptionAbout from '../DescriptionAbout/DescriptionAbout'
+import ChildrenDescriptionAbout from '../ChildrenDescriptionAbout/ChildrenDescriptionAbout'
 
 //Variables
 import { colors } from '../../config/variables'
@@ -47,12 +47,12 @@ const DescriptionProject: FC<DescriptionProjectProps> = ({
           <TitleAbout>{title}</TitleAbout>
           <FaArrowLeft className='arrowLeft' color={colors.primary} />
         </ContainerTitleDescription>
-        <DescriptionAbout
+        <ChildrenDescriptionAbout
           handleMouseEnter={handleMouseEnter}
           handleMouseLeave={handleMouseLeave}
         >
           {children}
-        </DescriptionAbout>
+        </ChildrenDescriptionAbout>
       </DescriptionProjectContainer>
     </SideContainer>
   )
