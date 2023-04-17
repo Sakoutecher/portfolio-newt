@@ -5,13 +5,15 @@ import { useLocation } from 'react-router-dom'
 
 type PageTransitionProps = {
   children: ReactNode
+  style?: object
 }
 
-const PageTransition: FC<PageTransitionProps> = ({ children }) => {
+const PageTransition: FC<PageTransitionProps> = ({ children, style }) => {
   const location = useLocation()
 
   return (
     <motion.div
+      style={style}
       key={location.pathname}
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
