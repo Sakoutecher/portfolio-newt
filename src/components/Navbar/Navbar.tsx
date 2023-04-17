@@ -12,6 +12,7 @@ import {
 
 //Components
 import Button from '../Button/Button'
+import ResponsiveMenu from '../ResponsiveMenu/ResponsiveMenu'
 
 //Icons
 import { FaBars } from 'react-icons/fa'
@@ -19,7 +20,11 @@ import { FaBars } from 'react-icons/fa'
 //Variables
 import { colors } from '../../config/variables'
 
+//Hooks
+import useResponsiveMenu from '../../hooks/useResponsiveMenu'
+
 const Navbar = () => {
+  const { toggleMenu, active } = useResponsiveMenu()
   const location = useLocation()
 
   let responsiveButton = {}
@@ -39,38 +44,42 @@ const Navbar = () => {
   }
 
   return (
-    <NavbarContainer>
-      <LinksContainer>
-        <FaBars
-          color={colors.primary}
-          size={'1.5em'}
-          style={responsiveMenuBar}
+    <>
+      <ResponsiveMenu active={active} />
+      <NavbarContainer>
+        <LinksContainer>
+          <FaBars
+            color={colors.primary}
+            size={'1.5em'}
+            style={responsiveMenuBar}
+            onClick={toggleMenu}
+          />
+          <PseudoElement active={location.pathname === '/' ? true : false}>
+            <Link to='/'>
+              <NavbarLinks>ACCUEIL</NavbarLinks>
+            </Link>
+          </PseudoElement>
+          <PseudoElement active={location.pathname === '/about' ? true : false}>
+            <Link to='/about'>
+              <NavbarLinks>A PROPOS</NavbarLinks>
+            </Link>
+          </PseudoElement>
+          <PseudoElement
+            active={location.pathname === '/projects' ? true : false}
+          >
+            <Link to='projects'>
+              <NavbarLinks>PROJETS</NavbarLinks>
+            </Link>
+          </PseudoElement>
+        </LinksContainer>
+        <Button
+          text={`CONTACT`}
+          href={'#'}
+          size={'md'}
+          style={responsiveButton}
         />
-        <PseudoElement active={location.pathname === '/' ? true : false}>
-          <Link to='/'>
-            <NavbarLinks>ACCUEIL</NavbarLinks>
-          </Link>
-        </PseudoElement>
-        <PseudoElement active={location.pathname === '/about' ? true : false}>
-          <Link to='/about'>
-            <NavbarLinks>A PROPOS</NavbarLinks>
-          </Link>
-        </PseudoElement>
-        <PseudoElement
-          active={location.pathname === '/projects' ? true : false}
-        >
-          <Link to='projects'>
-            <NavbarLinks>PROJETS</NavbarLinks>
-          </Link>
-        </PseudoElement>
-      </LinksContainer>
-      <Button
-        text={`CONTACT`}
-        href={'#'}
-        size={'md'}
-        style={responsiveButton}
-      />
-    </NavbarContainer>
+      </NavbarContainer>
+    </>
   )
 }
 
