@@ -1,5 +1,5 @@
 //Librairies
-import React, { useState } from 'react'
+import React from 'react'
 
 //Styles
 import {
@@ -28,31 +28,11 @@ import { FaArrowDown } from 'react-icons/fa'
 import drawingArrow from '/assets/fleche.svg'
 
 const Home = () => {
-  const [xValue, setXValue] = useState<number>(0)
-  const [yValue, setYValue] = useState<number>(0)
-
-  if (window.DeviceOrientationEvent) {
-    window.addEventListener(
-      'deviceorientation',
-      function (event) {
-        if (event.gamma !== null) {
-          setXValue(Math.round(event.gamma))
-        }
-        if (event.beta !== null) {
-          setYValue(Math.round(event.beta))
-        }
-      },
-      true
-    )
-  } else {
-    alert("Sorry, your browser doesn't support Device Orientation")
-  }
-
   return (
     <>
       <PageTransition>
         <HomeContainer>
-          <Stickers xValue={xValue} yValue={yValue} />
+          <Stickers />
           <DrawingArrow src={drawingArrow} />
           <TextContainer>
             <TypeText />

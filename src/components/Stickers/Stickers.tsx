@@ -1,19 +1,13 @@
 //Librairies
-import React, { useRef, useEffect, FC } from 'react'
+import React, { useRef, useEffect } from 'react'
 
 //Styles
 import { StickersContainer, InnerCircle } from './Stickers.style'
 
-type StickersProps = {
-  xValue: number
-  yValue: number
-}
-
-const Stickers: FC<StickersProps> = ({ xValue, yValue }) => {
+const Stickers = () => {
   const stickerRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
-    /*
     window.addEventListener('mousemove', (e) => {
       if (stickerRef.current) {
         stickerRef.current.style.transform = `translate(${e.clientX / 40}px, ${
@@ -21,13 +15,7 @@ const Stickers: FC<StickersProps> = ({ xValue, yValue }) => {
         }px)`
       }
     })
-    */
-    if (stickerRef.current) {
-      stickerRef.current.style.transform = `translate(${xValue / 40}px, ${
-        yValue / 40
-      }px)`
-    }
-  }, [xValue, yValue])
+  }, [])
 
   return (
     <StickersContainer ref={stickerRef}>
