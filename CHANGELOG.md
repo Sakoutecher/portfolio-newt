@@ -5,6 +5,8 @@
 
 ### Added
 
+- ✨ add childrendescriptionproject component [[8355ef3](https://github.com/Sakoutecher/portfolio-newt/commit/8355ef31d5e738842be6d0cca4d6b4defbcb56cc)]
+- 🔊 update logs [[82a22ad](https://github.com/Sakoutecher/portfolio-newt/commit/82a22ad83482777c3d71d9bb849240678d9475ac)]
 - ✨ hide menu bar on mobile [[a36ec8a](https://github.com/Sakoutecher/portfolio-newt/commit/a36ec8ad9861a66bf218558fd6e1940dc1f35151)]
 - ✨ no projects available [[4c4a000](https://github.com/Sakoutecher/portfolio-newt/commit/4c4a0009332ccdfd9dfcf97ffd2802460534fbfb)]
 - ✨ animated routes component [[3dec3ed](https://github.com/Sakoutecher/portfolio-newt/commit/3dec3eda65993dc1238dcc9d78643a9771d4bf5f)]
@@ -54,6 +56,15 @@
 
 ### Changed
 
+- 📱 responsive phone one project page [[6d6f0bb](https://github.com/Sakoutecher/portfolio-newt/commit/6d6f0bbe21007dd118877b6914e978cbc68e500c)]
+- 📱 responsive phone [[a9ae729](https://github.com/Sakoutecher/portfolio-newt/commit/a9ae729fcc4318f7ff63756e57fcf8ba749c48c7)]
+- 📱 responsive phone [[3cd2b99](https://github.com/Sakoutecher/portfolio-newt/commit/3cd2b999c62356b964afa0ca2a2f68b79de60629)]
+- 📱 responsive phone [[48d1188](https://github.com/Sakoutecher/portfolio-newt/commit/48d1188d78977298c58ef32169563940aeb2afe4)]
+- 📱 responsive phone [[7460080](https://github.com/Sakoutecher/portfolio-newt/commit/7460080ace9d692fd9f44cc6c27db71b4ee8533d)]
+- 📱 responsive phone projects page [[6012c86](https://github.com/Sakoutecher/portfolio-newt/commit/6012c86e4695856b2f59b190e566784e20825dbb)]
+- 💄 background-position [[b8ef909](https://github.com/Sakoutecher/portfolio-newt/commit/b8ef90903d3ea6b7afcb44a6c3b87459a17a62b7)]
+- 📱 responsive phone about page [[e5e8d57](https://github.com/Sakoutecher/portfolio-newt/commit/e5e8d57d6227c744c27c7990bb283e3b728b8324)]
+- 📱 responsive phone [[185cbf0](https://github.com/Sakoutecher/portfolio-newt/commit/185cbf0a35e87640dfa44d750c861f108d8d2c82)]
 - ♻️ bg path [[47bc51e](https://github.com/Sakoutecher/portfolio-newt/commit/47bc51e8c850d2f804512c00cd4abd15783d37c9)]
 - 🔧 xxs size [[3ab745e](https://github.com/Sakoutecher/portfolio-newt/commit/3ab745eedd78fc7e0ca50260653a6348f37d1276)]
 - 📱 responsive phone [[611fafe](https://github.com/Sakoutecher/portfolio-newt/commit/611fafefd67ea0ad9d6de9b8b49eecaa72f22e0e)]
