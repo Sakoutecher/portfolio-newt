@@ -1,10 +1,14 @@
 # Changelog
 
 <a name="0.0.0"></a>
-## 0.0.0 (2023-04-13)
+## 0.0.0 (2023-04-17)
 
 ### Added
 
+- ✨ hide menu bar on mobile [[a36ec8a](https://github.com/Sakoutecher/portfolio-newt/commit/a36ec8ad9861a66bf218558fd6e1940dc1f35151)]
+- ✨ no projects available [[4c4a000](https://github.com/Sakoutecher/portfolio-newt/commit/4c4a0009332ccdfd9dfcf97ffd2802460534fbfb)]
+- ✨ animated routes component [[3dec3ed](https://github.com/Sakoutecher/portfolio-newt/commit/3dec3eda65993dc1238dcc9d78643a9771d4bf5f)]
+- 🔊 update logs [[5767ac5](https://github.com/Sakoutecher/portfolio-newt/commit/5767ac5acf1676000c5073eeddc6f780186f2068)]
 - ✨ page transition component [[acc573b](https://github.com/Sakoutecher/portfolio-newt/commit/acc573b2a3a4b87e1092499e24f44d267e8e5983)]
 - ➕ framer-motion [[86aa7dc](https://github.com/Sakoutecher/portfolio-newt/commit/86aa7dcf6139a76e159a3748058fd9949b03a188)]
 - ✨ local storage for filter [[9ea8823](https://github.com/Sakoutecher/portfolio-newt/commit/9ea88234296346942dd9d61ceb505812eeda4593)]
@@ -50,6 +54,23 @@
 
 ### Changed
 
+- ♻️ bg path [[47bc51e](https://github.com/Sakoutecher/portfolio-newt/commit/47bc51e8c850d2f804512c00cd4abd15783d37c9)]
+- 🔧 xxs size [[3ab745e](https://github.com/Sakoutecher/portfolio-newt/commit/3ab745eedd78fc7e0ca50260653a6348f37d1276)]
+- 📱 responsive phone [[611fafe](https://github.com/Sakoutecher/portfolio-newt/commit/611fafefd67ea0ad9d6de9b8b49eecaa72f22e0e)]
+- 💄 top for phone responsive [[21a7e11](https://github.com/Sakoutecher/portfolio-newt/commit/21a7e115355d53aa444a82692cf48092ab8fa7fe)]
+- 📱 responsive phone home page [[306b285](https://github.com/Sakoutecher/portfolio-newt/commit/306b285b6e3ca550ceb6ffaa078265817c7972ea)]
+- 📱 responsive phone [[5311b7a](https://github.com/Sakoutecher/portfolio-newt/commit/5311b7a26d0b9fa30c986d2bff1fe03fdc169fd0)]
+- 📱 responsive phone [[9cdf5e0](https://github.com/Sakoutecher/portfolio-newt/commit/9cdf5e02fd0839eea782b32dcfc2ac9f61205645)]
+- 📱 responsive phone [[8573d6d](https://github.com/Sakoutecher/portfolio-newt/commit/8573d6d68a6e5335e6e1f11fd70e34a90a0b8006)]
+- 🍱 preview [[0d6a9b9](https://github.com/Sakoutecher/portfolio-newt/commit/0d6a9b94d0678a33f3ef0311c5111945723ab0ec)]
+- 💄 center content [[8c50816](https://github.com/Sakoutecher/portfolio-newt/commit/8c50816360ecd3539639870ea90eccddff6950e5)]
+- 📱 responsive typetext [[f096267](https://github.com/Sakoutecher/portfolio-newt/commit/f0962671631d37bcfe9b3795be034c2268dc548d)]
+- 🔧 xxs size [[2bd7b55](https://github.com/Sakoutecher/portfolio-newt/commit/2bd7b55529db4ecd7bb19d78e2ba283e8bf96008)]
+- 🔧 media device size [[61227cf](https://github.com/Sakoutecher/portfolio-newt/commit/61227cf87dcf8b90d4a0124f9d166fbe212dae9e)]
+- 🔧 size [[abb1ada](https://github.com/Sakoutecher/portfolio-newt/commit/abb1ada688d2dfcc9131bb75efe076c6b2e7f836)]
+- ♻️ style property [[12fbcfe](https://github.com/Sakoutecher/portfolio-newt/commit/12fbcfed42131c09bd0b47702fca1c92229362f6)]
+- ⚡ filter too lagy [[20061ce](https://github.com/Sakoutecher/portfolio-newt/commit/20061ce6bdb378b857fd7f04616266b177a54ea0)]
+- ♻️ use animated routes component [[1771a00](https://github.com/Sakoutecher/portfolio-newt/commit/1771a007d269585ac29aba261bd0d13f44fc28f2)]
 - 💬 update title [[b78c7ba](https://github.com/Sakoutecher/portfolio-newt/commit/b78c7ba5d94868339f1ba885736b6d34273c5cc2)]
 - 💬 update projects data [[8b8a36e](https://github.com/Sakoutecher/portfolio-newt/commit/8b8a36e010807dd4c4810ebe9f2fe7238b277de9)]
 - ♻️ logic for video and img [[a7c4850](https://github.com/Sakoutecher/portfolio-newt/commit/a7c4850a71d5c735537e630d777c916ef2db8be6)]
@@ -113,6 +134,8 @@
 
 ### Fixed
 
+- 🐛 fix console error [[e583482](https://github.com/Sakoutecher/portfolio-newt/commit/e583482b95eedcacb5eb3e12368c8cee557c7f42)]
+- 🐛 enter and exit transition [[dbb0d6e](https://github.com/Sakoutecher/portfolio-newt/commit/dbb0d6eb5de7df06cf33d094180243d94a48a187)]
 - 🐛 fix scroll [[05dfd77](https://github.com/Sakoutecher/portfolio-newt/commit/05dfd77c8b43bfaf1df48fd7c2513fed4b244b4e)]
 - 🐛 fix import errors [[0e4138a](https://github.com/Sakoutecher/portfolio-newt/commit/0e4138aeed0db1cb830854b200a45f5b21194eaf)]
 - 🐛 fix bg oneproject route [[b0ff3a2](https://github.com/Sakoutecher/portfolio-newt/commit/b0ff3a242f8de2c25369df0ccc7aeec8384428b7)]
@@ -124,6 +147,8 @@
 
 ### Miscellaneous
 
+- 📝 readme [[67ec6fb](https://github.com/Sakoutecher/portfolio-newt/commit/67ec6fba69b5a80571ab54d8316625b6e594f69b)]
+- 💫 change page transition [[7ff23e7](https://github.com/Sakoutecher/portfolio-newt/commit/7ff23e7a2390d84ecf9f3930ccd430fc117d8e3e)]
 - 💫 page transitions [[ea3154b](https://github.com/Sakoutecher/portfolio-newt/commit/ea3154b83e55b2245f32bb25fad6c59c2dced572)]
 - 🏷️ update projects type [[ae6f651](https://github.com/Sakoutecher/portfolio-newt/commit/ae6f651405890eac84d0f8756e6edcf802be8931)]
 - 🏷️ update types [[b84ab0d](https://github.com/Sakoutecher/portfolio-newt/commit/b84ab0d7c8d0c0c663140d03aa6d757590e5a15b)]
