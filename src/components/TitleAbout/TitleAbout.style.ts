@@ -2,7 +2,7 @@
 import styled from 'styled-components'
 
 //Variables
-import { fontSize, fonts, colors } from '../../config/variables'
+import { fontSize, fonts, colors, mediaSize } from '../../config/variables'
 
 export const Title = styled.h4`
   font-family: ${fonts.OTR};
@@ -11,4 +11,8 @@ export const Title = styled.h4`
   font-size: ${fontSize.md};
   font-weight: normal;
   letter-spacing: 4px;
+
+  @media ${mediaSize.phone} {
+    white-space: nowrap;
+  }
 `
