@@ -6,6 +6,14 @@ import { TypeAnimation } from 'react-type-animation'
 import { colors, fonts, bigLetters } from '../../config/variables'
 
 const TypeText = () => {
+  let size = ''
+
+  if (window.matchMedia('(max-width: 576px)').matches) {
+    size = bigLetters.xxs
+  } else {
+    size = bigLetters.lg
+  }
+
   return (
     <TypeAnimation
       sequence={['MOTION', 2000, 'GRAPHIC', 2000, 'UX UI', 2000]}
@@ -17,7 +25,7 @@ const TypeText = () => {
         fontFamily: fonts.OTR,
         color: colors.primary,
         textTransform: 'uppercase',
-        fontSize: bigLetters.lg,
+        fontSize: size,
         fontWeight: 'normal',
         letterSpacing: '8px',
         lineHeight: '1.1',
