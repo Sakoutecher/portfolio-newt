@@ -2,7 +2,7 @@
 import styled from 'styled-components'
 
 //Variables
-import { colors, fonts, fontSize } from '../../config/variables'
+import { colors, fonts, fontSize, mediaSize } from '../../config/variables'
 
 export const RenduFinalContainer = styled.div`
   width: 100%;
@@ -24,6 +24,10 @@ export const Title = styled.h4`
 
 export const VideoContainer = styled.div`
   width: 75%;
+
+  @media ${mediaSize.phone} {
+    width: 100%;
+  }
 `
 
 export const Video = styled.video`
@@ -36,6 +40,10 @@ export const Video = styled.video`
 export const ImgContainer = styled.div`
   width: 75%;
   position: relative;
+
+  @media ${mediaSize.phone} {
+    width: 100%;
+  }
 `
 
 export const Img = styled.img`
