@@ -89,7 +89,8 @@ export const HardSkillsContainer = styled.div`
 
   @media ${mediaSize.phone} {
     justify-content: flex-start;
-    height: 84vh;
+    height: initial;
+    margin-bottom: 2em;
   }
 `
 
