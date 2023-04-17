@@ -2,7 +2,7 @@
 import styled from 'styled-components'
 
 //Variables
-import { fonts, colors, fontSize } from '../../config/variables'
+import { fonts, colors, fontSize, mediaSize } from '../../config/variables'
 
 export const SkillsContainer = styled.div`
   display: flex;
@@ -11,6 +11,10 @@ export const SkillsContainer = styled.div`
   align-items: center;
   flex-wrap: wrap;
   gap: 8em;
+
+  @media ${mediaSize} {
+    gap: 4em;
+  }
 `
 
 export const Skills = styled.div`
