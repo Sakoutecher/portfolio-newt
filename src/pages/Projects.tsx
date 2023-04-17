@@ -7,6 +7,7 @@ import {
   FilterContainer,
   GridContainer,
   ProjectsContainer,
+  NoProject,
 } from '../styles/pages/Projects.style'
 
 //Data
@@ -84,16 +85,20 @@ const Projects = () => {
           />
         </FilterContainer>
         <GridContainer>
-          {filteredProjects.map(
-            ({ title, imgPath, mainsTag, secondsTags, id }) => (
-              <Project
-                id={id}
-                key={uuid()}
-                title={title}
-                imgPath={imgPath}
-                mainsTag={mainsTag}
-                secondsTags={secondsTags}
-              />
+          {filteredProjects.length === 0 ? (
+            <NoProject>Pas de projets disponibles pour le moment.</NoProject>
+          ) : (
+            filteredProjects.map(
+              ({ title, imgPath, mainsTag, secondsTags, id }) => (
+                <Project
+                  id={id}
+                  key={uuid()}
+                  title={title}
+                  imgPath={imgPath}
+                  mainsTag={mainsTag}
+                  secondsTags={secondsTags}
+                />
+              )
             )
           )}
         </GridContainer>

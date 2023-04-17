@@ -1,6 +1,9 @@
 //Librairies
 import styled from 'styled-components'
 
+//Variables
+import { colors, fontSize, fonts } from '../../config/variables'
+
 export const ProjectsContainer = styled.main`
   width: 85vw;
   min-height: 87vh;
@@ -24,4 +27,12 @@ export const GridContainer = styled.div`
   grid-gap: 15px;
   grid-auto-rows: 400px;
   margin-bottom: 3%;
+`
+
+export const NoProject = styled.p`
+  font-family: ${fonts.OTR};
+  font-size: ${fontSize.md};
+  color: ${colors.primary};
+  text-transform: uppercase;
+  width: 30em;
 `
