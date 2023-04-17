@@ -2,7 +2,13 @@
 import styled from 'styled-components'
 
 //Variables
-import { colors, fonts, bigLetters, fontSize } from '../../config/variables'
+import {
+  colors,
+  fonts,
+  bigLetters,
+  fontSize,
+  mediaSize,
+} from '../../config/variables'
 
 export const NavRoute = styled.div`
   height: 8vh;
@@ -12,6 +18,14 @@ export const NavRoute = styled.div`
   justify-content: flex-start;
   align-items: center;
   gap: 1em;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  @media ${mediaSize.phone} {
+    overflow-x: scroll;
+  }
 `
 
 export const NavText = styled.p`
@@ -19,11 +33,20 @@ export const NavText = styled.p`
   font-size: ${fontSize.md};
   color: ${colors.primary};
   text-transform: uppercase;
+
+  @media ${mediaSize.phone} {
+    font-size: ${fontSize.xs};
+    white-space: nowrap;
+  }
 `
 
 export const ImgProjectContainer = styled.div`
   height: 65vh;
   width: 100vw;
+
+  @media ${mediaSize.phone} {
+    height: 25vh;
+  }
 `
 
 export const ImgProject = styled.img`
@@ -48,6 +71,10 @@ export const Title = styled.h1`
   font-family: ${fonts.OTR};
   font-size: ${bigLetters.s};
   color: ${colors.primary};
+
+  @media ${mediaSize.phone} {
+    font-size: ${fontSize.xxl};
+  }
 `
 
 export const CreditsContainer = styled.div`
@@ -67,4 +94,9 @@ export const DescriptionContainer = styled.div`
   width: 75%;
   gap: 2em;
   margin-bottom: 4em;
+
+  @media ${mediaSize.phone} {
+    margin-top: 2em;
+    justify-content: center;
+  }
 `
