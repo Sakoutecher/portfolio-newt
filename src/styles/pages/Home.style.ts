@@ -2,7 +2,13 @@
 import styled from 'styled-components'
 
 //Variaables
-import { bigLetters, colors, fonts, fontSize } from '../../config/variables'
+import {
+  bigLetters,
+  colors,
+  fonts,
+  fontSize,
+  mediaSize,
+} from '../../config/variables'
 
 export const HomeContainer = styled.main`
   width: 85vw;
@@ -12,6 +18,11 @@ export const HomeContainer = styled.main`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media ${mediaSize.phone} {
+    align-items: flex-start;
+    height: 68vh;
+  }
 `
 
 export const TextContainer = styled.div`
@@ -21,6 +32,11 @@ export const TextContainer = styled.div`
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
+
+  @media ${mediaSize.phone} {
+    justify-content: flex-start;
+    height: 35%;
+  }
 `
 
 export const Text = styled.h1`
@@ -31,6 +47,10 @@ export const Text = styled.h1`
   font-weight: normal;
   letter-spacing: 8px;
   line-height: 1.1;
+
+  @media ${mediaSize.phone} {
+    font-size: ${bigLetters.xxs};
+  }
 `
 
 export const ArrowContainer = styled.div`
@@ -42,6 +62,10 @@ export const ArrowContainer = styled.div`
   bottom: 3%;
   left: 50%;
   transform: translate(-50%, -3%);
+
+  @media ${mediaSize} {
+    bottom: -12%;
+  }
 `
 
 export const DrawingArrow = styled.img`
@@ -49,6 +73,10 @@ export const DrawingArrow = styled.img`
   width: 70vw;
   top: -22%;
   right: -35%;
+
+  @media ${mediaSize.phone} {
+    display: none;
+  }
 `
 
 export const HardSkillsContainer = styled.div`
@@ -58,6 +86,11 @@ export const HardSkillsContainer = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
+  @media ${mediaSize.phone} {
+    justify-content: flex-start;
+    height: 84vh;
+  }
 `
 
 export const HardSkillsTitle = styled.h3`
@@ -68,4 +101,9 @@ export const HardSkillsTitle = styled.h3`
   font-weight: normal;
   letter-spacing: 8px;
   margin-bottom: 2em;
+
+  @media ${mediaSize.phone} {
+    font-size: ${fontSize.xl};
+    margin-bottom: 4em;
+  }
 `
