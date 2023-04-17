@@ -13,6 +13,7 @@ export const colors = {
 
 /**Font Size */
 export const fontSize = {
+  xxs: '.6em',
   xs: '.8em',
   s: '.9em',
   md: '1em',
