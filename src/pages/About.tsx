@@ -45,6 +45,14 @@ const About = () => {
     isHoverExperience(false)
   }
 
+  let responsiveButton = {}
+
+  if (window.matchMedia('(max-width: 576px)').matches) {
+    responsiveButton = { marginTop: '1em' }
+  } else {
+    responsiveButton = {}
+  }
+
   return (
     <PageTransition>
       <AboutContainer>
@@ -110,7 +118,7 @@ const About = () => {
             </DescriptionAbout>
           </ExperienceContainer>
         </MainExperienceContainer>
-        <Button text={'VOIR MON CV'} size={'md'} />
+        <Button text={'VOIR MON CV'} size={'md'} style={responsiveButton} />
       </AboutContainer>
     </PageTransition>
   )

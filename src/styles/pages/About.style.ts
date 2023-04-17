@@ -1,6 +1,9 @@
 //Librairies
 import styled from 'styled-components'
 
+//Variables
+import { mediaSize } from '../../config/variables'
+
 type TitleContainer = {
   active: boolean
 }
@@ -13,6 +16,10 @@ export const AboutContainer = styled.main`
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
+
+  @media ${mediaSize.phone} {
+    height: 143vh;
+  }
 `
 
 export const MainGraphismeContainer = styled.div`
@@ -22,6 +29,10 @@ export const MainGraphismeContainer = styled.div`
   align-items: center;
   margin-top: 5.5em;
   margin-bottom: 2em;
+
+  @media ${mediaSize.phone} {
+    margin-top: 12.5em;
+  }
 `
 
 export const GraphismeContainer = styled.div`
@@ -32,6 +43,10 @@ export const GraphismeContainer = styled.div`
   align-items: flex-start;
   flex-direction: column;
   gap: 1em;
+
+  @media ${mediaSize.phone} {
+    width: 100%;
+  }
 `
 
 export const MainExperienceContainer = styled.div`
@@ -50,6 +65,10 @@ export const ExperienceContainer = styled.div`
   align-items: flex-start;
   flex-direction: column;
   gap: 1em;
+
+  @media ${mediaSize.phone} {
+    width: 100%;
+  }
 `
 
 export const TitleContainer = styled.div<TitleContainer>`
@@ -61,4 +80,9 @@ export const TitleContainer = styled.div<TitleContainer>`
   transform: ${(props) =>
     props.active === true ? 'translateY(0)' : 'translateY(-10px)'};
   transition: all 500ms ease;
+
+  @media ${mediaSize.phone} {
+    opacity: 1;
+    transform: translateY(0);
+  }
 `
