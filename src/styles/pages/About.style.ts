@@ -19,6 +19,7 @@ export const AboutContainer = styled.main`
 
   @media ${mediaSize.phone} {
     height: 143vh;
+    margin-bottom: 4em;
   }
 `
 
