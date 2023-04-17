@@ -31,3 +31,20 @@ export const bigLetters = {
   xxl: '9em',
   xxxl: '10em',
 }
+
+//Device size
+export const deviceSize = {
+  phone: '576px',
+  tablet: '768px',
+  desktop: '992px',
+  ldesktop: '1200px',
+  lgdesktop: '1400px',
+}
+
+export const mediaSize = {
+  phone: `(max-width: ${deviceSize.phone})`,
+  table: `(max-width: ${deviceSize.tablet})`,
+  desktop: `(max-width: ${deviceSize.desktop})`,
+  ldesktop: `(max-width: ${deviceSize.ldesktop})`,
+  lgdesktop: `(max-width: ${deviceSize.lgdesktop})`,
+}
