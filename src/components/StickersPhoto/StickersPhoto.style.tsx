@@ -2,7 +2,7 @@
 import styled from 'styled-components'
 
 //Variables
-import { colors } from '../../config/variables'
+import { colors, mediaSize } from '../../config/variables'
 
 //Photo
 import PhotoNewt from '/assets/photo-newt.jpg'
@@ -15,6 +15,11 @@ export const StickersContainer = styled.div`
   position: absolute;
   top: 24%;
   left: 10%;
+
+  @media ${mediaSize.phone} {
+    top: 13%;
+    left: 28%;
+  }
 `
 
 export const InnerCircle = styled.div`
