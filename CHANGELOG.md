@@ -5,6 +5,9 @@
 
 ### Added
 
+- ✨ add responsivemenu component [[e3db62e](https://github.com/Sakoutecher/portfolio-newt/commit/e3db62e752f6326fd059c7169f01d56fec19ce40)]
+- ✨ useResponsiveMenu [[4e03b76](https://github.com/Sakoutecher/portfolio-newt/commit/4e03b763a4859639075d703b5b857d1f1f3a4692)]
+- 🔊 update logs [[fe84ee8](https://github.com/Sakoutecher/portfolio-newt/commit/fe84ee8daedbd7db4f74d357537329180c338ab2)]
 - ✨ add childrendescriptionproject component [[8355ef3](https://github.com/Sakoutecher/portfolio-newt/commit/8355ef31d5e738842be6d0cca4d6b4defbcb56cc)]
 - 🔊 update logs [[82a22ad](https://github.com/Sakoutecher/portfolio-newt/commit/82a22ad83482777c3d71d9bb849240678d9475ac)]
 - ✨ hide menu bar on mobile [[a36ec8a](https://github.com/Sakoutecher/portfolio-newt/commit/a36ec8ad9861a66bf218558fd6e1940dc1f35151)]
@@ -137,6 +140,7 @@
 
 ### Removed
 
+- 🔥 gyro stickers not working [[d7388e3](https://github.com/Sakoutecher/portfolio-newt/commit/d7388e342e9c091b94cfaa9a408fe8cdecbc5282)]
 - 🔥 old logic for rendu final [[0eb6a3e](https://github.com/Sakoutecher/portfolio-newt/commit/0eb6a3eebff3247810e66097b9215f63372df913)]
 - 🔥 remove strict mode [[9a27867](https://github.com/Sakoutecher/portfolio-newt/commit/9a278672afe4f8e6bc53143cadc0e73c2660d2ec)]
 - 🔥 console.log [[e773101](https://github.com/Sakoutecher/portfolio-newt/commit/e773101fb639374dd7b0cc3dbc209100d953cf91)]
@@ -145,6 +149,8 @@
 
 ### Fixed
 
+- 🐛 auto height responsive [[bf060f1](https://github.com/Sakoutecher/portfolio-newt/commit/bf060f1c0a07cb4a14a5afe6623951e3454d2430)]
+- 🐛 auto height [[a172906](https://github.com/Sakoutecher/portfolio-newt/commit/a172906ddfc1aa4fa9ef2b937d9ef659a61d126d)]
 - 🐛 fix console error [[e583482](https://github.com/Sakoutecher/portfolio-newt/commit/e583482b95eedcacb5eb3e12368c8cee557c7f42)]
 - 🐛 enter and exit transition [[dbb0d6e](https://github.com/Sakoutecher/portfolio-newt/commit/dbb0d6eb5de7df06cf33d094180243d94a48a187)]
 - 🐛 fix scroll [[05dfd77](https://github.com/Sakoutecher/portfolio-newt/commit/05dfd77c8b43bfaf1df48fd7c2513fed4b244b4e)]
@@ -158,6 +164,8 @@
 
 ### Miscellaneous
 
+- 🚧 gyro stickers [[48f4c07](https://github.com/Sakoutecher/portfolio-newt/commit/48f4c07c68b30361fbcfa4b8b6309603823b5202)]
+- 🚧 responsive menu temp [[1d5d4a5](https://github.com/Sakoutecher/portfolio-newt/commit/1d5d4a5053d8b09ae54b6a6b2523726b54d8cbf1)]
 - 📝 readme [[67ec6fb](https://github.com/Sakoutecher/portfolio-newt/commit/67ec6fba69b5a80571ab54d8316625b6e594f69b)]
 - 💫 change page transition [[7ff23e7](https://github.com/Sakoutecher/portfolio-newt/commit/7ff23e7a2390d84ecf9f3930ccd430fc117d8e3e)]
 - 💫 page transitions [[ea3154b](https://github.com/Sakoutecher/portfolio-newt/commit/ea3154b83e55b2245f32bb25fad6c59c2dced572)]
