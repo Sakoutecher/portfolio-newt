@@ -14,7 +14,7 @@ export const StickersContainer = styled.div`
   right: 20%;
 
   @media ${mediaSize.phone} {
-    top: 43%;
+    top: 49%;
     right: 18%;
   }
 `
