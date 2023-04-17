@@ -2,7 +2,7 @@
 import styled from 'styled-components'
 
 //Variables
-import { colors } from '../../config/variables'
+import { colors, mediaSize } from '../../config/variables'
 
 export const StickersContainer = styled.div`
   width: 14em;
@@ -12,6 +12,11 @@ export const StickersContainer = styled.div`
   position: absolute;
   top: 18%;
   right: 20%;
+
+  @media ${mediaSize.phone} {
+    top: 43%;
+    right: 18%;
+  }
 `
 
 export const InnerCircle = styled.div`
