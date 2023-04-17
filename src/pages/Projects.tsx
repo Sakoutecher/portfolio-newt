@@ -1,5 +1,5 @@
 //Librairies
-import React, { useEffect } from 'react'
+import React from 'react'
 import uuid from 'react-uuid'
 
 //Styles
@@ -29,7 +29,6 @@ const Projects = () => {
     setFilterUX,
     setFilterVE,
     setFilter3D,
-    setFilter,
   } = useFilter()
 
   let filteredProjects = projects
@@ -41,14 +40,6 @@ const Projects = () => {
       (project) => project.mainsTag[0] === filter
     )
   }
-
-  const filterFromProject: string | null = localStorage.getItem('filter')
-
-  useEffect(() => {
-    if (filterFromProject !== null) {
-      setFilter(filterFromProject)
-    }
-  }, [])
 
   return (
     <PageTransition>
