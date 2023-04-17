@@ -31,7 +31,14 @@ const OneProject = () => {
 
   return (
     <>
-      <PageTransition>
+      <PageTransition
+        style={{
+          display: 'flex',
+          justifyContente: 'center',
+          alignItems: 'center',
+          flexDirection: 'column',
+        }}
+      >
         <NavRoute>
           <NavText>PROJETS</NavText>
           <NavText>{'>'}</NavText>
