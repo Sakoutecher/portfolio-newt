@@ -9,9 +9,13 @@ import Footer from './components/Footer/Footer'
 import AnimatedRoutes from './components/AnimatedRoutes/AnimatedRoutes'
 
 const App = () => {
+  const isMobile = () => {
+    return window.innerWidth <= 576
+  }
+
   return (
     <MainContainer>
-      <Cursor />
+      {isMobile() ? null : <Cursor />}
       <Navbar />
       <AnimatedRoutes />
       <Footer />
