@@ -43,7 +43,7 @@ const OneProject = () => {
           <NavText>PROJETS</NavText>
           <NavText>{'>'}</NavText>
           <Link to='/projects'>
-            <NavText>{projects[index].mainsTag[0]}</NavText>
+            <NavText data-cursor>{projects[index].mainsTag[0]}</NavText>
           </Link>
           <NavText>{'>'}</NavText>
           <NavText style={{ textDecoration: 'underline' }}>

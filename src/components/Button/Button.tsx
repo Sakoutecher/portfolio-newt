@@ -23,6 +23,7 @@ const Button: FC<ButtonProps> = ({
 }) => {
   return (
     <GlobalButton
+      data-cursor
       style={style}
       size={size}
       href={href}

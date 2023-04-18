@@ -34,7 +34,7 @@ const Project: FC<ProjectProps> = ({
   id,
 }) => {
   return (
-    <Link style={{ height: '100%' }} to={'/one-project/' + id}>
+    <Link data-cursor style={{ height: '100%' }} to={'/one-project/' + id}>
       <Container>
         <ImgContainer>
           <Img loading='lazy' src={imgPath} />
