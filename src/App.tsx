@@ -3,6 +3,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 //Components
+import Cursor from './components/Cursor/Cursor'
 import Navbar from './components/Navbar/Navbar'
 import Footer from './components/Footer/Footer'
 import AnimatedRoutes from './components/AnimatedRoutes/AnimatedRoutes'
@@ -10,6 +11,7 @@ import AnimatedRoutes from './components/AnimatedRoutes/AnimatedRoutes'
 const App = () => {
   return (
     <MainContainer>
+      <Cursor />
       <Navbar />
       <AnimatedRoutes />
       <Footer />
