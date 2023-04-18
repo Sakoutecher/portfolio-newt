@@ -6,6 +6,7 @@ import { colors } from '../../config/variables'
 
 type CustomCursor = {
   size: number
+  isHovering: boolean
 }
 
 export const CustomCursor = styled.div<CustomCursor>`
@@ -22,7 +23,8 @@ export const CustomCursor = styled.div<CustomCursor>`
     height: ${(props) => props.size + 'px'};
     border-radius: 50%;
     transform: translate(calc(-50% + 2.5px), calc(-50% + 2.5px));
-    transition: width 0.2s, height 0.2s;
-    border: solid 1.5px ${colors.primary};
+    transition: all 0.6s;
+    border: solid 1.5px
+      ${(props) => (props.isHovering ? colors.secondary : colors.primary)};
   }
 `
