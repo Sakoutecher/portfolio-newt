@@ -13,13 +13,13 @@ This a portfolio for **Antoine Gervais**, an graphic and motion designer. He wan
 - [Command](#command)
 - [Author](#author)
 
-## Technology stack
+## Technology Stack
 
-[![My Tech Stack](https://github-readme-tech-stack.vercel.app/api/cards?lineHeight=10&lineCount=1&gap=12&hideTitle=true&line1=react,react,6c5d42;styledcomponents,styledcomponents,9b58a6;typescript,typescript,0a2c1b;framer,framer,169e2b;eslint,eslint,0ec2f9;prettier,prettier,3900e3;vite,vite,d8670d;)](https://github-readme-tech-stack.vercel.app/api/cards?lineHeight=10&lineCount=1&gap=12&hideTitle=true&line1=react,react,6c5d42;styledcomponents,styledcomponents,9b58a6;typescript,typescript,0a2c1b;framer,framer,169e2b;eslint,eslint,0ec2f9;prettier,prettier,3900e3;vite,vite,d8670d;)
+[![Technology Stack](https://github-readme-tech-stack.vercel.app/api/cards?lineCount=2&hideTitle=true&line1=react,react,926cbc;styledcomponents,styledcomponents,f6df4c;framer,framer,8e290a;&line2=typescript,typescript,c1e609;vite,vite,1c89d2;vitest,vitest,adc5c5;jest,jest,43eb8c;)](https://github-readme-tech-stack.vercel.app/api/cards?lineCount=2&hideTitle=true&line1=react,react,926cbc;styledcomponents,styledcomponents,f6df4c;framer,framer,8e290a;&line2=typescript,typescript,c1e609;vite,vite,1c89d2;vitest,vitest,adc5c5;jest,jest,43eb8c;)
 
 ## Command
 
-To use this project : 
+To use this project :
 
 This move to a folder where you want to place this project and copy the project there :
 
@@ -42,5 +42,3 @@ npm run dev
 ## Author
 
 - [@Sakoutecher](https://github.com/Sakoutecher)
-
-
