@@ -5,6 +5,9 @@
 
 ### Added
 
+- ✨ add cursor [[27bfd1c](https://github.com/Sakoutecher/portfolio-newt/commit/27bfd1c5534bbdb5657f1031608d1d4f81db0df0)]
+- ✨ add cursor component [[364f7fd](https://github.com/Sakoutecher/portfolio-newt/commit/364f7fdd9d387561fa8301a4bcd49eddc0fba1a2)]
+- 🔊 update logs [[b98bdbf](https://github.com/Sakoutecher/portfolio-newt/commit/b98bdbf47e129d0723bb2631b497181f37a34d08)]
 - ✅ button test types [[72fe10b](https://github.com/Sakoutecher/portfolio-newt/commit/72fe10b38d413905bed1bb5ab5c641d40f32d566)]
 - ✅ button test [[5c5272c](https://github.com/Sakoutecher/portfolio-newt/commit/5c5272ca3dd96c9608c00c4b0880ab41e860a07b)]
 - ➕ testing dependency [[018da7c](https://github.com/Sakoutecher/portfolio-newt/commit/018da7c98c74d489b33fadf7379945f4978e0503)]
@@ -63,6 +66,7 @@
 
 ### Changed
 
+- ⚡ data-cursor [[6d15f27](https://github.com/Sakoutecher/portfolio-newt/commit/6d15f279171ffebb36b4e24551f966b1fa274595)]
 - 🔧 vitest config [[0473761](https://github.com/Sakoutecher/portfolio-newt/commit/047376183d5a27cbedf3a4dbbf905d0ccef94fc4)]
 - ⬆️ bump dependencies [[fa5e2b5](https://github.com/Sakoutecher/portfolio-newt/commit/fa5e2b53e20844fb44d44c1c50e301d6c27cee5d)]
 - 📱 responsive phone one project page [[6d6f0bb](https://github.com/Sakoutecher/portfolio-newt/commit/6d6f0bbe21007dd118877b6914e978cbc68e500c)]
