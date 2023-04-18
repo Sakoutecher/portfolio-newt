@@ -1,10 +1,14 @@
 # Changelog
 
 <a name="0.0.0"></a>
-## 0.0.0 (2023-04-17)
+## 0.0.0 (2023-04-18)
 
 ### Added
 
+- ✅ button test types [[72fe10b](https://github.com/Sakoutecher/portfolio-newt/commit/72fe10b38d413905bed1bb5ab5c641d40f32d566)]
+- ✅ button test [[5c5272c](https://github.com/Sakoutecher/portfolio-newt/commit/5c5272ca3dd96c9608c00c4b0880ab41e860a07b)]
+- ➕ testing dependency [[018da7c](https://github.com/Sakoutecher/portfolio-newt/commit/018da7c98c74d489b33fadf7379945f4978e0503)]
+- 🔊 update logs [[8ba63f2](https://github.com/Sakoutecher/portfolio-newt/commit/8ba63f2b6afaeeb8feda925da339288df70ad04c)]
 - ✨ add responsivemenu component [[e3db62e](https://github.com/Sakoutecher/portfolio-newt/commit/e3db62e752f6326fd059c7169f01d56fec19ce40)]
 - ✨ useResponsiveMenu [[4e03b76](https://github.com/Sakoutecher/portfolio-newt/commit/4e03b763a4859639075d703b5b857d1f1f3a4692)]
 - 🔊 update logs [[fe84ee8](https://github.com/Sakoutecher/portfolio-newt/commit/fe84ee8daedbd7db4f74d357537329180c338ab2)]
@@ -59,6 +63,8 @@
 
 ### Changed
 
+- 🔧 vitest config [[0473761](https://github.com/Sakoutecher/portfolio-newt/commit/047376183d5a27cbedf3a4dbbf905d0ccef94fc4)]
+- ⬆️ bump dependencies [[fa5e2b5](https://github.com/Sakoutecher/portfolio-newt/commit/fa5e2b53e20844fb44d44c1c50e301d6c27cee5d)]
 - 📱 responsive phone one project page [[6d6f0bb](https://github.com/Sakoutecher/portfolio-newt/commit/6d6f0bbe21007dd118877b6914e978cbc68e500c)]
 - 📱 responsive phone [[a9ae729](https://github.com/Sakoutecher/portfolio-newt/commit/a9ae729fcc4318f7ff63756e57fcf8ba749c48c7)]
 - 📱 responsive phone [[3cd2b99](https://github.com/Sakoutecher/portfolio-newt/commit/3cd2b999c62356b964afa0ca2a2f68b79de60629)]
@@ -164,6 +170,8 @@
 
 ### Miscellaneous
 
+- 🏷️ rename props types [[030afbd](https://github.com/Sakoutecher/portfolio-newt/commit/030afbdbd3bb187ceadcc4030a03db29f614e4fc)]
+- 📝 update readme [[4bfa036](https://github.com/Sakoutecher/portfolio-newt/commit/4bfa03694c50eb995fd01614f063cd2c8a0b033f)]
 - 🚧 gyro stickers [[48f4c07](https://github.com/Sakoutecher/portfolio-newt/commit/48f4c07c68b30361fbcfa4b8b6309603823b5202)]
 - 🚧 responsive menu temp [[1d5d4a5](https://github.com/Sakoutecher/portfolio-newt/commit/1d5d4a5053d8b09ae54b6a6b2523726b54d8cbf1)]
 - 📝 readme [[67ec6fb](https://github.com/Sakoutecher/portfolio-newt/commit/67ec6fba69b5a80571ab54d8316625b6e594f69b)]
