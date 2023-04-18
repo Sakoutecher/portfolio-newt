@@ -4,7 +4,7 @@ import React, { FC } from 'react'
 //Styles
 import { GlobalButton } from './Button.style'
 
-type Props = {
+type ButtonProps = {
   text: string
   href?: string
   size: 's' | 'md' | 'lg'
@@ -13,7 +13,14 @@ type Props = {
   onclick?: () => void
 }
 
-const Button: FC<Props> = ({ href, text, size, style, active, onclick }) => {
+const Button: FC<ButtonProps> = ({
+  href,
+  text,
+  size,
+  style,
+  active,
+  onclick,
+}) => {
   return (
     <GlobalButton
       style={style}
