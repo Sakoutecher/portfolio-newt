@@ -43,4 +43,10 @@ describe('Button', () => {
     expect(button).toBeInTheDocument()
     expect(button.getAttribute('href')).toBe(hrefButton)
   })
+
+  it('render the right tag', () => {
+    render(<Button text='About' size='md' href='/about' />)
+    const button = screen.getByText('About')
+    expect(button.tagName).toBe('A')
+  })
 })
