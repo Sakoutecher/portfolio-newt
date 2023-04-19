@@ -21,7 +21,7 @@ import PageTransition from '../components/PageTransition/PageTransition'
 //Hooks
 import useFilter from '../hooks/useFilter'
 
-const Projects = () => {
+export const Projects = () => {
   const {
     filter,
     setFilterALL,
@@ -106,5 +106,3 @@ const Projects = () => {
     </PageTransition>
   )
 }
-
-export default Projects

@@ -25,7 +25,7 @@ import PageTransition from '../components/PageTransition/PageTransition'
 //Data
 import { projects } from '../data/projects'
 
-const OneProject = () => {
+export const OneProject = () => {
   const location = useLocation()
   const index = Number(location.pathname.replace('/one-project/', ''))
 
@@ -83,5 +83,3 @@ const OneProject = () => {
     </>
   )
 }
-
-export default OneProject

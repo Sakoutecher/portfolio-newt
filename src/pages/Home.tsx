@@ -27,7 +27,7 @@ import { FaArrowDown } from 'react-icons/fa'
 //SVG
 import drawingArrow from '/assets/fleche.svg'
 
-const Home = () => {
+export const Home = () => {
   return (
     <>
       <PageTransition>
@@ -65,5 +65,3 @@ const Home = () => {
     </>
   )
 }
-
-export default Home

@@ -8,7 +8,7 @@ import Navbar from './components/Navbar/Navbar'
 import Footer from './components/Footer/Footer'
 import AnimatedRoutes from './components/AnimatedRoutes/AnimatedRoutes'
 
-const App = () => {
+export const App = () => {
   const isMobile = () => {
     return window.innerWidth <= 576
   }
@@ -38,5 +38,3 @@ const MainContainer = styled.div`
     display: none;
   }
 `
-
-export default App

@@ -24,7 +24,7 @@ import TitleAbout from '../components/TitleAbout/TitleAbout'
 import Button from '../components/Button/Button'
 import PageTransition from '../components/PageTransition/PageTransition'
 
-const About = () => {
+export const About = () => {
   const [hoverGraphisme, isHoverGraphisme] = useState<boolean>(false)
 
   const handleMouseEnterGraphisme = (): void => {
@@ -123,5 +123,3 @@ const About = () => {
     </PageTransition>
   )
 }
-
-export default About
