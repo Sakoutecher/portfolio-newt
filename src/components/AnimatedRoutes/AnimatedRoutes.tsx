@@ -4,12 +4,12 @@ import { AnimatePresence } from 'framer-motion'
 import { Routes, Route } from 'react-router-dom'
 
 //Pages
-import Home from '../../pages/Home'
-import About from '../../pages/About'
-import Projects from '../../pages/Projects'
-import OneProject from '../../pages/OneProject'
+import { Home } from '../../pages/Home'
+import { About } from '../../pages/About'
+import { Projects } from '../../pages/Projects'
+import { OneProject } from '../../pages/OneProject'
 
-const AnimatedRoutes = () => {
+export const AnimatedRoutes = () => {
   return (
     <AnimatePresence mode='wait'>
       <Routes>
@@ -21,5 +21,3 @@ const AnimatedRoutes = () => {
     </AnimatePresence>
   )
 }
-
-export default AnimatedRoutes
