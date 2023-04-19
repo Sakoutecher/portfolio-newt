@@ -4,7 +4,7 @@ import React, { FC } from 'react'
 //Styles
 import { GlobalTag } from './Tag.style'
 
-type TagProps = {
+export type TagProps = {
   text: string
   size: 's' | 'md' | 'lg'
   style?: object

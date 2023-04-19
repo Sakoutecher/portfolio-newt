@@ -18,7 +18,7 @@ import {
 //Components
 import { Tag } from '../Tag/Tag'
 
-type ProjectProps = {
+export type ProjectProps = {
   title: string
   imgPath: string
   mainsTag: Array<string>

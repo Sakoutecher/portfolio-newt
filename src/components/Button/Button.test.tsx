@@ -2,15 +2,7 @@ import React from 'react'
 import { render, screen } from '@testing-library/react'
 import { describe, it, expectTypeOf } from 'vitest'
 import { Button } from './Button'
-
-type ButtonProps = {
-  text: string
-  href?: string
-  size: 's' | 'md' | 'lg'
-  style?: object
-  active?: boolean
-  onclick?: () => void
-}
+import { ButtonProps } from './Button'
 
 describe('Button', () => {
   it('button should be a function', () => {

@@ -4,7 +4,7 @@ import React, { FC } from 'react'
 //Styles
 import { GlobalButton } from './Button.style'
 
-type ButtonProps = {
+export type ButtonProps = {
   text: string
   href?: string
   size: 's' | 'md' | 'lg'

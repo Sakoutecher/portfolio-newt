@@ -2,13 +2,7 @@ import React from 'react'
 import { render, screen } from '@testing-library/react'
 import { describe, it, expectTypeOf } from 'vitest'
 import { Tag } from './Tag'
-
-type TagProps = {
-  text: string
-  size: 's' | 'md' | 'lg'
-  style?: object
-  main: boolean
-}
+import { TagProps } from './Tag'
 
 describe('Tag', () => {
   it('tag should be a function', () => {

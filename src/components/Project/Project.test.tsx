@@ -3,14 +3,7 @@ import { render, screen, fireEvent } from '@testing-library/react'
 import { describe, it, expectTypeOf } from 'vitest'
 import { BrowserRouter } from 'react-router-dom'
 import { Project } from './Project'
-
-type ProjectProps = {
-  title: string
-  imgPath: string
-  mainsTag: Array<string>
-  secondsTags: Array<string>
-  id: number
-}
+import { ProjectProps } from './Project'
 
 describe('Tag', () => {
   it('project should be a function', () => {
