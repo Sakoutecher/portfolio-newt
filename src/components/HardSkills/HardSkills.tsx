@@ -11,7 +11,7 @@ import FichiersUx from '/assets/fichiers-ux.png'
 import FichiersV from '/assets/fichiers-v.png'
 import Fichiers3d from '/assets/fichiers-3d.png'
 
-const HardSkills = () => {
+export const HardSkills = () => {
   return (
     <SkillsContainer>
       <Skills>
@@ -37,5 +37,3 @@ const HardSkills = () => {
     </SkillsContainer>
   )
 }
-
-export default HardSkills

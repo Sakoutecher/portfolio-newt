@@ -26,7 +26,7 @@ type ProjectProps = {
   id: number
 }
 
-const Project: FC<ProjectProps> = ({
+export const Project: FC<ProjectProps> = ({
   title,
   imgPath,
   mainsTag,
@@ -58,5 +58,3 @@ const Project: FC<ProjectProps> = ({
     </Link>
   )
 }
-
-export default Project

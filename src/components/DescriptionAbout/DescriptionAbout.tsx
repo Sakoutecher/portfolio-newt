@@ -10,7 +10,7 @@ type DescriptionAboutProps = {
   handleMouseLeave: () => void
 }
 
-const DescriptionAbout: FC<DescriptionAboutProps> = ({
+export const DescriptionAbout: FC<DescriptionAboutProps> = ({
   children,
   handleMouseEnter,
   handleMouseLeave,
@@ -24,5 +24,3 @@ const DescriptionAbout: FC<DescriptionAboutProps> = ({
     </Description>
   )
 }
-
-export default DescriptionAbout

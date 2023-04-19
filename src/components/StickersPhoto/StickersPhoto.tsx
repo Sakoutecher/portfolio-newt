@@ -4,7 +4,7 @@ import React, { useRef, useEffect } from 'react'
 //Styles
 import { StickersContainer, InnerCircle } from './StickersPhoto.style'
 
-const StickersPhoto = () => {
+export const StickersPhoto = () => {
   const stickerRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -45,5 +45,3 @@ const StickersPhoto = () => {
     </StickersContainer>
   )
 }
-
-export default StickersPhoto

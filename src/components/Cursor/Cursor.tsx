@@ -4,7 +4,7 @@ import React, { useRef, useEffect, useState } from 'react'
 //Styles
 import { CustomCursor } from './Cursor.style'
 
-const Cursor = () => {
+export const Cursor = () => {
   const [size, setSize] = useState<number>(60)
   const [hovering, setHovering] = useState<boolean>(false)
   const cursorRef = useRef<HTMLDivElement>(null)
@@ -28,5 +28,3 @@ const Cursor = () => {
 
   return <CustomCursor ref={cursorRef} size={size} isHovering={hovering} />
 }
-
-export default Cursor

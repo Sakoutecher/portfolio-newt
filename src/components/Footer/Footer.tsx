@@ -11,7 +11,7 @@ import {
   Links,
 } from './Footer.style'
 
-const Footer = () => {
+export const Footer = () => {
   const scrollTop = () => {
     window.scrollTo({
       top: 0,
@@ -51,5 +51,3 @@ const Footer = () => {
     </FooterContainer>
   )
 }
-
-export default Footer

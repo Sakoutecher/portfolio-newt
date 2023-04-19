@@ -8,8 +8,6 @@ type TitleAboutProps = {
   children: string
 }
 
-const TitleAbout: FC<TitleAboutProps> = ({ children }) => {
+export const TitleAbout: FC<TitleAboutProps> = ({ children }) => {
   return <Title>{children}</Title>
 }
-
-export default TitleAbout

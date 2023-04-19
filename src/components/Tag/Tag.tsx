@@ -11,12 +11,10 @@ type TagProps = {
   main: boolean
 }
 
-const Tag: FC<TagProps> = ({ text, size, style, main }) => {
+export const Tag: FC<TagProps> = ({ text, size, style, main }) => {
   return (
     <GlobalTag style={style} size={size} href={'#'} main={main}>
       {text}
     </GlobalTag>
   )
 }
-
-export default Tag

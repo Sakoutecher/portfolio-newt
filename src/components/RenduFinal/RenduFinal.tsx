@@ -20,7 +20,7 @@ type RenduFinalProps = {
   hrefButton: string | undefined
 }
 
-const RenduFinal: FC<RenduFinalProps> = ({ url, type, hrefButton }) => {
+export const RenduFinal: FC<RenduFinalProps> = ({ url, type, hrefButton }) => {
   return (
     <RenduFinalContainer>
       <Title>RENDU FINAL</Title>
@@ -45,5 +45,3 @@ const RenduFinal: FC<RenduFinalProps> = ({ url, type, hrefButton }) => {
     </RenduFinalContainer>
   )
 }
-
-export default RenduFinal

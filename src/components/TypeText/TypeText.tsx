@@ -5,7 +5,7 @@ import { TypeAnimation } from 'react-type-animation'
 //Variables
 import { colors, fonts, bigLetters } from '../../config/variables'
 
-const TypeText = () => {
+export const TypeText = () => {
   let size = ''
 
   if (window.matchMedia('(max-width: 576px)').matches) {
@@ -33,5 +33,3 @@ const TypeText = () => {
     />
   )
 }
-
-export default TypeText

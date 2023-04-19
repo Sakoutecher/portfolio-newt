@@ -23,7 +23,7 @@ import { colors } from '../../config/variables'
 //Hooks
 import useResponsiveMenu from '../../hooks/useResponsiveMenu'
 
-const Navbar = () => {
+export const Navbar = () => {
   const { toggleMenu, active } = useResponsiveMenu()
   const location = useLocation()
 
@@ -82,5 +82,3 @@ const Navbar = () => {
     </>
   )
 }
-
-export default Navbar

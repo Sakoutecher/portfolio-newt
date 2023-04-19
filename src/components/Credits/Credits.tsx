@@ -9,7 +9,7 @@ type CreditsProps = {
   text: Array<string>
 }
 
-const Credits: FC<CreditsProps> = ({ text }) => {
+export const Credits: FC<CreditsProps> = ({ text }) => {
   return (
     <CreditsBlock>
       {text.map((line) => (
@@ -18,5 +18,3 @@ const Credits: FC<CreditsProps> = ({ text }) => {
     </CreditsBlock>
   )
 }
-
-export default Credits

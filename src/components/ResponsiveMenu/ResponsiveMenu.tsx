@@ -9,7 +9,7 @@ type ResponsiveMenuProps = {
   active: boolean
 }
 
-const ResponsiveMenu: FC<ResponsiveMenuProps> = ({ active }) => {
+export const ResponsiveMenu: FC<ResponsiveMenuProps> = ({ active }) => {
   return (
     <MenuResponsiveContainer active={active}>
       <Link to='/about'>About</Link>
@@ -17,5 +17,3 @@ const ResponsiveMenu: FC<ResponsiveMenuProps> = ({ active }) => {
     </MenuResponsiveContainer>
   )
 }
-
-export default ResponsiveMenu

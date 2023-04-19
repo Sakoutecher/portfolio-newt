@@ -8,7 +8,10 @@ type PageTransitionProps = {
   style?: object
 }
 
-const PageTransition: FC<PageTransitionProps> = ({ children, style }) => {
+export const PageTransition: FC<PageTransitionProps> = ({
+  children,
+  style,
+}) => {
   const location = useLocation()
 
   return (
@@ -24,5 +27,3 @@ const PageTransition: FC<PageTransitionProps> = ({ children, style }) => {
     </motion.div>
   )
 }
-
-export default PageTransition

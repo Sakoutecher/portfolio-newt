@@ -13,7 +13,7 @@ type ButtonProps = {
   onclick?: () => void
 }
 
-const Button: FC<ButtonProps> = ({
+export const Button: FC<ButtonProps> = ({
   href,
   text,
   size,
@@ -34,5 +34,3 @@ const Button: FC<ButtonProps> = ({
     </GlobalButton>
   )
 }
-
-export default Button

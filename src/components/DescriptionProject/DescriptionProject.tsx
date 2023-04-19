@@ -24,7 +24,7 @@ type DescriptionProjectProps = {
   title: string
 }
 
-const DescriptionProject: FC<DescriptionProjectProps> = ({
+export const DescriptionProject: FC<DescriptionProjectProps> = ({
   side,
   children,
   title,
@@ -57,5 +57,3 @@ const DescriptionProject: FC<DescriptionProjectProps> = ({
     </SideContainer>
   )
 }
-
-export default DescriptionProject
