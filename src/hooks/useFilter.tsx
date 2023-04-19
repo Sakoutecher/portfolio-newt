@@ -1,7 +1,7 @@
 //Other
 import { useState } from 'react'
 
-const useFilter = () => {
+export const useFilter = () => {
   const [filter, setFilter] = useState<string | null>('ALL')
 
   const setFilterALL = () => {
@@ -39,5 +39,3 @@ const useFilter = () => {
     setFilter,
   }
 }
-
-export default useFilter

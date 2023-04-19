@@ -1,7 +1,7 @@
 //Librairies
 import { useState } from 'react'
 
-const useResponsiveMenu = () => {
+export const useResponsiveMenu = () => {
   const [active, setActive] = useState<boolean>(false)
 
   const toggleMenu = (): void => {
@@ -10,5 +10,3 @@ const useResponsiveMenu = () => {
 
   return { active, toggleMenu }
 }
-
-export default useResponsiveMenu
