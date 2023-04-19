@@ -4,7 +4,7 @@ import React, { FC } from 'react'
 //Styles
 import { Title } from './TitleAbout.style'
 
-type TitleAboutProps = {
+export type TitleAboutProps = {
   children: string
 }
 
