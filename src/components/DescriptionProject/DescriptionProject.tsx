@@ -9,8 +9,8 @@ import {
 } from './DescriptionProject.style'
 
 //Components
-import TitleAbout from '../TitleAbout/TitleAbout'
-import ChildrenDescriptionAbout from '../ChildrenDescriptionAbout/ChildrenDescriptionAbout'
+import { TitleAbout } from '../TitleAbout/TitleAbout'
+import { ChildrenDescriptionAbout } from '../ChildrenDescriptionAbout/ChildrenDescriptionAbout'
 
 //Variables
 import { colors } from '../../config/variables'

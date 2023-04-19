@@ -11,8 +11,8 @@ import {
 } from './Navbar.style'
 
 //Components
-import Button from '../Button/Button'
-import ResponsiveMenu from '../ResponsiveMenu/ResponsiveMenu'
+import { Button } from '../Button/Button'
+import { ResponsiveMenu } from '../ResponsiveMenu/ResponsiveMenu'
 
 //Icons
 import { FaBars } from 'react-icons/fa'
@@ -21,7 +21,7 @@ import { FaBars } from 'react-icons/fa'
 import { colors } from '../../config/variables'
 
 //Hooks
-import useResponsiveMenu from '../../hooks/useResponsiveMenu'
+import { useResponsiveMenu } from '../../hooks/useResponsiveMenu'
 
 export const Navbar = () => {
   const { toggleMenu, active } = useResponsiveMenu()

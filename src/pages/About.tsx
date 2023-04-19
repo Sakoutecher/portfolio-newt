@@ -18,11 +18,11 @@ import { colors } from '../config/variables'
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa'
 
 //Components
-import StickersPhoto from '../components/StickersPhoto/StickersPhoto'
-import DescriptionAbout from '../components/DescriptionAbout/DescriptionAbout'
-import TitleAbout from '../components/TitleAbout/TitleAbout'
-import Button from '../components/Button/Button'
-import PageTransition from '../components/PageTransition/PageTransition'
+import { StickersPhoto } from '../components/StickersPhoto/StickersPhoto'
+import { DescriptionAbout } from '../components/DescriptionAbout/DescriptionAbout'
+import { TitleAbout } from '../components/TitleAbout/TitleAbout'
+import { Button } from '../components/Button/Button'
+import { PageTransition } from '../components/PageTransition/PageTransition'
 
 export const About = () => {
   const [hoverGraphisme, isHoverGraphisme] = useState<boolean>(false)

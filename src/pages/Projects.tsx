@@ -14,12 +14,12 @@ import {
 import { projects } from '../data/projects'
 
 //components
-import Button from '../components/Button/Button'
-import Project from '../components/Project/Project'
-import PageTransition from '../components/PageTransition/PageTransition'
+import { Button } from '../components/Button/Button'
+import { Project } from '../components/Project/Project'
+import { PageTransition } from '../components/PageTransition/PageTransition'
 
 //Hooks
-import useFilter from '../hooks/useFilter'
+import { useFilter } from '../hooks/useFilter'
 
 export const Projects = () => {
   const {

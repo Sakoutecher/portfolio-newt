@@ -16,7 +16,7 @@ import {
 } from './Project.style'
 
 //Components
-import Tag from '../Tag/Tag'
+import { Tag } from '../Tag/Tag'
 
 type ProjectProps = {
   title: string

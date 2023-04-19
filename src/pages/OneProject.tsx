@@ -17,10 +17,10 @@ import {
 } from '../styles/pages/OneProject.style'
 
 //Components
-import Credits from '../components/Credits/Credits'
-import DescriptionProject from '../components/DescriptionProject/DescriptionProject'
-import RenduFinal from '../components/RenduFinal/RenduFinal'
-import PageTransition from '../components/PageTransition/PageTransition'
+import { Credits } from '../components/Credits/Credits'
+import { DescriptionProject } from '../components/DescriptionProject/DescriptionProject'
+import { RenduFinal } from '../components/RenduFinal/RenduFinal'
+import { PageTransition } from '../components/PageTransition/PageTransition'
 
 //Data
 import { projects } from '../data/projects'

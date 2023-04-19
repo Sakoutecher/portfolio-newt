@@ -16,10 +16,10 @@ import {
 import { fontSize, colors } from '../config/variables'
 
 //Components
-import TypeText from '../components/TypeText/TypeText'
-import HardSkills from '../components/HardSkills/HardSkills'
-import PageTransition from '../components/PageTransition/PageTransition'
-import Stickers from '../components/Stickers/Stickers'
+import { TypeText } from '../components/TypeText/TypeText'
+import { HardSkills } from '../components/HardSkills/HardSkills'
+import { PageTransition } from '../components/PageTransition/PageTransition'
+import { Stickers } from '../components/Stickers/Stickers'
 
 //Icons
 import { FaArrowDown } from 'react-icons/fa'

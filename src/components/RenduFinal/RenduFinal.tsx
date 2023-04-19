@@ -12,7 +12,7 @@ import {
 } from './RenduFinal.style'
 
 //Components
-import Button from '../Button/Button'
+import { Button } from '../Button/Button'
 
 type RenduFinalProps = {
   url: string | undefined
