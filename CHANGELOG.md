@@ -1,10 +1,14 @@
 # Changelog
 
 <a name="0.0.0"></a>
-## 0.0.0 (2023-04-18)
+## 0.0.0 (2023-04-19)
 
 ### Added
 
+- ✅ project test [[cecc359](https://github.com/Sakoutecher/portfolio-newt/commit/cecc35904aeaf557e05a24a188235df4d6560293)]
+- ✅ tag test [[4342e40](https://github.com/Sakoutecher/portfolio-newt/commit/4342e40b009cc05787bc18215e8d0ee4d3bd85cc)]
+- ✅ new test [[b35a4a1](https://github.com/Sakoutecher/portfolio-newt/commit/b35a4a1efa6eba9289183bb6a5900ee523569e8e)]
+- 🔊 update logs [[194f6ec](https://github.com/Sakoutecher/portfolio-newt/commit/194f6ecbaf3f2b929d173ca8b855cf6ef238d45a)]
 - ✨ add cursor [[27bfd1c](https://github.com/Sakoutecher/portfolio-newt/commit/27bfd1c5534bbdb5657f1031608d1d4f81db0df0)]
 - ✨ add cursor component [[364f7fd](https://github.com/Sakoutecher/portfolio-newt/commit/364f7fdd9d387561fa8301a4bcd49eddc0fba1a2)]
 - 🔊 update logs [[b98bdbf](https://github.com/Sakoutecher/portfolio-newt/commit/b98bdbf47e129d0723bb2631b497181f37a34d08)]
@@ -66,6 +70,14 @@
 
 ### Changed
 
+- 🚚 resolve path [[1baab92](https://github.com/Sakoutecher/portfolio-newt/commit/1baab921ba41a977e335608772cbc7ddea212e04)]
+- 🚚 resolve path [[e1cf782](https://github.com/Sakoutecher/portfolio-newt/commit/e1cf782327922ae02c67924159f27526aa5c2b6d)]
+- ♻️ export default to export [[242877d](https://github.com/Sakoutecher/portfolio-newt/commit/242877d8c55791227619505a1dea52dd938b3c0b)]
+- ♻️ export default to export [[57aa9eb](https://github.com/Sakoutecher/portfolio-newt/commit/57aa9ebea88ec046ce362ae5d256eafe437dc2c3)]
+- 🚚 resolve path [[bdf5c81](https://github.com/Sakoutecher/portfolio-newt/commit/bdf5c81df0d493ebed35498f0edf017478d532bd)]
+- ♻️ export default to export [[8aca7fa](https://github.com/Sakoutecher/portfolio-newt/commit/8aca7faddd0364ff5bf195832d67203ae357b03b)]
+- ♻️ export default to export [[9129956](https://github.com/Sakoutecher/portfolio-newt/commit/9129956c2244b3d5c4170f78fa1eb3bad2912c06)]
+- 📱 cursor only on desktop [[be4d441](https://github.com/Sakoutecher/portfolio-newt/commit/be4d4413d4a9637f6a1da1cdac9276f719acf300)]
 - ⚡ data-cursor [[6d15f27](https://github.com/Sakoutecher/portfolio-newt/commit/6d15f279171ffebb36b4e24551f966b1fa274595)]
 - 🔧 vitest config [[0473761](https://github.com/Sakoutecher/portfolio-newt/commit/047376183d5a27cbedf3a4dbbf905d0ccef94fc4)]
 - ⬆️ bump dependencies [[fa5e2b5](https://github.com/Sakoutecher/portfolio-newt/commit/fa5e2b53e20844fb44d44c1c50e301d6c27cee5d)]
@@ -159,6 +171,7 @@
 
 ### Fixed
 
+- 🐛 resolve path [[905545a](https://github.com/Sakoutecher/portfolio-newt/commit/905545a597c2aa6a70683a5aee72b7ae05cce39d)]
 - 🐛 auto height responsive [[bf060f1](https://github.com/Sakoutecher/portfolio-newt/commit/bf060f1c0a07cb4a14a5afe6623951e3454d2430)]
 - 🐛 auto height [[a172906](https://github.com/Sakoutecher/portfolio-newt/commit/a172906ddfc1aa4fa9ef2b937d9ef659a61d126d)]
 - 🐛 fix console error [[e583482](https://github.com/Sakoutecher/portfolio-newt/commit/e583482b95eedcacb5eb3e12368c8cee557c7f42)]
@@ -174,6 +187,9 @@
 
 ### Miscellaneous
 
+- 🧑‍💻 data-testid [[ba75f8e](https://github.com/Sakoutecher/portfolio-newt/commit/ba75f8ed0eaabccc1a7264ddcc3bafaae257f9a3)]
+- 🏷️ rename props types [[1b0d350](https://github.com/Sakoutecher/portfolio-newt/commit/1b0d350c20b1d3e532a180ab04933a27da25a64d)]
+- 💫 animation on hover [[cf90295](https://github.com/Sakoutecher/portfolio-newt/commit/cf902950b6293c164677adf5df0815d0552ea6f8)]
 - 🏷️ rename props types [[030afbd](https://github.com/Sakoutecher/portfolio-newt/commit/030afbdbd3bb187ceadcc4030a03db29f614e4fc)]
 - 📝 update readme [[4bfa036](https://github.com/Sakoutecher/portfolio-newt/commit/4bfa03694c50eb995fd01614f063cd2c8a0b033f)]
 - 🚧 gyro stickers [[48f4c07](https://github.com/Sakoutecher/portfolio-newt/commit/48f4c07c68b30361fbcfa4b8b6309603823b5202)]
