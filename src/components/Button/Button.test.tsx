@@ -33,7 +33,7 @@ describe('Button', () => {
     const button = screen.getByText('About')
     const hrefButton = button.getAttribute('href')
     expect(button).toBeInTheDocument()
-    expect(button.getAttribute('href')).toBe(hrefButton)
+    expect(hrefButton).toBe('/about')
   })
 
   it('render the right tag', () => {
