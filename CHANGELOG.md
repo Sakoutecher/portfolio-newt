@@ -1,10 +1,23 @@
 # Changelog
 
 <a name="0.0.0"></a>
-## 0.0.0 (2023-04-19)
+## 0.0.0 (2023-04-20)
 
 ### Added
 
+- ✨ send email [[47cb45c](https://github.com/Sakoutecher/portfolio-newt/commit/47cb45cee9f377ad0744057dccb2c8f56ba6ea4f)]
+- ➕ emailjs [[579c671](https://github.com/Sakoutecher/portfolio-newt/commit/579c67126c5faf634fffd48b0318ed3be3b2a100)]
+- ➕ react-mailer nodemailer [[99dc2ff](https://github.com/Sakoutecher/portfolio-newt/commit/99dc2ff3cc2f7d8486d4ecdd5b4415f43fbdcab0)]
+- ✅ textarea test [[d7a6e72](https://github.com/Sakoutecher/portfolio-newt/commit/d7a6e7267626179fc3376c6afa126ca0a83268dc)]
+- ✅ update button test [[be7a074](https://github.com/Sakoutecher/portfolio-newt/commit/be7a074b776ddc571a82e3c58c9bf55b9490edbb)]
+- ✅ input test [[5e49355](https://github.com/Sakoutecher/portfolio-newt/commit/5e49355038967b0665ada3af26a360ab40a45295)]
+- ✨ button to contact [[36540b9](https://github.com/Sakoutecher/portfolio-newt/commit/36540b99ed99e4893981da9100a78c62fe0ee47f)]
+- ✨ contact page [[461d923](https://github.com/Sakoutecher/portfolio-newt/commit/461d9230cac25c743c67a533c270353727354ba5)]
+- ✨ add contact page [[7e5d520](https://github.com/Sakoutecher/portfolio-newt/commit/7e5d5205890caddd15caef15f79b606a731d817a)]
+- ✨ add textarea component [[70cfd0a](https://github.com/Sakoutecher/portfolio-newt/commit/70cfd0a721c9697602f2cbcdb0713e0e54fee71b)]
+- ✨ add input component [[cfe5c56](https://github.com/Sakoutecher/portfolio-newt/commit/cfe5c5662b1819fd7c09394ad6911d89b7a2d208)]
+- ✅ titleabout test [[6a717b9](https://github.com/Sakoutecher/portfolio-newt/commit/6a717b94e569a463271ae305c4063de90fb618c8)]
+- 🔊 update logs [[d1ffb13](https://github.com/Sakoutecher/portfolio-newt/commit/d1ffb135c318930db9f7dd326d41b3d8d6c3c571)]
 - ✅ project test [[cecc359](https://github.com/Sakoutecher/portfolio-newt/commit/cecc35904aeaf557e05a24a188235df4d6560293)]
 - ✅ tag test [[4342e40](https://github.com/Sakoutecher/portfolio-newt/commit/4342e40b009cc05787bc18215e8d0ee4d3bd85cc)]
 - ✅ new test [[b35a4a1](https://github.com/Sakoutecher/portfolio-newt/commit/b35a4a1efa6eba9289183bb6a5900ee523569e8e)]
@@ -70,6 +83,10 @@
 
 ### Changed
 
+- 📱 responsive phone contact page [[4afa796](https://github.com/Sakoutecher/portfolio-newt/commit/4afa796d3f1185a92aed962cb2a69071320169c6)]
+- ♻️ position when path is contact [[c3f5556](https://github.com/Sakoutecher/portfolio-newt/commit/c3f5556ae9495b8dce2417c0f88adf323ba61f4f)]
+- 💄 remove swicth color [[6c9d895](https://github.com/Sakoutecher/portfolio-newt/commit/6c9d89545dc62fef7f8686600a20a876ad65a86a)]
+- 🚚 types paths [[809316f](https://github.com/Sakoutecher/portfolio-newt/commit/809316f00794986b2b1fd78deee405973d73d274)]
 - 🚚 resolve path [[1baab92](https://github.com/Sakoutecher/portfolio-newt/commit/1baab921ba41a977e335608772cbc7ddea212e04)]
 - 🚚 resolve path [[e1cf782](https://github.com/Sakoutecher/portfolio-newt/commit/e1cf782327922ae02c67924159f27526aa5c2b6d)]
 - ♻️ export default to export [[242877d](https://github.com/Sakoutecher/portfolio-newt/commit/242877d8c55791227619505a1dea52dd938b3c0b)]
@@ -171,6 +188,7 @@
 
 ### Fixed
 
+- 🐛 center cursor with user cursor [[6d15ef0](https://github.com/Sakoutecher/portfolio-newt/commit/6d15ef04c33a3f190db56602bfd964af0405bbbe)]
 - 🐛 resolve path [[905545a](https://github.com/Sakoutecher/portfolio-newt/commit/905545a597c2aa6a70683a5aee72b7ae05cce39d)]
 - 🐛 auto height responsive [[bf060f1](https://github.com/Sakoutecher/portfolio-newt/commit/bf060f1c0a07cb4a14a5afe6623951e3454d2430)]
 - 🐛 auto height [[a172906](https://github.com/Sakoutecher/portfolio-newt/commit/a172906ddfc1aa4fa9ef2b937d9ef659a61d126d)]
@@ -187,6 +205,7 @@
 
 ### Miscellaneous
 
+- 🙈 update gitignore [[354fd06](https://github.com/Sakoutecher/portfolio-newt/commit/354fd061ea4f774369b73890f50f10351436ad5e)]
 - 🧑‍💻 data-testid [[ba75f8e](https://github.com/Sakoutecher/portfolio-newt/commit/ba75f8ed0eaabccc1a7264ddcc3bafaae257f9a3)]
 - 🏷️ rename props types [[1b0d350](https://github.com/Sakoutecher/portfolio-newt/commit/1b0d350c20b1d3e532a180ab04933a27da25a64d)]
 - 💫 animation on hover [[cf90295](https://github.com/Sakoutecher/portfolio-newt/commit/cf902950b6293c164677adf5df0815d0552ea6f8)]
