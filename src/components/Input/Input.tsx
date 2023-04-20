@@ -4,7 +4,7 @@ import React, { FC, useState } from 'react'
 //Styles
 import { InputContainer, InputElement } from './Input.style'
 
-type InputProps = {
+export type InputProps = {
   name?: string
   type: 'password' | 'text' | 'email'
   id?: string
@@ -25,6 +25,7 @@ export const Input: FC<InputProps> = ({ name, type, id, placeholder }) => {
   return (
     <InputContainer focused={isFocused} placeholder={placeholder}>
       <InputElement
+        data-testid='input'
         onFocus={handleFocus}
         onBlur={handleBlur}
         name={name}
