@@ -4,7 +4,7 @@ import React, { FC, useState } from 'react'
 //Styles
 import { TextAreaContainer, TextAreaElement } from './TextArea.style'
 
-type TextAreaProps = {
+export type TextAreaProps = {
   placeholder: string
   name?: string
   id?: string
@@ -24,6 +24,7 @@ export const TextArea: FC<TextAreaProps> = ({ placeholder, name, id }) => {
   return (
     <TextAreaContainer focused={isFocused} placeholder={placeholder}>
       <TextAreaElement
+        data-testid='textarea'
         onFocus={handleFocus}
         onBlur={handleBlur}
         name={name}
