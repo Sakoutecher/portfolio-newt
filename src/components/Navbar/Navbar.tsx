@@ -72,12 +72,9 @@ export const Navbar = () => {
             </Link>
           </PseudoElement>
         </LinksContainer>
-        <Button
-          text={`CONTACT`}
-          href={'#'}
-          size={'md'}
-          style={responsiveButton}
-        />
+        <Link to='/contact'>
+          <Button text={`CONTACT`} size={'md'} style={responsiveButton} />
+        </Link>
       </NavbarContainer>
     </>
   )
