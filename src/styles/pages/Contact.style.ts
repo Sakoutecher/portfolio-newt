@@ -2,7 +2,7 @@
 import styled from 'styled-components'
 
 //Variables
-import { colors, bigLetters, fonts } from '../../config/variables'
+import { colors, bigLetters, fonts, mediaSize } from '../../config/variables'
 
 export const ContactContainer = styled.div`
   width: 85vw;
@@ -22,6 +22,10 @@ export const ContactTitle = styled.h4`
   text-transform: uppercase;
   letter-spacing: 0.2em;
   margin-top: 0.8em;
+
+  @media ${mediaSize.phone} {
+    font-size: ${bigLetters.xxs};
+  }
 `
 
 export const SplitContainer = styled.div`
@@ -29,6 +33,10 @@ export const SplitContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media ${mediaSize.phone} {
+    flex-direction: column;
+  }
 `
 
 export const LeftContainer = styled.form`
@@ -39,6 +47,11 @@ export const LeftContainer = styled.form`
   alifn-items: center;
   flex-direction: column;
   gap: 2em;
+
+  @media ${mediaSize.phone} {
+    width: 100%;
+    gap: 1.8em;
+  }
 `
 
 export const InputContainerInline = styled.div`
@@ -46,14 +59,27 @@ export const InputContainerInline = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media ${mediaSize.phone} {
+    flex-direction: column;
+    gap: 1.8em;
+  }
 `
 
 export const InputLeft = styled.div`
   width: 48%;
+
+  @media ${mediaSize.phone} {
+    width: 100%;
+  }
 `
 
 export const InputRight = styled.div`
   width: 48%;
+
+  @media ${mediaSize.phone} {
+    width: 100%;
+  }
 `
 
 export const SubmitContainer = styled.div`
@@ -70,4 +96,8 @@ export const RightContainer = styled.div`
   justify-content: center;
   align-items: center;
   position: relative;
+
+  @media ${mediaSize.phone} {
+    display: none;
+  }
 `
