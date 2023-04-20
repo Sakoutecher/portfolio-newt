@@ -1,11 +1,13 @@
 //Librairies
 import React, { useRef, useEffect } from 'react'
+import { useLocation } from 'react-router-dom'
 
 //Styles
 import { StickersContainer, InnerCircle } from './Stickers.style'
 
 export const Stickers = () => {
   const stickerRef = useRef<HTMLDivElement>(null)
+  const location = useLocation()
 
   useEffect(() => {
     window.addEventListener('mousemove', (e) => {
@@ -18,7 +20,7 @@ export const Stickers = () => {
   }, [])
 
   return (
-    <StickersContainer ref={stickerRef}>
+    <StickersContainer ref={stickerRef} location={location.pathname}>
       <svg
         viewBox='0 0 100 100'
         width='105%'
