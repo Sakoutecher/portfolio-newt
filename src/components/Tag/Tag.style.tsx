@@ -26,7 +26,7 @@ export const GlobalTag = styled.a<GlobalTag>`
   justify-content: center;
   align-items: center;
   transition: all 0.5s ease;
-  z-index: 90;
+  z-index: 49;
   background-color: ${(props) =>
     props.main === true ? colors.primary : colors.projectTag};
 `
