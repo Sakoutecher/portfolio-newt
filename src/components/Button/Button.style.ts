@@ -9,7 +9,7 @@ type GlobalButton = {
   active?: boolean
 }
 
-export const GlobalButton = styled.a<GlobalButton>`
+export const GlobalButton = styled.button<GlobalButton>`
   font-family: ${fonts.OTR};
   color: ${(props) =>
     props.active === true ? colors.secondary : colors.primary};
