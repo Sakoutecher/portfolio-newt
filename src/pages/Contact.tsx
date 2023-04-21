@@ -54,7 +54,6 @@ export const Contact = () => {
           toggleToast()
           setStatus('erreur')
           setMessage(`Erreur lors de l'envoie du mail. ${error}`)
-          setClear(true)
         }
       )
   }
