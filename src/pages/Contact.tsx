@@ -34,7 +34,8 @@ export const Contact = () => {
   const [message, setMessage] = useState<string>('')
   const [clear, setClear] = useState<boolean>(false)
 
-  const sendEmail = () => {
+  const sendEmail = (e: React.MouseEvent<HTMLButtonElement>) => {
+    e.preventDefault
     if (formRef.current === null) return
     emailjs
       .sendForm(
@@ -109,7 +110,9 @@ export const Contact = () => {
               size='md'
               text='ENVOYER'
               active={true}
-              onclick={sendEmail}
+              onclick={(e: React.MouseEvent<HTMLButtonElement>) => {
+                sendEmail(e)
+              }}
             />
           </SubmitContainer>
         </LeftContainer>

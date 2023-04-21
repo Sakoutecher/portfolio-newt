@@ -10,7 +10,7 @@ export type ButtonProps = {
   size: 's' | 'md' | 'lg'
   style?: object
   active?: boolean
-  onclick?: () => void
+  onclick?: (e: React.MouseEvent<HTMLButtonElement>) => void
 }
 
 export const Button: FC<ButtonProps> = ({
