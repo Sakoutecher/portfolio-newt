@@ -1,5 +1,5 @@
 //Librairies
-import React, { FC, useState } from 'react'
+import React, { FC, useState, useRef } from 'react'
 
 //Styles
 import { TextAreaContainer, TextAreaElement } from './TextArea.style'
@@ -12,12 +12,18 @@ export type TextAreaProps = {
 
 export const TextArea: FC<TextAreaProps> = ({ placeholder, name, id }) => {
   const [isFocused, setIsFocused] = useState(false)
+  const textAreaRef = useRef<HTMLTextAreaElement>(null)
 
   const handleFocus = () => {
     setIsFocused(true)
   }
 
   const handleBlur = () => {
+    if (!textAreaRef.current) return
+    if (textAreaRef.current.value !== '') {
+      setIsFocused(true)
+      return
+    }
     setIsFocused(false)
   }
 
@@ -29,6 +35,7 @@ export const TextArea: FC<TextAreaProps> = ({ placeholder, name, id }) => {
         onBlur={handleBlur}
         name={name}
         id={id}
+        ref={textAreaRef}
       />
     </TextAreaContainer>
   )
