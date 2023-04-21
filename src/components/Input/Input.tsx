@@ -9,9 +9,16 @@ export type InputProps = {
   type: 'password' | 'text' | 'email'
   id?: string
   placeholder: string
+  autocomplete?: boolean
 }
 
-export const Input: FC<InputProps> = ({ name, type, id, placeholder }) => {
+export const Input: FC<InputProps> = ({
+  name,
+  type,
+  id,
+  placeholder,
+  autocomplete,
+}) => {
   const [isFocused, setIsFocused] = useState(false)
   const inputRef = useRef<HTMLInputElement>(null)
 
@@ -39,6 +46,7 @@ export const Input: FC<InputProps> = ({ name, type, id, placeholder }) => {
         type={type}
         id={id}
         ref={inputRef}
+        autoComplete={autocomplete ? 'on' : 'off'}
       />
     </InputContainer>
   )

@@ -50,21 +50,37 @@ export const Contact = () => {
         <LeftContainer ref={formRef}>
           <InputContainerInline>
             <InputLeft>
-              <Input type={'text'} placeholder={'NOM'} name={'nom'} />
+              <Input
+                type={'text'}
+                placeholder={'NOM'}
+                name={'nom'}
+                autocomplete={false}
+              />
             </InputLeft>
             <InputRight>
-              <Input type={'email'} placeholder={'EMAIL'} name={'email'} />
+              <Input
+                type={'email'}
+                placeholder={'EMAIL'}
+                name={'email'}
+                autocomplete={false}
+              />
             </InputRight>
           </InputContainerInline>
           <InputContainerInline>
             <InputLeft>
-              <Input type={'text'} placeholder={'OBJET'} name={'objet'} />
+              <Input
+                type={'text'}
+                placeholder={'OBJET'}
+                name={'objet'}
+                autocomplete={false}
+              />
             </InputLeft>
             <InputRight>
               <Input
                 type={'text'}
                 placeholder={'TELEPHONE'}
                 name={'telephone'}
+                autocomplete={false}
               />
             </InputRight>
           </InputContainerInline>
