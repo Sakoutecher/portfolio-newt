@@ -11,7 +11,7 @@ import { FaWindowClose } from 'react-icons/fa'
 //Variables
 import { colors } from '../../config/variables'
 
-type ToastProps = {
+export type ToastProps = {
   type: 'success' | 'erreur'
   message: string
   active: boolean
