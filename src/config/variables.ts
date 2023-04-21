@@ -9,6 +9,8 @@ export const colors = {
   primary: '#212121',
   secondary: '#dddddd',
   projectTag: '#7A97DD',
+  success: '#5bf698',
+  error: '#f84141',
 }
 
 /**Font Size */
