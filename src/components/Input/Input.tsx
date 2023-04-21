@@ -1,5 +1,5 @@
 //Librairies
-import React, { FC, useState } from 'react'
+import React, { FC, useState, useRef } from 'react'
 
 //Styles
 import { InputContainer, InputElement } from './Input.style'
@@ -13,13 +13,20 @@ export type InputProps = {
 
 export const Input: FC<InputProps> = ({ name, type, id, placeholder }) => {
   const [isFocused, setIsFocused] = useState(false)
+  const inputRef = useRef<HTMLInputElement>(null)
 
   const handleFocus = () => {
     setIsFocused(true)
   }
 
   const handleBlur = () => {
-    setIsFocused(false)
+    if (!inputRef.current) return
+    if (inputRef.current.value !== '') {
+      setIsFocused(true)
+      return
+    } else {
+      setIsFocused(false)
+    }
   }
 
   return (
@@ -31,6 +38,7 @@ export const Input: FC<InputProps> = ({ name, type, id, placeholder }) => {
         name={name}
         type={type}
         id={id}
+        ref={inputRef}
       />
     </InputContainer>
   )
