@@ -2,7 +2,7 @@
 import styled from 'styled-components'
 
 //Variables
-import { colors, fontSize, fonts } from '../../config/variables'
+import { colors, fontSize, fonts, mediaSize } from '../../config/variables'
 
 type ToastContainer = {
   type: 'success' | 'erreur'
@@ -35,6 +35,10 @@ export const ToastContainer = styled.div<ToastContainer>`
   align-items: flex-start;
   gap: 0.5em;
   backdrop-filter: blur(5px);
+
+  @media ${mediaSize.phone} {
+    width: 75%;
+  }
 `
 
 export const TitleType = styled.h5<TitleType>`
