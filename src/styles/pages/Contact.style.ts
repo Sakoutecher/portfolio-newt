@@ -122,7 +122,7 @@ export const Button = styled.button`
   align-items: center;
   line-height: 1.1;
   transition: all 0.5s ease;
-  z-index: 90;
+  z-index: 49;
   background-color: ${colors.primary};
 }
 
