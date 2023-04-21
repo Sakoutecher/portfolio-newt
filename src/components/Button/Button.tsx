@@ -14,7 +14,6 @@ export type ButtonProps = {
 }
 
 export const Button: FC<ButtonProps> = ({
-  href,
   text,
   size,
   style,
@@ -26,7 +25,6 @@ export const Button: FC<ButtonProps> = ({
       data-cursor
       style={style}
       size={size}
-      href={href}
       onClick={onclick}
       active={active}
     >
