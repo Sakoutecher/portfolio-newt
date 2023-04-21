@@ -9,6 +9,7 @@ import { About } from '../../pages/About'
 import { Projects } from '../../pages/Projects'
 import { OneProject } from '../../pages/OneProject'
 import { Contact } from '../../pages/Contact'
+import { NotFound } from '../../pages/NotFound'
 
 export const AnimatedRoutes = () => {
   return (
@@ -19,6 +20,7 @@ export const AnimatedRoutes = () => {
         <Route path={'/projects'} element={<Projects />} />
         <Route path={'/one-project/:id'} element={<OneProject />} />
         <Route path={'/contact'} element={<Contact />} />
+        <Route path={'*'} element={<NotFound />} />
       </Routes>
     </AnimatePresence>
   )
