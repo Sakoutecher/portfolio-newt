@@ -1,19 +1,45 @@
 //Librairies
 import React, { FC } from 'react'
 import { Link } from 'react-router-dom'
+import { motion } from 'framer-motion'
 
 //Styles
-import { MenuResponsiveContainer } from './ResponsiveMenu.style'
+import { MenuResponsiveContainer, LinkContainer } from './ResponsiveMenu.style'
+
+//Components
+import { Button } from '../Button'
 
 type ResponsiveMenuProps = {
   active: boolean
 }
 
 export const ResponsiveMenu: FC<ResponsiveMenuProps> = ({ active }) => {
+  const variants = {
+    open: { y: '-50%', x: '-50%' },
+    closed: { y: '-50%', x: '-150%' },
+  }
+
   return (
-    <MenuResponsiveContainer active={active}>
-      <Link to='/about'>About</Link>
-      <Link to='/projects'>Projects</Link>
+    <MenuResponsiveContainer
+      as={motion.div}
+      variants={variants}
+      animate={active ? 'open' : 'closed'}
+      transition={{
+        ease: 'anticipate',
+        duration: 1,
+      }}
+    >
+      <LinkContainer>
+        <Link to='/'>
+          <Button size={'md'} text={'ACCUEIL'} active={true} />
+        </Link>
+        <Link to='/about'>
+          <Button size={'md'} text={'A PROPOS'} active={true} />
+        </Link>
+        <Link to='/projects'>
+          <Button size={'md'} text={'PROJETS'} active={true} />
+        </Link>
+      </LinkContainer>
     </MenuResponsiveContainer>
   )
 }

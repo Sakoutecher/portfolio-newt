@@ -32,7 +32,7 @@ export const Navbar = () => {
 
   if (window.matchMedia('(max-width: 576px)').matches) {
     responsiveButton = {}
-    responsiveMenuBar = {}
+    responsiveMenuBar = { zIndex: 50 }
   } else {
     responsiveButton = {
       position: 'absolute',
