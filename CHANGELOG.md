@@ -5,6 +5,10 @@
 
 ### Added
 
+- ✨ add notfound page [[0b221a7](https://github.com/Sakoutecher/portfolio-newt/commit/0b221a7331b78dcc4213760d1fe376c9c927ac73)]
+- ✨ add notfound page [[3b74893](https://github.com/Sakoutecher/portfolio-newt/commit/3b7489386269f583693fbcb6c9f4e6e9b75c3326)]
+- ✨ add stickersnotfound component [[fc1c539](https://github.com/Sakoutecher/portfolio-newt/commit/fc1c539202302efb2162ae337c280957d5afabb3)]
+- 🔊 update logs [[1eb90e6](https://github.com/Sakoutecher/portfolio-newt/commit/1eb90e65c2141e92cd4112980800964d600c327c)]
 - ✨ menu hide on click [[257d151](https://github.com/Sakoutecher/portfolio-newt/commit/257d1517e5015342ac33e3b75f695c244a36c202)]
 - ✨ link to contact page [[64bb178](https://github.com/Sakoutecher/portfolio-newt/commit/64bb1784be5768898a3866c7ccb9cc3fe10cc964)]
 - ✅ update input test [[02b232f](https://github.com/Sakoutecher/portfolio-newt/commit/02b232f792e0372b3bc0e07c14b6fd284fca39c2)]
@@ -93,6 +97,8 @@
 
 ### Changed
 
+- 📱 responsive phone not found page [[4245ecd](https://github.com/Sakoutecher/portfolio-newt/commit/4245ecd9c10dab90f917bf7dddf092faa8dc9945)]
+- 📱 responsive phone [[a96ec8b](https://github.com/Sakoutecher/portfolio-newt/commit/a96ec8b2da57894470819e655e24f6a600b05dbd)]
 - 💄 z-index [[826b503](https://github.com/Sakoutecher/portfolio-newt/commit/826b50327935c582d443648139a946588919f3fd)]
 - 💄 z-index [[1c7f2e0](https://github.com/Sakoutecher/portfolio-newt/commit/1c7f2e0a3a4c2563dde27ab5f0a0b4e2909406a3)]
 - 📱 responsive phone [[b81b2a8](https://github.com/Sakoutecher/portfolio-newt/commit/b81b2a83bc9e85c22c746bb726728bbb13db2929)]
@@ -213,6 +219,7 @@
 
 ### Fixed
 
+- 🐛 show the responsive menu on reload [[318eafe](https://github.com/Sakoutecher/portfolio-newt/commit/318eafe40ba27d203ee4cb65bf76c5def97935e7)]
 - 🐛 label on the text not lisible [[8e922f6](https://github.com/Sakoutecher/portfolio-newt/commit/8e922f63d29261ebcf12e92e3f35ffb409826657)]
 - 🐛 label on the text not lisible [[2eaf96d](https://github.com/Sakoutecher/portfolio-newt/commit/2eaf96d5785b63f01d105c90d0d5a8cb2ea353b6)]
 - 🐛 a in a console error [[01c490d](https://github.com/Sakoutecher/portfolio-newt/commit/01c490da4a93baaca7680bc404d2f7206f66f87c)]
