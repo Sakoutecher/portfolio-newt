@@ -15,8 +15,8 @@ type ResponsiveMenuProps = {
 
 export const ResponsiveMenu: FC<ResponsiveMenuProps> = ({ active }) => {
   const variants = {
-    open: { y: '-50%', x: '-50%' },
-    closed: { y: '-50%', x: '-150%' },
+    open: { y: '0%', x: '100%' },
+    closed: { y: '0%', x: '-100%' },
   }
 
   return (
@@ -26,7 +26,7 @@ export const ResponsiveMenu: FC<ResponsiveMenuProps> = ({ active }) => {
       animate={active ? 'open' : 'closed'}
       transition={{
         ease: 'anticipate',
-        duration: 1,
+        duration: 0.8,
       }}
     >
       <LinkContainer>
