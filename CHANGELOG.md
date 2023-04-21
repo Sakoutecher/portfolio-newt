@@ -5,6 +5,10 @@
 
 ### Added
 
+- ✨ menu hide on click [[257d151](https://github.com/Sakoutecher/portfolio-newt/commit/257d1517e5015342ac33e3b75f695c244a36c202)]
+- ✨ link to contact page [[64bb178](https://github.com/Sakoutecher/portfolio-newt/commit/64bb1784be5768898a3866c7ccb9cc3fe10cc964)]
+- ✅ update input test [[02b232f](https://github.com/Sakoutecher/portfolio-newt/commit/02b232f792e0372b3bc0e07c14b6fd284fca39c2)]
+- 🔊 update logs [[f638b3e](https://github.com/Sakoutecher/portfolio-newt/commit/f638b3eca2fac9bc2abbc1b2aa035820dc499453)]
 - ✅ toast test [[93ffa92](https://github.com/Sakoutecher/portfolio-newt/commit/93ffa922396788c54faaf1c1674b7fb4dc6a31f8)]
 - ✨ clear form onsubmit [[9c7c811](https://github.com/Sakoutecher/portfolio-newt/commit/9c7c8118b67d04f6066df8c0d77317807302f133)]
 - ✨ toast when mail submit [[b24e44e](https://github.com/Sakoutecher/portfolio-newt/commit/b24e44eb28bffdec7dbc796587ea224c314eabb8)]
@@ -89,6 +93,17 @@
 
 ### Changed
 
+- 💄 z-index [[826b503](https://github.com/Sakoutecher/portfolio-newt/commit/826b50327935c582d443648139a946588919f3fd)]
+- 💄 z-index [[1c7f2e0](https://github.com/Sakoutecher/portfolio-newt/commit/1c7f2e0a3a4c2563dde27ab5f0a0b4e2909406a3)]
+- 📱 responsive phone [[b81b2a8](https://github.com/Sakoutecher/portfolio-newt/commit/b81b2a83bc9e85c22c746bb726728bbb13db2929)]
+- 💄 placement [[c16a521](https://github.com/Sakoutecher/portfolio-newt/commit/c16a5211d216ad28223e0738b048372d7d21dc55)]
+- 💄 z-index [[1084a96](https://github.com/Sakoutecher/portfolio-newt/commit/1084a966d8cb2d45668a12eabac35a11dc999b31)]
+- 💄 responsive menu [[7e5a949](https://github.com/Sakoutecher/portfolio-newt/commit/7e5a9492fcc9b21133d352b9023fae9923bd9cf2)]
+- ♻️ refractor logic [[39e4238](https://github.com/Sakoutecher/portfolio-newt/commit/39e4238258c2e7ad4dd37f11595f64ee890b6ab8)]
+- ♻️ refractor preventDefault [[d258b9e](https://github.com/Sakoutecher/portfolio-newt/commit/d258b9e2dcf8b232ffc19ca1e3c9af53f61d765a)]
+- ⚡ preventDefault [[ef7b2da](https://github.com/Sakoutecher/portfolio-newt/commit/ef7b2dae1930bc5cdf5e670fa0787062b23251ca)]
+- ⚡ favicon [[125fcc5](https://github.com/Sakoutecher/portfolio-newt/commit/125fcc56648a5324d49a3345b561692e001b2208)]
+- ♻️ a to button [[508b4d4](https://github.com/Sakoutecher/portfolio-newt/commit/508b4d431edc114fc0c53e2772e0aaa1cc8682c1)]
 - 🔧 new colors [[ac726bd](https://github.com/Sakoutecher/portfolio-newt/commit/ac726bd1c321fe838425d4bff97b5f4e08fd9613)]
 - ♻️ remove autocomplete [[1ea75f8](https://github.com/Sakoutecher/portfolio-newt/commit/1ea75f8002ae394541ad534cc61a29c420a4ad09)]
 - 📱 responsive phone contact page [[4afa796](https://github.com/Sakoutecher/portfolio-newt/commit/4afa796d3f1185a92aed962cb2a69071320169c6)]
@@ -187,6 +202,7 @@
 
 ### Removed
 
+- 🔥 remove href [[d1c8e74](https://github.com/Sakoutecher/portfolio-newt/commit/d1c8e7433c9531906effb5a8b55f6b33c28e9d83)]
 - 🔥 dont clear when error [[2cb3d93](https://github.com/Sakoutecher/portfolio-newt/commit/2cb3d9378859964cd5b3d745a39720ff8a97714f)]
 - 🔥 gyro stickers not working [[d7388e3](https://github.com/Sakoutecher/portfolio-newt/commit/d7388e342e9c091b94cfaa9a408fe8cdecbc5282)]
 - 🔥 old logic for rendu final [[0eb6a3e](https://github.com/Sakoutecher/portfolio-newt/commit/0eb6a3eebff3247810e66097b9215f63372df913)]
