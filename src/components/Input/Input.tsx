@@ -4,6 +4,9 @@ import React, { FC, useState, useRef, useEffect } from 'react'
 //Styles
 import { InputContainer, InputElement } from './Input.style'
 
+//Utils
+import { isEmailValid, isPhoneNumberValid } from '../../utils/formVerif'
+
 export type InputProps = {
   name?: string
   type: 'password' | 'text' | 'email'
@@ -22,6 +25,7 @@ export const Input: FC<InputProps> = ({
   clear,
 }) => {
   const [isFocused, setIsFocused] = useState(false)
+  const [valid, setValid] = useState<boolean>(true)
   const inputRef = useRef<HTMLInputElement>(null)
 
   const handleFocus = () => {
@@ -46,6 +50,24 @@ export const Input: FC<InputProps> = ({
     }
   }, [clear])
 
+  const verifyContent = () => {
+    if (!inputRef.current) return
+    if (name === 'email') {
+      if (!isEmailValid(inputRef.current.value)) {
+        setValid(false)
+      } else {
+        setValid(true)
+      }
+    }
+    if (name === 'telephone') {
+      if (!isPhoneNumberValid(inputRef.current.value)) {
+        setValid(false)
+      } else {
+        setValid(true)
+      }
+    }
+  }
+
   return (
     <InputContainer focused={isFocused} placeholder={placeholder}>
       <InputElement
@@ -57,6 +79,9 @@ export const Input: FC<InputProps> = ({
         id={id}
         ref={inputRef}
         autoComplete={autocomplete ? 'on' : 'off'}
+        required
+        onInput={verifyContent}
+        valid={valid}
       />
     </InputContainer>
   )

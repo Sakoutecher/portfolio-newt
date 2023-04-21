@@ -9,6 +9,10 @@ type InputContainer = {
   placeholder: string
 }
 
+type InputElement = {
+  valid: boolean
+}
+
 export const InputContainer = styled.div<InputContainer>`
   width: 100%;
   position: relative;
@@ -27,11 +31,12 @@ export const InputContainer = styled.div<InputContainer>`
   }
 `
 
-export const InputElement = styled.input`
+export const InputElement = styled.input<InputElement>`
   width: 100%;
   border: none;
   background-color: transparent;
-  border-bottom: 2px solid ${colors.primary};
+  border-bottom: 2px solid ${(props) =>
+    props.valid ? colors.primary : colors.error}};
   padding: 0.8em 0;
   color: ${colors.primary};
   font-size: ${fontSize.md};
