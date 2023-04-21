@@ -1,10 +1,16 @@
 # Changelog
 
 <a name="0.0.0"></a>
-## 0.0.0 (2023-04-20)
+## 0.0.0 (2023-04-21)
 
 ### Added
 
+- ✅ toast test [[93ffa92](https://github.com/Sakoutecher/portfolio-newt/commit/93ffa922396788c54faaf1c1674b7fb4dc6a31f8)]
+- ✨ clear form onsubmit [[9c7c811](https://github.com/Sakoutecher/portfolio-newt/commit/9c7c8118b67d04f6066df8c0d77317807302f133)]
+- ✨ toast when mail submit [[b24e44e](https://github.com/Sakoutecher/portfolio-newt/commit/b24e44eb28bffdec7dbc796587ea224c314eabb8)]
+- ✨ add toast component [[423d0e4](https://github.com/Sakoutecher/portfolio-newt/commit/423d0e437db1de9256f4f08111a0b0479f74d102)]
+- ✨ useToast [[5361a46](https://github.com/Sakoutecher/portfolio-newt/commit/5361a460baaf3ca9dcb5d7dda151f3a71d39acde)]
+- 🔊 update logs [[431d47c](https://github.com/Sakoutecher/portfolio-newt/commit/431d47c56bc14c35dc1068e027399ff9f94f360b)]
 - ✨ send email [[47cb45c](https://github.com/Sakoutecher/portfolio-newt/commit/47cb45cee9f377ad0744057dccb2c8f56ba6ea4f)]
 - ➕ emailjs [[579c671](https://github.com/Sakoutecher/portfolio-newt/commit/579c67126c5faf634fffd48b0318ed3be3b2a100)]
 - ➕ react-mailer nodemailer [[99dc2ff](https://github.com/Sakoutecher/portfolio-newt/commit/99dc2ff3cc2f7d8486d4ecdd5b4415f43fbdcab0)]
@@ -83,6 +89,8 @@
 
 ### Changed
 
+- 🔧 new colors [[ac726bd](https://github.com/Sakoutecher/portfolio-newt/commit/ac726bd1c321fe838425d4bff97b5f4e08fd9613)]
+- ♻️ remove autocomplete [[1ea75f8](https://github.com/Sakoutecher/portfolio-newt/commit/1ea75f8002ae394541ad534cc61a29c420a4ad09)]
 - 📱 responsive phone contact page [[4afa796](https://github.com/Sakoutecher/portfolio-newt/commit/4afa796d3f1185a92aed962cb2a69071320169c6)]
 - ♻️ position when path is contact [[c3f5556](https://github.com/Sakoutecher/portfolio-newt/commit/c3f5556ae9495b8dce2417c0f88adf323ba61f4f)]
 - 💄 remove swicth color [[6c9d895](https://github.com/Sakoutecher/portfolio-newt/commit/6c9d89545dc62fef7f8686600a20a876ad65a86a)]
@@ -179,6 +187,7 @@
 
 ### Removed
 
+- 🔥 dont clear when error [[2cb3d93](https://github.com/Sakoutecher/portfolio-newt/commit/2cb3d9378859964cd5b3d745a39720ff8a97714f)]
 - 🔥 gyro stickers not working [[d7388e3](https://github.com/Sakoutecher/portfolio-newt/commit/d7388e342e9c091b94cfaa9a408fe8cdecbc5282)]
 - 🔥 old logic for rendu final [[0eb6a3e](https://github.com/Sakoutecher/portfolio-newt/commit/0eb6a3eebff3247810e66097b9215f63372df913)]
 - 🔥 remove strict mode [[9a27867](https://github.com/Sakoutecher/portfolio-newt/commit/9a278672afe4f8e6bc53143cadc0e73c2660d2ec)]
@@ -188,6 +197,9 @@
 
 ### Fixed
 
+- 🐛 label on the text not lisible [[8e922f6](https://github.com/Sakoutecher/portfolio-newt/commit/8e922f63d29261ebcf12e92e3f35ffb409826657)]
+- 🐛 label on the text not lisible [[2eaf96d](https://github.com/Sakoutecher/portfolio-newt/commit/2eaf96d5785b63f01d105c90d0d5a8cb2ea353b6)]
+- 🐛 a in a console error [[01c490d](https://github.com/Sakoutecher/portfolio-newt/commit/01c490da4a93baaca7680bc404d2f7206f66f87c)]
 - 🐛 center cursor with user cursor [[6d15ef0](https://github.com/Sakoutecher/portfolio-newt/commit/6d15ef04c33a3f190db56602bfd964af0405bbbe)]
 - 🐛 resolve path [[905545a](https://github.com/Sakoutecher/portfolio-newt/commit/905545a597c2aa6a70683a5aee72b7ae05cce39d)]
 - 🐛 auto height responsive [[bf060f1](https://github.com/Sakoutecher/portfolio-newt/commit/bf060f1c0a07cb4a14a5afe6623951e3454d2430)]
@@ -205,6 +217,8 @@
 
 ### Miscellaneous
 
+- 🦺 form validations [[97d50c1](https://github.com/Sakoutecher/portfolio-newt/commit/97d50c1e4d7ecd948012395818a984e251842854)]
+- 📝 .env.example [[53526b2](https://github.com/Sakoutecher/portfolio-newt/commit/53526b22e621ee5f57e536a3e6153383d41e1784)]
 - 🙈 update gitignore [[354fd06](https://github.com/Sakoutecher/portfolio-newt/commit/354fd061ea4f774369b73890f50f10351436ad5e)]
 - 🧑‍💻 data-testid [[ba75f8e](https://github.com/Sakoutecher/portfolio-newt/commit/ba75f8ed0eaabccc1a7264ddcc3bafaae257f9a3)]
 - 🏷️ rename props types [[1b0d350](https://github.com/Sakoutecher/portfolio-newt/commit/1b0d350c20b1d3e532a180ab04933a27da25a64d)]
