@@ -29,7 +29,7 @@ export const GlobalButton = styled.button<GlobalButton>`
   align-items: center;
   line-height: 1.1;
   transition: all 0.5s ease;
-  z-index: 90;
+  z-index: 49;
   background-color: ${(props) =>
     props.active === true ? colors.primary : 'transparent'};
 }
