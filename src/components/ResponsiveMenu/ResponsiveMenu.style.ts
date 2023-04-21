@@ -24,7 +24,7 @@ export const LinkContainer = styled.div`
   height: 15%;
   width: 35%;
   position: absolute;
-  top: 75px;
+  top: 13%;
   left: 32px;
   display: flex;
   flex-direction: column;
