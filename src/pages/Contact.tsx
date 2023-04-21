@@ -1,5 +1,5 @@
 //Librairies
-import React, { useRef, useState } from 'react'
+import React, { FormEvent, useRef, useState } from 'react'
 import emailjs from '@emailjs/browser'
 
 //Styles
@@ -13,12 +13,12 @@ import {
   InputLeft,
   InputRight,
   SubmitContainer,
+  Button,
 } from '../styles/pages/Contact.style'
 
 //Components
 import { Input } from '../components/Input'
 import { TextArea } from '../components/TextArea'
-import { Button } from '../components/Button'
 import { Stickers } from '../components/Stickers'
 import { Toast } from '../components/Toast'
 
@@ -34,8 +34,8 @@ export const Contact = () => {
   const [message, setMessage] = useState<string>('')
   const [clear, setClear] = useState<boolean>(false)
 
-  const sendEmail = (e: React.MouseEvent<HTMLButtonElement>) => {
-    e.preventDefault
+  const sendEmail = (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault()
     if (formRef.current === null) return
     emailjs
       .sendForm(
@@ -63,7 +63,12 @@ export const Contact = () => {
     <ContactContainer>
       <ContactTitle>CONTACT</ContactTitle>
       <SplitContainer>
-        <LeftContainer ref={formRef}>
+        <LeftContainer
+          ref={formRef}
+          onSubmit={(event) => {
+            sendEmail(event)
+          }}
+        >
           <InputContainerInline>
             <InputLeft>
               <Input
@@ -106,14 +111,7 @@ export const Contact = () => {
           </InputContainerInline>
           <TextArea placeholder={'MESSAGE'} name={'message'} clear={clear} />
           <SubmitContainer>
-            <Button
-              size='md'
-              text='ENVOYER'
-              active={true}
-              onclick={(e: React.MouseEvent<HTMLButtonElement>) => {
-                sendEmail(e)
-              }}
-            />
+            <Button>ENVOYER</Button>
           </SubmitContainer>
         </LeftContainer>
         <RightContainer>

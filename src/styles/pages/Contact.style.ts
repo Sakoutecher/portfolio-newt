@@ -2,7 +2,13 @@
 import styled from 'styled-components'
 
 //Variables
-import { colors, bigLetters, fonts, mediaSize } from '../../config/variables'
+import {
+  colors,
+  bigLetters,
+  fonts,
+  mediaSize,
+  fontSize,
+} from '../../config/variables'
 
 export const ContactContainer = styled.div`
   width: 85vw;
@@ -99,5 +105,29 @@ export const RightContainer = styled.div`
 
   @media ${mediaSize.phone} {
     display: none;
+  }
+`
+
+export const Button = styled.button`
+  font-family: ${fonts.OTR};
+  color: ${colors.secondary};
+  font-size: ${fontSize.md};
+  text-transform: uppercase;
+  border: 1px solid ${colors.primary};
+  border-radius: 15px;
+  padding: 0.1em 1.1em;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.1;
+  transition: all 0.5s ease;
+  z-index: 90;
+  background-color: ${colors.primary};
+}
+
+  &:hover {
+    color: ${colors.secondary};
+    background-color: ${colors.primary};
   }
 `
