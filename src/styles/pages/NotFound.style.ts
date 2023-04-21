@@ -2,7 +2,7 @@
 import styled from 'styled-components'
 
 //Variables
-import { colors, fonts, bigLetters } from '../../config/variables'
+import { colors, fonts, bigLetters, mediaSize } from '../../config/variables'
 
 export const NotFoundContainer = styled.div`
   width: 85vw;
@@ -15,7 +15,7 @@ export const NotFoundContainer = styled.div`
 
 export const TextContainer = styled.div`
   display: flex;
-  jsutify-content: center;
+  justify-content: center;
   align-items: flex-start;
   flex-direction: column;
   position: relative;
@@ -26,4 +26,8 @@ export const NotFoundText = styled.h3`
   color: ${colors.primary};
   font-size: ${bigLetters.xl};
   text-transform: uppercase;
+
+  @media ${mediaSize.phone} {
+    font-size: ${bigLetters.xs};
+  }
 `
