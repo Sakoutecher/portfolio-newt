@@ -1,5 +1,5 @@
 //Librairies
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react'
 import emailjs from '@emailjs/browser'
 
 //Styles
@@ -20,9 +20,18 @@ import { Input } from '../components/Input'
 import { TextArea } from '../components/TextArea'
 import { Button } from '../components/Button'
 import { Stickers } from '../components/Stickers'
+import { Toast } from '../components/Toast'
+
+//Hooks
+import { useToast } from '../hooks/useToast'
+
+type useStateStatus = 'success' | 'erreur'
 
 export const Contact = () => {
   const formRef = useRef<HTMLFormElement>(null)
+  const { toggleToast, toast, closeToast } = useToast()
+  const [status, setStatus] = useState<useStateStatus>('success')
+  const [message, setMessage] = useState<string>('')
 
   const sendEmail = () => {
     if (formRef.current === null) return
@@ -35,10 +44,14 @@ export const Contact = () => {
       )
       .then(
         (result) => {
-          console.log(result.text)
+          toggleToast()
+          setStatus('success')
+          setMessage(`Mail envoyer avec success. ${result.text}`)
         },
         (error) => {
-          console.log(error.text)
+          toggleToast()
+          setStatus('erreur')
+          setMessage(`Erreur lors de l'envoie du mail. ${error}`)
         }
       )
   }
@@ -98,6 +111,12 @@ export const Contact = () => {
           <Stickers />
         </RightContainer>
       </SplitContainer>
+      <Toast
+        type={status}
+        message={message}
+        active={toast}
+        closeToast={closeToast}
+      />
     </ContactContainer>
   )
 }
