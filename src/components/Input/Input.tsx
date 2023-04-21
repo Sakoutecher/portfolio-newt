@@ -1,5 +1,5 @@
 //Librairies
-import React, { FC, useState, useRef } from 'react'
+import React, { FC, useState, useRef, useEffect } from 'react'
 
 //Styles
 import { InputContainer, InputElement } from './Input.style'
@@ -10,6 +10,7 @@ export type InputProps = {
   id?: string
   placeholder: string
   autocomplete?: boolean
+  clear: boolean
 }
 
 export const Input: FC<InputProps> = ({
@@ -18,6 +19,7 @@ export const Input: FC<InputProps> = ({
   id,
   placeholder,
   autocomplete,
+  clear,
 }) => {
   const [isFocused, setIsFocused] = useState(false)
   const inputRef = useRef<HTMLInputElement>(null)
@@ -35,6 +37,14 @@ export const Input: FC<InputProps> = ({
       setIsFocused(false)
     }
   }
+
+  useEffect(() => {
+    if (clear) {
+      if (inputRef.current) {
+        inputRef.current.value = ''
+      }
+    }
+  }, [clear])
 
   return (
     <InputContainer focused={isFocused} placeholder={placeholder}>

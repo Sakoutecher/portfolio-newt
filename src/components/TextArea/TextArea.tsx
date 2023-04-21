@@ -1,5 +1,5 @@
 //Librairies
-import React, { FC, useState, useRef } from 'react'
+import React, { FC, useState, useRef, useEffect } from 'react'
 
 //Styles
 import { TextAreaContainer, TextAreaElement } from './TextArea.style'
@@ -8,9 +8,15 @@ export type TextAreaProps = {
   placeholder: string
   name?: string
   id?: string
+  clear?: boolean
 }
 
-export const TextArea: FC<TextAreaProps> = ({ placeholder, name, id }) => {
+export const TextArea: FC<TextAreaProps> = ({
+  placeholder,
+  name,
+  id,
+  clear,
+}) => {
   const [isFocused, setIsFocused] = useState(false)
   const textAreaRef = useRef<HTMLTextAreaElement>(null)
 
@@ -26,6 +32,14 @@ export const TextArea: FC<TextAreaProps> = ({ placeholder, name, id }) => {
     }
     setIsFocused(false)
   }
+
+  useEffect(() => {
+    if (clear) {
+      if (textAreaRef.current) {
+        textAreaRef.current.value = ''
+      }
+    }
+  }, [clear])
 
   return (
     <TextAreaContainer focused={isFocused} placeholder={placeholder}>

@@ -32,6 +32,7 @@ export const Contact = () => {
   const { toggleToast, toast, closeToast } = useToast()
   const [status, setStatus] = useState<useStateStatus>('success')
   const [message, setMessage] = useState<string>('')
+  const [clear, setClear] = useState<boolean>(false)
 
   const sendEmail = () => {
     if (formRef.current === null) return
@@ -47,11 +48,13 @@ export const Contact = () => {
           toggleToast()
           setStatus('success')
           setMessage(`Mail envoyer avec success. ${result.text}`)
+          setClear(true)
         },
         (error) => {
           toggleToast()
           setStatus('erreur')
           setMessage(`Erreur lors de l'envoie du mail. ${error}`)
+          setClear(true)
         }
       )
   }
@@ -64,6 +67,7 @@ export const Contact = () => {
           <InputContainerInline>
             <InputLeft>
               <Input
+                clear={clear}
                 type={'text'}
                 placeholder={'NOM'}
                 name={'nom'}
@@ -72,6 +76,7 @@ export const Contact = () => {
             </InputLeft>
             <InputRight>
               <Input
+                clear={clear}
                 type={'email'}
                 placeholder={'EMAIL'}
                 name={'email'}
@@ -82,6 +87,7 @@ export const Contact = () => {
           <InputContainerInline>
             <InputLeft>
               <Input
+                clear={clear}
                 type={'text'}
                 placeholder={'OBJET'}
                 name={'objet'}
@@ -90,6 +96,7 @@ export const Contact = () => {
             </InputLeft>
             <InputRight>
               <Input
+                clear={clear}
                 type={'text'}
                 placeholder={'TELEPHONE'}
                 name={'telephone'}
@@ -97,7 +104,7 @@ export const Contact = () => {
               />
             </InputRight>
           </InputContainerInline>
-          <TextArea placeholder={'MESSAGE'} name={'message'} />
+          <TextArea placeholder={'MESSAGE'} name={'message'} clear={clear} />
           <SubmitContainer>
             <Button
               size='md'
