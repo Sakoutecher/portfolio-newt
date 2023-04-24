@@ -10,15 +10,14 @@ type TitleContainer = {
 
 export const AboutContainer = styled.main`
   width: 85vw;
-  height: 87vh;
   margin-top: 13vh;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
+  margin-bottom: 4em;
 
   @media ${mediaSize.phone} {
-    height: 143vh;
     margin-bottom: 4em;
   }
 `
