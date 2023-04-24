@@ -1,7 +1,6 @@
 //Librairies
 import React, { FC, ReactNode } from 'react'
 import { motion } from 'framer-motion'
-import { useLocation } from 'react-router-dom'
 
 type PageTransitionProps = {
   children: ReactNode
