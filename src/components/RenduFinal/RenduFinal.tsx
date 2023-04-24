@@ -32,7 +32,7 @@ export const RenduFinal: FC<RenduFinalProps> = ({ url, type, hrefButton }) => {
         </VideoContainer>
       ) : (
         <ImgContainer>
-          <Img src={url} />
+          <Img src={url} alt='Rendu final du projet' />
           <Button
             style={{ position: 'absolute', bottom: '4%', left: '4%' }}
             text={'VOIR LE PROJET'}

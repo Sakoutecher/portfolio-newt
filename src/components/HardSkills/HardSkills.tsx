@@ -15,23 +15,23 @@ export const HardSkills = () => {
   return (
     <SkillsContainer>
       <Skills>
-        <Img src={FichiersMo} />
+        <Img src={FichiersMo} alt='Logo compétence' />
         <SkillsText>MOTION DESIGN</SkillsText>
       </Skills>
       <Skills>
-        <Img src={FichiersGr} />
+        <Img src={FichiersGr} alt='Logo compétence' />
         <SkillsText>GRAPHIC DESIGN</SkillsText>
       </Skills>
       <Skills>
-        <Img src={FichiersUx} />
+        <Img src={FichiersUx} alt='Logo compétence' />
         <SkillsText>UX UI DESIGN</SkillsText>
       </Skills>
       <Skills>
-        <Img src={FichiersV} />
+        <Img src={FichiersV} alt='Logo compétence' />
         <SkillsText>VIDEO EDITING</SkillsText>
       </Skills>
       <Skills>
-        <Img src={Fichiers3d} />
+        <Img src={Fichiers3d} alt='Logo compétence' />
         <SkillsText>3D</SkillsText>
       </Skills>
     </SkillsContainer>

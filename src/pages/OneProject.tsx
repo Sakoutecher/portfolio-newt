@@ -51,7 +51,7 @@ export const OneProject = () => {
           </NavText>
         </NavRoute>
         <ImgProjectContainer>
-          <ImgProject src={projects[index].imgAccueil} />
+          <ImgProject src={projects[index].imgAccueil} alt='Photo projet' />
         </ImgProjectContainer>
         <OneProjectContainer>
           <TitleContainer>
