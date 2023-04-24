@@ -1,10 +1,11 @@
 # Changelog
 
 <a name="0.0.0"></a>
-## 0.0.0 (2023-04-21)
+## 0.0.0 (2023-04-24)
 
 ### Added
 
+- 🔊 update logs [[0ce6edc](https://github.com/Sakoutecher/portfolio-newt/commit/0ce6edca8fa39d292e00baaac0622cdb8448f83a)]
 - ✨ add notfound page [[0b221a7](https://github.com/Sakoutecher/portfolio-newt/commit/0b221a7331b78dcc4213760d1fe376c9c927ac73)]
 - ✨ add notfound page [[3b74893](https://github.com/Sakoutecher/portfolio-newt/commit/3b7489386269f583693fbcb6c9f4e6e9b75c3326)]
 - ✨ add stickersnotfound component [[fc1c539](https://github.com/Sakoutecher/portfolio-newt/commit/fc1c539202302efb2162ae337c280957d5afabb3)]
@@ -97,6 +98,10 @@
 
 ### Changed
 
+- 📱 change phone responsive [[dc2c36e](https://github.com/Sakoutecher/portfolio-newt/commit/dc2c36eab7ac7d473ad9e03b8fc27695ea31ce2a)]
+- ⚡ loading lazy [[fe17fc6](https://github.com/Sakoutecher/portfolio-newt/commit/fe17fc68da4c3c15853ecc3af9e3bcd45abc734c)]
+- ♻️ framer motion [[cb5429e](https://github.com/Sakoutecher/portfolio-newt/commit/cb5429ee0cb3df90f47667f1a24bab20e9ac6f83)]
+- ⚡ alt on img [[86cd33e](https://github.com/Sakoutecher/portfolio-newt/commit/86cd33e6e737770fccf0f68d2d333780de8d528a)]
 - 📱 responsive phone not found page [[4245ecd](https://github.com/Sakoutecher/portfolio-newt/commit/4245ecd9c10dab90f917bf7dddf092faa8dc9945)]
 - 📱 responsive phone [[a96ec8b](https://github.com/Sakoutecher/portfolio-newt/commit/a96ec8b2da57894470819e655e24f6a600b05dbd)]
 - 💄 z-index [[826b503](https://github.com/Sakoutecher/portfolio-newt/commit/826b50327935c582d443648139a946588919f3fd)]
@@ -208,6 +213,7 @@
 
 ### Removed
 
+- 🔥 import [[ce8dcf9](https://github.com/Sakoutecher/portfolio-newt/commit/ce8dcf91713d4ee314014967c1006fcf7d77e213)]
 - 🔥 remove href [[d1c8e74](https://github.com/Sakoutecher/portfolio-newt/commit/d1c8e7433c9531906effb5a8b55f6b33c28e9d83)]
 - 🔥 dont clear when error [[2cb3d93](https://github.com/Sakoutecher/portfolio-newt/commit/2cb3d9378859964cd5b3d745a39720ff8a97714f)]
 - 🔥 gyro stickers not working [[d7388e3](https://github.com/Sakoutecher/portfolio-newt/commit/d7388e342e9c091b94cfaa9a408fe8cdecbc5282)]
@@ -240,6 +246,7 @@
 
 ### Miscellaneous
 
+- 🔍 metadata [[9b7ba5f](https://github.com/Sakoutecher/portfolio-newt/commit/9b7ba5fed99f51ecf641088eebda2f49b6c1882d)]
 - 🦺 form validations [[97d50c1](https://github.com/Sakoutecher/portfolio-newt/commit/97d50c1e4d7ecd948012395818a984e251842854)]
 - 📝 .env.example [[53526b2](https://github.com/Sakoutecher/portfolio-newt/commit/53526b22e621ee5f57e536a3e6153383d41e1784)]
 - 🙈 update gitignore [[354fd06](https://github.com/Sakoutecher/portfolio-newt/commit/354fd061ea4f774369b73890f50f10351436ad5e)]
