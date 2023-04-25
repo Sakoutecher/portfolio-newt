@@ -1,4 +1,4 @@
-# Portfolio Newt
+# Portfolio Antoine Gervais / Newt
 
 <img src='preview.png'>
 
