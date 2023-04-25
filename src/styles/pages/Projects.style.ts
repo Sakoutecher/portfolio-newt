@@ -32,7 +32,7 @@ export const FilterContainer = styled.div`
 export const GridContainer = styled.div`
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 15px;
   grid-auto-rows: 400px;
   margin-bottom: 3%;
