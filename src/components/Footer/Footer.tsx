@@ -9,7 +9,11 @@ import {
   GoTop,
   LinksContainer,
   Links,
+  Credits,
 } from './Footer.style'
+
+//Variables
+import { colors } from '../../config/variables'
 
 export const Footer = () => {
   const scrollTop = () => {
@@ -21,33 +25,44 @@ export const Footer = () => {
   }
 
   return (
-    <FooterContainer>
-      <Line />
-      <ContentContainer>
-        <GoTop data-cursor onClick={scrollTop}>
-          REVENIR EN HAUT
-        </GoTop>
-        <LinksContainer>
-          <Links data-cursor href='mailto:antoinegervais.motion@outlook.fr'>
-            MAIL
-          </Links>
-          <Links data-cursor href='https://www.behance.net/antoinegvs'>
-            BEHANCE
-          </Links>
-          <Links data-cursor href='https://www.instagram.com/newwwwt_/'>
-            INSTRAGRAM
-          </Links>
-          <Links
-            data-cursor
-            href='https://www.linkedin.com/in/antoine-gervais-2475911aa/'
-          >
-            LINKEDIN
-          </Links>
-          <Links data-cursor href='https://twitter.com/newwwwt_'>
-            TWITTER
-          </Links>
-        </LinksContainer>
-      </ContentContainer>
-    </FooterContainer>
+    <>
+      <FooterContainer>
+        <Line />
+        <ContentContainer>
+          <GoTop data-cursor onClick={scrollTop}>
+            REVENIR EN HAUT
+          </GoTop>
+          <LinksContainer>
+            <Links data-cursor href='mailto:antoinegervais.motion@outlook.fr'>
+              MAIL
+            </Links>
+            <Links data-cursor href='https://www.behance.net/antoinegvs'>
+              BEHANCE
+            </Links>
+            <Links data-cursor href='https://www.instagram.com/newwwwt_/'>
+              INSTRAGRAM
+            </Links>
+            <Links
+              data-cursor
+              href='https://www.linkedin.com/in/antoine-gervais-2475911aa/'
+            >
+              LINKEDIN
+            </Links>
+            <Links data-cursor href='https://twitter.com/newwwwt_'>
+              TWITTER
+            </Links>
+          </LinksContainer>
+        </ContentContainer>
+      </FooterContainer>
+      <Credits>
+        MADE WITH ❤️ BY{' '}
+        <a
+          style={{ color: colors.primary }}
+          href='https://github.com/Sakoutecher'
+        >
+          @HCAMPOS
+        </a>
+      </Credits>
+    </>
   )
 }

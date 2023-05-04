@@ -39,7 +39,7 @@ export const GoTop = styled.button`
   background-color: transparent;
   border: none;
 
-  @media ${mediaSize} {
+  @media ${mediaSize.phone} {
     font-size: ${fontSize.xs};
   }
 `
@@ -72,4 +72,18 @@ export const Links = styled.a`
   @media ${mediaSize.phone} {
     font-size: ${fontSize.xxs};
   }
+`
+
+export const Credits = styled.p`
+  height: 4vh;
+  width: 100vw;
+  text-align: center;
+  color: ${colors.primary};
+  font-family: ${fonts.OTR};
+  font-size: ${fontSize.s};
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `
