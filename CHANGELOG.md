@@ -1,10 +1,12 @@
 # Changelog
 
 <a name="0.0.0"></a>
-## 0.0.0 (2023-04-24)
+## 0.0.0 (2023-05-04)
 
 ### Added
 
+- ✨ add rendufinalarray component [[ab66a71](https://github.com/Sakoutecher/portfolio-newt/commit/ab66a711a6e8f96aa35841952f9511535129fd7c)]
+- 🔊 update logs [[4621778](https://github.com/Sakoutecher/portfolio-newt/commit/46217787790f4108df9892243a59f754f16b8ba6)]
 - 🔊 update logs [[0ce6edc](https://github.com/Sakoutecher/portfolio-newt/commit/0ce6edca8fa39d292e00baaac0622cdb8448f83a)]
 - ✨ add notfound page [[0b221a7](https://github.com/Sakoutecher/portfolio-newt/commit/0b221a7331b78dcc4213760d1fe376c9c927ac73)]
 - ✨ add notfound page [[3b74893](https://github.com/Sakoutecher/portfolio-newt/commit/3b7489386269f583693fbcb6c9f4e6e9b75c3326)]
@@ -98,6 +100,9 @@
 
 ### Changed
 
+- ♻️ use rendufinalarray component and show when its true [[bf523f3](https://github.com/Sakoutecher/portfolio-newt/commit/bf523f3d79b1382c6f6bbf2b38e01ac29f787eae)]
+- 💬 update projects data [[20a91aa](https://github.com/Sakoutecher/portfolio-newt/commit/20a91aa86c56bf3f070a9fc4682d657e18e348a6)]
+- 💄 project card width [[c536937](https://github.com/Sakoutecher/portfolio-newt/commit/c536937951246e3489e621cdcf99faed59cb0cf1)]
 - 📱 change phone responsive [[dc2c36e](https://github.com/Sakoutecher/portfolio-newt/commit/dc2c36eab7ac7d473ad9e03b8fc27695ea31ce2a)]
 - ⚡ loading lazy [[fe17fc6](https://github.com/Sakoutecher/portfolio-newt/commit/fe17fc68da4c3c15853ecc3af9e3bcd45abc734c)]
 - ♻️ framer motion [[cb5429e](https://github.com/Sakoutecher/portfolio-newt/commit/cb5429ee0cb3df90f47667f1a24bab20e9ac6f83)]
@@ -225,6 +230,7 @@
 
 ### Fixed
 
+- 🐛 fix phone responsive grid project [[7462f2f](https://github.com/Sakoutecher/portfolio-newt/commit/7462f2f6d890f2c7563b0d75ec606b59eaa704bf)]
 - 🐛 show the responsive menu on reload [[318eafe](https://github.com/Sakoutecher/portfolio-newt/commit/318eafe40ba27d203ee4cb65bf76c5def97935e7)]
 - 🐛 label on the text not lisible [[8e922f6](https://github.com/Sakoutecher/portfolio-newt/commit/8e922f63d29261ebcf12e92e3f35ffb409826657)]
 - 🐛 label on the text not lisible [[2eaf96d](https://github.com/Sakoutecher/portfolio-newt/commit/2eaf96d5785b63f01d105c90d0d5a8cb2ea353b6)]
@@ -246,6 +252,8 @@
 
 ### Miscellaneous
 
+- 🏷️ update project types [[86ca0fd](https://github.com/Sakoutecher/portfolio-newt/commit/86ca0fd74e23f62232baa108ff67ed522b219075)]
+- 📝 change title readme [[83e1d77](https://github.com/Sakoutecher/portfolio-newt/commit/83e1d7746d89f2320d1d538c14c161b91c327cee)]
 - 🔍 metadata [[9b7ba5f](https://github.com/Sakoutecher/portfolio-newt/commit/9b7ba5fed99f51ecf641088eebda2f49b6c1882d)]
 - 🦺 form validations [[97d50c1](https://github.com/Sakoutecher/portfolio-newt/commit/97d50c1e4d7ecd948012395818a984e251842854)]
 - 📝 .env.example [[53526b2](https://github.com/Sakoutecher/portfolio-newt/commit/53526b22e621ee5f57e536a3e6153383d41e1784)]
