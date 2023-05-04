@@ -16,8 +16,11 @@ export type ProjectType = {
   role: Array<string>
   credits: Array<string>
   description: Array<DescriptionType>
-  hrefButton?: string
-  type: string
-  imagePath?: string
-  videoPath?: string
+  renduFinal: boolean
+  hrefButtonRenduFinal?: string
+  typeRenduFinal: string
+  imagePathRenduFinal?: string
+  videoPathRenduFinal?: string
+  renduFinalArray: boolean
+  renduFinalContent?: Array<Array<string>>
 }
