@@ -51,6 +51,10 @@ export const Text = styled.h1`
   @media ${mediaSize.phone} {
     font-size: ${bigLetters.xxs};
   }
+
+  @media ${mediaSize.under} {
+    font-size: ${bigLetters.xxxs};
+  }
 `
 
 export const ArrowContainer = styled.div`
