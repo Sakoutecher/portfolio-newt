@@ -8,7 +8,9 @@ import { colors, fonts, bigLetters } from '../../config/variables'
 export const TypeText = () => {
   let size = ''
 
-  if (window.matchMedia('(max-width: 576px)').matches) {
+  if (window.matchMedia('(max-width: 400px)').matches) {
+    size = bigLetters.xxxs
+  } else if (window.matchMedia('(max-width: 576px)').matches) {
     size = bigLetters.xxs
   } else {
     size = bigLetters.lg
