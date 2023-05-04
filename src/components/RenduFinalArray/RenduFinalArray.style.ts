@@ -2,7 +2,7 @@
 import styled from 'styled-components'
 
 //Variables
-import { colors, fonts, fontSize } from '../../config/variables'
+import { colors, fonts, fontSize, mediaSize } from '../../config/variables'
 
 export const RenduFinalContainer = styled.div`
   width: 100%;
@@ -35,6 +35,11 @@ export const TwoCol = styled.div`
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 1em;
+
+  @media ${mediaSize.phone} {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 1em;
+  }
 `
 
 export const ThreeCol = styled.div`
@@ -42,6 +47,11 @@ export const ThreeCol = styled.div`
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 1em;
+
+  @media ${mediaSize.phone} {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 1em;
+  }
 `
 
 export const Img = styled.img`

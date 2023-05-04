@@ -19,7 +19,13 @@ type RenduFinalArrayProps = {
 export const RenduFinalArray: FC<RenduFinalArrayProps> = ({
   renduFinalContent,
 }) => {
-  console.log(renduFinalContent)
+  let responsiveArray = {}
+
+  if (window.matchMedia('(max-width: 576px)').matches) {
+    responsiveArray = {}
+  } else {
+    responsiveArray = { gridArea: '1 / 2 / 2 / 4' }
+  }
 
   return (
     <RenduFinalContainer>
@@ -40,7 +46,7 @@ export const RenduFinalArray: FC<RenduFinalArrayProps> = ({
                 {content.map((img, index) => {
                   if (index === 1) {
                     return (
-                      <div key={uuid()} style={{ gridArea: '1 / 2 / 2 / 4' }}>
+                      <div key={uuid()} style={responsiveArray}>
                         <Img key={uuid()} src={img} />
                       </div>
                     )
