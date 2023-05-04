@@ -26,6 +26,7 @@ export const fontSize = {
 }
 
 export const bigLetters = {
+  xxxs: '2.5em',
   xxs: '3em',
   xs: '4em',
   s: '5em',
@@ -46,6 +47,7 @@ export const deviceSize = {
 }
 
 export const mediaSize = {
+  under: `(max-width: 400px)`,
   phone: `(max-width: ${deviceSize.phone})`,
   table: `(max-width: ${deviceSize.tablet})`,
   desktop: `(max-width: ${deviceSize.desktop})`,
