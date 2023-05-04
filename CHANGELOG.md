@@ -5,6 +5,7 @@
 
 ### Added
 
+- 🔊 update logs [[ce0c519](https://github.com/Sakoutecher/portfolio-newt/commit/ce0c519869f3605da0a3b64489e98acb3387ba9a)]
 - ✨ add rendufinalarray component [[ab66a71](https://github.com/Sakoutecher/portfolio-newt/commit/ab66a711a6e8f96aa35841952f9511535129fd7c)]
 - 🔊 update logs [[4621778](https://github.com/Sakoutecher/portfolio-newt/commit/46217787790f4108df9892243a59f754f16b8ba6)]
 - 🔊 update logs [[0ce6edc](https://github.com/Sakoutecher/portfolio-newt/commit/0ce6edca8fa39d292e00baaac0622cdb8448f83a)]
@@ -100,6 +101,13 @@
 
 ### Changed
 
+- 📱 responsive phone text size [[0d994a3](https://github.com/Sakoutecher/portfolio-newt/commit/0d994a319f80de47b06fd14670b5e860d07d954d)]
+- 🔧 new size for responsive [[ba5de23](https://github.com/Sakoutecher/portfolio-newt/commit/ba5de2369485c092734a7cc1b39210ff85457fb7)]
+- 📱 responsive phone typetext another media [[b34a55a](https://github.com/Sakoutecher/portfolio-newt/commit/b34a55a29c0aaebf2d15e5cc4baeee5141c5a857)]
+- 📱 responsive phone rendufinalarray [[d2a6846](https://github.com/Sakoutecher/portfolio-newt/commit/d2a6846029a98b3bc45370e2e2241d0968d3b884)]
+- 📱 responsive phone credits [[eb2183b](https://github.com/Sakoutecher/portfolio-newt/commit/eb2183b3c39634f938275b9010812b36c7e6f7fd)]
+- 💄 max-width [[b1eaf9a](https://github.com/Sakoutecher/portfolio-newt/commit/b1eaf9a98bbe84beda23a23fde64e76ad6330e98)]
+- 💄 add credits [[569a031](https://github.com/Sakoutecher/portfolio-newt/commit/569a0315faa47245299ed6c1f48a51d6351acc40)]
 - ♻️ use rendufinalarray component and show when its true [[bf523f3](https://github.com/Sakoutecher/portfolio-newt/commit/bf523f3d79b1382c6f6bbf2b38e01ac29f787eae)]
 - 💬 update projects data [[20a91aa](https://github.com/Sakoutecher/portfolio-newt/commit/20a91aa86c56bf3f070a9fc4682d657e18e348a6)]
 - 💄 project card width [[c536937](https://github.com/Sakoutecher/portfolio-newt/commit/c536937951246e3489e621cdcf99faed59cb0cf1)]
@@ -230,6 +238,7 @@
 
 ### Fixed
 
+- 🐛 hide scrollbar [[886d4b7](https://github.com/Sakoutecher/portfolio-newt/commit/886d4b7f3b50c22875c86e0373e0a2c2ab3d3d5a)]
 - 🐛 fix phone responsive grid project [[7462f2f](https://github.com/Sakoutecher/portfolio-newt/commit/7462f2f6d890f2c7563b0d75ec606b59eaa704bf)]
 - 🐛 show the responsive menu on reload [[318eafe](https://github.com/Sakoutecher/portfolio-newt/commit/318eafe40ba27d203ee4cb65bf76c5def97935e7)]
 - 🐛 label on the text not lisible [[8e922f6](https://github.com/Sakoutecher/portfolio-newt/commit/8e922f63d29261ebcf12e92e3f35ffb409826657)]
