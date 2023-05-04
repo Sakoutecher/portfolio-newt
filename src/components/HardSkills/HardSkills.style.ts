@@ -6,7 +6,7 @@ import { fonts, colors, fontSize, mediaSize } from '../../config/variables'
 
 export const SkillsContainer = styled.div`
   display: flex;
-  width: 100%;
+  max-width: 70%;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
