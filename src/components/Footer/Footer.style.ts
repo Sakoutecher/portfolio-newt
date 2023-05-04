@@ -86,4 +86,8 @@ export const Credits = styled.p`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media ${mediaSize.phone} {
+    font-size: ${fontSize.xs};
+  }
 `
