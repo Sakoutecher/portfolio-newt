@@ -21,6 +21,7 @@ import { Credits } from '../components/Credits/Credits'
 import { DescriptionProject } from '../components/DescriptionProject/DescriptionProject'
 import { RenduFinal } from '../components/RenduFinal/RenduFinal'
 import { PageTransition } from '../components/PageTransition/PageTransition'
+import { RenduFinalArray } from '../components/RenduFinalArray/RenduFinalArray'
 
 //Data
 import { projects } from '../data/projects'
@@ -73,15 +74,22 @@ export const OneProject = () => {
               </DescriptionProject>
             ))}
           </DescriptionContainer>
-          <RenduFinal
-            url={
-              projects[index].type === 'video'
-                ? projects[index].videoPath
-                : projects[index].imgPath
-            }
-            type={projects[index].type}
-            hrefButton={projects[index].hrefButton}
-          />
+          {projects[index].renduFinal && (
+            <RenduFinal
+              url={
+                projects[index].typeRenduFinal === 'video'
+                  ? projects[index].videoPathRenduFinal
+                  : projects[index].imagePathRenduFinal
+              }
+              type={projects[index].typeRenduFinal}
+              hrefButton={projects[index].hrefButtonRenduFinal}
+            />
+          )}
+          {projects[index].renduFinalArray && (
+            <RenduFinalArray
+              renduFinalContent={projects[index].renduFinalContent}
+            />
+          )}
         </OneProjectContainer>
       </PageTransition>
     </>
