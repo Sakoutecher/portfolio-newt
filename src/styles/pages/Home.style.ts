@@ -67,7 +67,7 @@ export const ArrowContainer = styled.div`
   left: 50%;
   transform: translate(-50%, -3%);
 
-  @media ${mediaSize} {
+  @media ${mediaSize.phone} {
     bottom: -12%;
   }
 `
