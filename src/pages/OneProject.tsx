@@ -30,6 +30,49 @@ export const OneProject = () => {
   const location = useLocation()
   const index = Number(location.pathname.replace('/one-project/', ''))
 
+  const renderRenduFinal = () => {
+    if (projects[index].renduFinal && projects[index].renduFinalArray) {
+      return (
+        <>
+          <RenduFinal
+            url={
+              projects[index].typeRenduFinal === 'video'
+                ? projects[index].videoPathRenduFinal
+                : projects[index].imagePathRenduFinal
+            }
+            type={projects[index].typeRenduFinal}
+            hrefButton={projects[index].hrefButtonRenduFinal}
+            showTitle={true}
+          />{' '}
+          <RenduFinalArray
+            renduFinalContent={projects[index].renduFinalContent}
+            showTitle={false}
+          />
+        </>
+      )
+    } else if (projects[index].renduFinal && !projects[index].renduFinalArray) {
+      return (
+        <RenduFinal
+          url={
+            projects[index].typeRenduFinal === 'video'
+              ? projects[index].videoPathRenduFinal
+              : projects[index].imagePathRenduFinal
+          }
+          type={projects[index].typeRenduFinal}
+          hrefButton={projects[index].hrefButtonRenduFinal}
+          showTitle={true}
+        />
+      )
+    } else if (!projects[index].renduFinal && projects[index].renduFinalArray) {
+      return (
+        <RenduFinalArray
+          renduFinalContent={projects[index].renduFinalContent}
+          showTitle={true}
+        />
+      )
+    }
+  }
+
   return (
     <>
       <PageTransition
@@ -74,22 +117,7 @@ export const OneProject = () => {
               </DescriptionProject>
             ))}
           </DescriptionContainer>
-          {projects[index].renduFinal && (
-            <RenduFinal
-              url={
-                projects[index].typeRenduFinal === 'video'
-                  ? projects[index].videoPathRenduFinal
-                  : projects[index].imagePathRenduFinal
-              }
-              type={projects[index].typeRenduFinal}
-              hrefButton={projects[index].hrefButtonRenduFinal}
-            />
-          )}
-          {projects[index].renduFinalArray && (
-            <RenduFinalArray
-              renduFinalContent={projects[index].renduFinalContent}
-            />
-          )}
+          {renderRenduFinal()}
         </OneProjectContainer>
       </PageTransition>
     </>

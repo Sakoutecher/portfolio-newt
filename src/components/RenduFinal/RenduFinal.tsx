@@ -18,12 +18,18 @@ type RenduFinalProps = {
   url: string | undefined
   type: string
   hrefButton: string | undefined
+  showTitle?: boolean
 }
 
-export const RenduFinal: FC<RenduFinalProps> = ({ url, type, hrefButton }) => {
+export const RenduFinal: FC<RenduFinalProps> = ({
+  url,
+  type,
+  hrefButton,
+  showTitle,
+}) => {
   return (
     <RenduFinalContainer>
-      <Title>RENDU FINAL</Title>
+      {showTitle && <Title>RENDU FINAL</Title>}
       {type === 'video' ? (
         <VideoContainer>
           <Video controls>

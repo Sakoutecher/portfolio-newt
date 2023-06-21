@@ -14,10 +14,12 @@ import {
 
 type RenduFinalArrayProps = {
   renduFinalContent: Array<Array<string>> | undefined
+  showTitle?: boolean
 }
 
 export const RenduFinalArray: FC<RenduFinalArrayProps> = ({
   renduFinalContent,
+  showTitle,
 }) => {
   let responsiveArray = {}
 
@@ -29,7 +31,7 @@ export const RenduFinalArray: FC<RenduFinalArrayProps> = ({
 
   return (
     <RenduFinalContainer>
-      <Title>RENDU FINAL</Title>
+      {showTitle && <Title>RENDU FINAL</Title>}
       <ArrayContainer>
         {renduFinalContent?.map((content) => {
           if (content.length === 2) {
