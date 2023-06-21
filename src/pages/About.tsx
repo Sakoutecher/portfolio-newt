@@ -50,7 +50,7 @@ export const About = () => {
   if (window.matchMedia('(max-width: 576px)').matches) {
     responsiveButton = { marginTop: '1em' }
   } else {
-    responsiveButton = {}
+    responsiveButton = { marginTop: '3em', marginBottom: '1em' }
   }
 
   return (
