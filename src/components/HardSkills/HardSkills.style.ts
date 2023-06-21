@@ -42,4 +42,8 @@ export const Img = styled.img`
   @media ${mediaSize.desktop} {
     width: 10vw;
   }
+
+  @media ${mediaSize.phone} {
+    width: 16vw;
+  }
 `
