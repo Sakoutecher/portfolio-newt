@@ -79,13 +79,14 @@ export const Credits = styled.p`
   width: 100vw;
   text-align: center;
   color: ${colors.primary};
-  font-family: ${fonts.OTR};
+  font-family: ${fonts.WorkSans};
   font-size: ${fontSize.s};
   letter-spacing: 2px;
   text-transform: uppercase;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: 600;
 
   @media ${mediaSize.phone} {
     font-size: ${fontSize.xs};

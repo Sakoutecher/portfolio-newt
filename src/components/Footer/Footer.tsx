@@ -55,12 +55,12 @@ export const Footer = () => {
         </ContentContainer>
       </FooterContainer>
       <Credits>
-        MADE WITH ❤️ BY{' '}
+        {'MADE WITH ❤️ BY'}
         <a
-          style={{ color: colors.primary }}
+          style={{ color: colors.primary, marginLeft: '0.5em' }}
           href='https://github.com/Sakoutecher'
         >
-          @HCAMPOS
+          HCAMPOS
         </a>
       </Credits>
     </>
