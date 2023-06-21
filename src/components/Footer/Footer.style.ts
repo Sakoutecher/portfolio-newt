@@ -91,5 +91,6 @@ export const Credits = styled.p`
 
   @media ${mediaSize.phone} {
     font-size: ${fontSize.xs};
+    margin-top: 1em;
   }
 `
