@@ -41,7 +41,7 @@ export const GridContainer = styled.div`
 
   @media ${mediaSize.phone} {
     grid-template-columns: repeat(1, 1fr);
-    grid-auto-rows: 250px;
+    grid-auto-rows: 360px;
   }
 `
 
