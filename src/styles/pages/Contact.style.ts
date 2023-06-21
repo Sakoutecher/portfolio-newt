@@ -19,6 +19,7 @@ export const ContactContainer = styled.div`
   align-items: flex-start;
   flex-direction: column;
   gap: 3em;
+  margin-bottom: 4em;
 `
 
 export const ContactTitle = styled.h4`
