@@ -52,7 +52,7 @@ export const LinksContainer = styled.div`
   gap: 1.5em;
 
   @media ${mediaSize.phone} {
-    gap: 0.2em;
+    gap: 0.5em;
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-start;
