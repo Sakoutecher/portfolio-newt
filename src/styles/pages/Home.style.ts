@@ -90,6 +90,7 @@ export const HardSkillsContainer = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 8em;
 
   @media ${mediaSize.phone} {
     justify-content: flex-start;

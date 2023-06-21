@@ -7,7 +7,8 @@ import { colors, fontSize, fonts, mediaSize } from '../../config/variables'
 export const ProjectsContainer = styled.main`
   width: 85vw;
   min-height: 87vh;
-  margin-top: 13vh;
+  margin-top: 17vh;
+  margin-bottom: 8em;
 `
 
 export const FilterContainer = styled.div`

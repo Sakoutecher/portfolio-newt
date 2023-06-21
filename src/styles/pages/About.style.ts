@@ -15,7 +15,7 @@ export const AboutContainer = styled.main`
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
-  margin-bottom: 4em;
+  margin-bottom: 10em;
 
   @media ${mediaSize.phone} {
     margin-bottom: 4em;
