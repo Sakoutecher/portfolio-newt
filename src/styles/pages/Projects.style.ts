@@ -33,10 +33,11 @@ export const FilterContainer = styled.div`
 export const GridContainer = styled.div`
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 0.25fr));
   grid-gap: 15px;
   grid-auto-rows: 400px;
   margin-bottom: 3%;
+  grid-auto-columns: 1fr;
 
   @media ${mediaSize.phone} {
     grid-template-columns: repeat(1, 1fr);
