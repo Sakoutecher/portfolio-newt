@@ -111,7 +111,7 @@ export const RightContainer = styled.div`
 export const Button = styled.button`
   font-family: ${fonts.OTR};
   color: ${colors.secondary};
-  font-size: ${fontSize.md};
+  font-size: ${fontSize.lg};
   text-transform: uppercase;
   border: 1px solid ${colors.primary};
   border-radius: 15px;
