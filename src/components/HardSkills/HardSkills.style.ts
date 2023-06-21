@@ -34,6 +34,10 @@ export const SkillsText = styled.p`
   text-align: center;
   font-weight: normal;
   letter-spacing: 5px;
+
+  @media ${mediaSize.phone} {
+    padding: 0.2em 0.3em;
+  }
 `
 
 export const Img = styled.img`
