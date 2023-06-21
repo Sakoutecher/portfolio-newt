@@ -68,7 +68,7 @@ export const ArrowContainer = styled.div`
   transform: translate(-50%, -3%);
 
   @media ${mediaSize.phone} {
-    bottom: -12%;
+    bottom: 2%;
   }
 `
 
@@ -96,6 +96,7 @@ export const HardSkillsContainer = styled.div`
     justify-content: flex-start;
     height: initial;
     margin-bottom: 2em;
+    margin-top: 2em;
   }
 `
 
@@ -110,6 +111,6 @@ export const HardSkillsTitle = styled.h3`
 
   @media ${mediaSize.phone} {
     font-size: ${fontSize.xl};
-    margin-bottom: 4em;
+    margin-bottom: 2em;
   }
 `

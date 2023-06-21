@@ -12,7 +12,7 @@ export const SkillsContainer = styled.div`
   flex-wrap: wrap;
   gap: 8em;
 
-  @media ${mediaSize} {
+  @media ${mediaSize.phone} {
     gap: 4em;
   }
 `
