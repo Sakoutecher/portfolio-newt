@@ -87,6 +87,7 @@ export const Credits = styled.p`
   justify-content: center;
   align-items: center;
   font-weight: 600;
+  margin-bottom: 2em;
 
   @media ${mediaSize.phone} {
     font-size: ${fontSize.xs};
