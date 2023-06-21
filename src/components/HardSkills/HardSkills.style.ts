@@ -38,4 +38,8 @@ export const SkillsText = styled.p`
 
 export const Img = styled.img`
   width: 8vw;
+
+  @media ${mediaSize.desktop} {
+    width: 10vw;
+  }
 `
