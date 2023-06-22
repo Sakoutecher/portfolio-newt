@@ -26,7 +26,7 @@ export const App = () => {
 const MainContainer = styled.div`
   min-height: 100vh;
   width: 100vw;
-  background: url('/assets/background.svg');
+  background: url('/assets/Background_Portfolio.jpg');
   background-position: center;
   background-size: cover;
   display: flex;
