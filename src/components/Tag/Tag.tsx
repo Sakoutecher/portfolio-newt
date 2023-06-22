@@ -6,7 +6,7 @@ import { GlobalTag } from './Tag.style'
 
 export type TagProps = {
   text: string
-  size: 'xs' | 's' | 'md' | 'lg'
+  size: 's' | 'md' | 'lg'
   style?: object
   main: boolean
 }
