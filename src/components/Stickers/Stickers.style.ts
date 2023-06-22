@@ -16,7 +16,6 @@ export const StickersContainer = styled.div<StickersContainer>`
   position: absolute;
   top: ${(props) => (props.location === '/contact' ? '0%' : '18%')};
   right: ${(props) => (props.location === '/contact' ? '28%' : '20%')};
-  background: url('../../../public/assets/HELLO EYES STICKER.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
