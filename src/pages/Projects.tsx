@@ -1,6 +1,7 @@
 //Librairies
-import React from 'react'
+import React, { useEffect } from 'react'
 import uuid from 'react-uuid'
+import { useSearchParams } from 'react-router-dom'
 
 //Styles
 import {
@@ -32,6 +33,8 @@ export const Projects = () => {
     setFilter3D,
   } = useFilter()
 
+  const [searchParams] = useSearchParams()
+
   let filteredProjects = projects
 
   if (filter === 'ALL') {
@@ -41,6 +44,22 @@ export const Projects = () => {
       (project) => project.mainsTag[0] === filter
     )
   }
+
+  useEffect(() => {
+    if (searchParams.get('filter') === 'MO') {
+      setFilterMO()
+    } else if (searchParams.get('filter') === 'GD') {
+      setFilterGD()
+    } else if (searchParams.get('filter') === 'UXUI') {
+      setFilterUX()
+    } else if (searchParams.get('filter') === 'VE') {
+      setFilterVE()
+    } else if (searchParams.get('filter') === '3D') {
+      setFilter3D()
+    } else {
+      setFilterALL()
+    }
+  }, [])
 
   return (
     <PageTransition>
