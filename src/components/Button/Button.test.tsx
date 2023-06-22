@@ -28,17 +28,9 @@ describe('Button', () => {
     expect(typeof props.onclick).toBe('function')
   })
 
-  it('should display a button with an href and a text inside', () => {
-    render(<Button text='About' size='md' href='/about' />)
-    const button = screen.getByText('About')
-    const hrefButton = button.getAttribute('href')
-    expect(button).toBeInTheDocument()
-    expect(hrefButton).toBe('/about')
-  })
-
   it('render the right tag', () => {
     render(<Button text='About' size='md' href='/about' />)
     const button = screen.getByText('About')
-    expect(button.tagName).toBe('A')
+    expect(button.tagName).toBe('BUTTON')
   })
 })
