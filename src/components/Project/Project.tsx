@@ -51,10 +51,10 @@ export const Project: FC<ProjectProps> = ({
           <BottomContainer>
             <TagContainer width={secondsTags.length}>
               {mainsTag.map((tag) => (
-                <Tag key={uuid()} text={tag} size='s' main={true} />
+                <Tag key={uuid()} text={tag} size='xs' main={true} />
               ))}
               {secondsTags.map((tag) => (
-                <Tag key={uuid()} text={tag} size='s' main={false} />
+                <Tag key={uuid()} text={tag} size='xs' main={false} />
               ))}
             </TagContainer>
           </BottomContainer>

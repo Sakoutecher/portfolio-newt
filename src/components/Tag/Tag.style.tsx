@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import { fontSize, colors, fonts } from '../../config/variables'
 
 type GlobalTag = {
-  size: 's' | 'md' | 'lg'
+  size: 'xs' | 's' | 'md' | 'lg'
   main: boolean
 }
 
@@ -13,7 +13,9 @@ export const GlobalTag = styled.a<GlobalTag>`
   font-family: ${fonts.WorkSans};
   color: ${colors.secondary};
   font-size: ${(props) =>
-    props.size === 's'
+    props.size === 'xs'
+      ? 0.7 + 'em'
+      : props.size === 's'
       ? fontSize.xs
       : props.size === 'md'
       ? fontSize.md
