@@ -93,7 +93,7 @@ export const DescriptionContainer = styled.div`
   flex-direction: column;
   width: 75%;
   gap: 2em;
-  margin-bottom: 4em;
+  margin-bottom: 12em;
 
   @media ${mediaSize.phone} {
     margin-top: 2em;

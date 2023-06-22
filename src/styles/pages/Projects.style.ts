@@ -8,7 +8,7 @@ export const ProjectsContainer = styled.main`
   width: 85vw;
   min-height: 87vh;
   margin-top: 17vh;
-  margin-bottom: 8em;
+  margin-bottom: 12em;
 `
 
 export const FilterContainer = styled.div`
