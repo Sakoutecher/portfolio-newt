@@ -26,13 +26,7 @@ export type ProjectProps = {
   id: number
 }
 
-export const Project: FC<ProjectProps> = ({
-  title,
-  imgPath,
-  mainsTag,
-  secondsTags,
-  id,
-}) => {
+export const Project: FC<ProjectProps> = ({ title, imgPath, mainsTag, id }) => {
   return (
     <Link
       data-testid='click-test'
@@ -49,12 +43,9 @@ export const Project: FC<ProjectProps> = ({
             <ProjectTitle>{title}</ProjectTitle>
           </ProjectTitleContainer>
           <BottomContainer>
-            <TagContainer width={secondsTags.length}>
+            <TagContainer>
               {mainsTag.map((tag) => (
                 <Tag key={uuid()} text={tag} size='s' main={true} />
-              ))}
-              {secondsTags.map((tag) => (
-                <Tag key={uuid()} text={tag} size='s' main={false} />
               ))}
             </TagContainer>
           </BottomContainer>
