@@ -11,6 +11,7 @@ export const Description = styled.p`
   font-weight: normal;
   letter-spacing: 1px;
   line-height: 1.2;
+  margin-top: 1em;
 
   @media ${mediaSize.phone} {
     width: 135%;

@@ -86,7 +86,7 @@ export const CreditsContainer = styled.div`
 `
 
 export const DescriptionContainer = styled.div`
-  margin-top: 3em;
+  margin-top: 8em;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
