@@ -23,7 +23,7 @@ export const Stickers = () => {
     <StickersContainer ref={stickerRef} location={location.pathname}>
       <img
         style={{ height: '21em', width: '48em' }}
-        src='../../../public/assets/HELLO EYES STICKER.png'
+        src='/assets/HELLO EYES STICKER.png'
       />
     </StickersContainer>
   )
