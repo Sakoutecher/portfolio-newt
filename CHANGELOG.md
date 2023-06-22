@@ -5,6 +5,7 @@
 
 ### Added
 
+- 🔊 Update logs [[04405e2](https://github.com/Sakoutecher/portfolio-newt/commit/04405e26850cc7e6d50233dcac118ad3f696b52e)]
 - ✨ Hardskills are clickable and update the filter for the projects page [[dad79e1](https://github.com/Sakoutecher/portfolio-newt/commit/dad79e1c098b803cc0d9a53084874acf9f6ef63b)]
 - 🔊 update logs [[7963b3d](https://github.com/Sakoutecher/portfolio-newt/commit/7963b3d6fb6d4b0edbe749e62cbb7420ead9d8f7)]
 - 🔊 update logs [[ce0c519](https://github.com/Sakoutecher/portfolio-newt/commit/ce0c519869f3605da0a3b64489e98acb3387ba9a)]
@@ -103,6 +104,8 @@
 
 ### Changed
 
+- ♻️ New tag container, show now only max 2 tags [[b626e6b](https://github.com/Sakoutecher/portfolio-newt/commit/b626e6bb40996a08933fd028f62ef0b353383b72)]
+- ♻️ Return to the old version of the tag container [[1316f14](https://github.com/Sakoutecher/portfolio-newt/commit/1316f149086526f438705e6a9400bba3089b0504)]
 - 💄 Increase spaces between content and title in the one project page [[2d21864](https://github.com/Sakoutecher/portfolio-newt/commit/2d21864c9e4eb1e41f537f540344b529794fdc90)]
 - 💄 Put the same spaces between content and footer on all the pages [[be2f1a6](https://github.com/Sakoutecher/portfolio-newt/commit/be2f1a68a9ef4d473009703ba0ccb13671c8240c)]
 - ♻️ Replace old sticker [[f650d16](https://github.com/Sakoutecher/portfolio-newt/commit/f650d169f3ee38e4d2839d61183652de62ee64ec)]
