@@ -22,7 +22,7 @@ export const StickersContainer = styled.div<StickersContainer>`
   background-position: center;
 
   @media ${mediaSize.phone} {
-    top: 49%;
-    right: 18%;
+    top: 43%;
+    right: 7%;
   }
 `
