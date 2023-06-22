@@ -1,10 +1,12 @@
 # Changelog
 
 <a name="0.0.0"></a>
-## 0.0.0 (2023-05-04)
+## 0.0.0 (2023-06-22)
 
 ### Added
 
+- ✨ Hardskills are clickable and update the filter for the projects page [[dad79e1](https://github.com/Sakoutecher/portfolio-newt/commit/dad79e1c098b803cc0d9a53084874acf9f6ef63b)]
+- 🔊 update logs [[7963b3d](https://github.com/Sakoutecher/portfolio-newt/commit/7963b3d6fb6d4b0edbe749e62cbb7420ead9d8f7)]
 - 🔊 update logs [[ce0c519](https://github.com/Sakoutecher/portfolio-newt/commit/ce0c519869f3605da0a3b64489e98acb3387ba9a)]
 - ✨ add rendufinalarray component [[ab66a71](https://github.com/Sakoutecher/portfolio-newt/commit/ab66a711a6e8f96aa35841952f9511535129fd7c)]
 - 🔊 update logs [[4621778](https://github.com/Sakoutecher/portfolio-newt/commit/46217787790f4108df9892243a59f754f16b8ba6)]
@@ -101,6 +103,26 @@
 
 ### Changed
 
+- 💄 Increase spaces between content and title in the one project page [[2d21864](https://github.com/Sakoutecher/portfolio-newt/commit/2d21864c9e4eb1e41f537f540344b529794fdc90)]
+- 💄 Put the same spaces between content and footer on all the pages [[be2f1a6](https://github.com/Sakoutecher/portfolio-newt/commit/be2f1a68a9ef4d473009703ba0ccb13671c8240c)]
+- ♻️ Replace old sticker [[f650d16](https://github.com/Sakoutecher/portfolio-newt/commit/f650d169f3ee38e4d2839d61183652de62ee64ec)]
+- 📱 Move the stickers when we are on a phone [[1837232](https://github.com/Sakoutecher/portfolio-newt/commit/183723245b541f7261f9ab217fac10228d7c8e55)]
+- 🍱 New better stickers [[d277530](https://github.com/Sakoutecher/portfolio-newt/commit/d27753028ccb93e557e19d5eba7c2a034645d776)]
+- ♻️ Replace old background by the new one [[8fbaeb0](https://github.com/Sakoutecher/portfolio-newt/commit/8fbaeb01290103cd0520df91019bc722433b173b)]
+- ⚡ Reduce file size of the background [[b86fd66](https://github.com/Sakoutecher/portfolio-newt/commit/b86fd66666abc455df3db627b075eb0010180d6b)]
+- 📱 Add margin bottom to the contact page [[56a8cf4](https://github.com/Sakoutecher/portfolio-newt/commit/56a8cf4bd98396b06e09afb997743c6aeeb9ff66)]
+- 📱 More spaces between title of the project and tag of the project [[9d72c4b](https://github.com/Sakoutecher/portfolio-newt/commit/9d72c4b1a152e0a9141ede7a4d28c08ff0da7650)]
+- 📱 Add margin top to the credits [[329a1b3](https://github.com/Sakoutecher/portfolio-newt/commit/329a1b3f5c7b37e95d38b9cf9d13d30049a49001)]
+- 📱 Better responsive for the links container in the footer when we are on a phone [[00629cc](https://github.com/Sakoutecher/portfolio-newt/commit/00629ccc6c53405e44c9bc5a8387e25e2ebde3f6)]
+- 💄 Background of the skills title [[d2a38e5](https://github.com/Sakoutecher/portfolio-newt/commit/d2a38e5e1c00cf896079ad9bde9245eb072a1f28)]
+- 📱 Increase size of the file img when we are on a phone [[3421612](https://github.com/Sakoutecher/portfolio-newt/commit/342161204eefc3d99bc7724c7c59b3d64155e6ad)]
+- 📱 Increase size of the file img [[8b8fbe9](https://github.com/Sakoutecher/portfolio-newt/commit/8b8fbe9488794ddb6456cc2edd7ee599f2dd3f41)]
+- 💄 Increase size of the send button on contact page [[9624208](https://github.com/Sakoutecher/portfolio-newt/commit/96242082b56635a1cd74881e86be0b4118646c96)]
+- 💄 Add spaces under credit [[695783e](https://github.com/Sakoutecher/portfolio-newt/commit/695783e32840b2b80ee1e2e63949256eb9892e83)]
+- 💄 Change font and add space between text and credits [[e855a6f](https://github.com/Sakoutecher/portfolio-newt/commit/e855a6fe477e13e7671b008b3dfa1ac436a5b8d9)]
+- 💄 Increase space under content on all page [[5acfce9](https://github.com/Sakoutecher/portfolio-newt/commit/5acfce96f4f8768491c9126dc2cee6ced9b83e80)]
+- 💄 Increase spaces around the button [[2d0cc34](https://github.com/Sakoutecher/portfolio-newt/commit/2d0cc34e571289ddfc92096ac9644d951ce98d9c)]
+- 📱 responsive phone correct thing [[7ae6eab](https://github.com/Sakoutecher/portfolio-newt/commit/7ae6eabcf22c400c3953f306ab1d2030b52a809f)]
 - 📱 responsive phone text size [[0d994a3](https://github.com/Sakoutecher/portfolio-newt/commit/0d994a319f80de47b06fd14670b5e860d07d954d)]
 - 🔧 new size for responsive [[ba5de23](https://github.com/Sakoutecher/portfolio-newt/commit/ba5de2369485c092734a7cc1b39210ff85457fb7)]
 - 📱 responsive phone typetext another media [[b34a55a](https://github.com/Sakoutecher/portfolio-newt/commit/b34a55a29c0aaebf2d15e5cc4baeee5141c5a857)]
@@ -238,6 +260,11 @@
 
 ### Fixed
 
+- 🐛 Fix can&#x27;t scroll in the tag container project [[57d98a4](https://github.com/Sakoutecher/portfolio-newt/commit/57d98a4405af613dd085bdd20c7d863c9b2d72ca)]
+- 🐛 Fix the stickers didnt show [[43225d4](https://github.com/Sakoutecher/portfolio-newt/commit/43225d406fc16a2706b9ff080449d88d6c753596)]
+- 🐛 Fix on a project sometimes the title &quot;rendu final&quot; appear twice [[71733da](https://github.com/Sakoutecher/portfolio-newt/commit/71733da311e0e3e6e889cbdce04952a1042c3fce)]
+- 🐛 Fix arrow go under the title on the home page for the skills container [[67a66a1](https://github.com/Sakoutecher/portfolio-newt/commit/67a66a11b709a9587fdcdcbd985b6d3e68427ab8)]
+- 🐛 Fix widht of a project when only one is show [[f411a3c](https://github.com/Sakoutecher/portfolio-newt/commit/f411a3c4def764cc79095c562e8fd2e89125e9f3)]
 - 🐛 hide scrollbar [[886d4b7](https://github.com/Sakoutecher/portfolio-newt/commit/886d4b7f3b50c22875c86e0373e0a2c2ab3d3d5a)]
 - 🐛 fix phone responsive grid project [[7462f2f](https://github.com/Sakoutecher/portfolio-newt/commit/7462f2f6d890f2c7563b0d75ec606b59eaa704bf)]
 - 🐛 show the responsive menu on reload [[318eafe](https://github.com/Sakoutecher/portfolio-newt/commit/318eafe40ba27d203ee4cb65bf76c5def97935e7)]
@@ -261,6 +288,8 @@
 
 ### Miscellaneous
 
+- 🚧 Some test on netlify [[725af19](https://github.com/Sakoutecher/portfolio-newt/commit/725af1937c639bc10088e5a14e6c4bb3d3c020c8)]
+- 💫 Increase movement of the stickers and change the image to a better one [[ab1053e](https://github.com/Sakoutecher/portfolio-newt/commit/ab1053e120f3284cc6773ca7231fa057d9eb372b)]
 - 🏷️ update project types [[86ca0fd](https://github.com/Sakoutecher/portfolio-newt/commit/86ca0fd74e23f62232baa108ff67ed522b219075)]
 - 📝 change title readme [[83e1d77](https://github.com/Sakoutecher/portfolio-newt/commit/83e1d7746d89f2320d1d538c14c161b91c327cee)]
 - 🔍 metadata [[9b7ba5f](https://github.com/Sakoutecher/portfolio-newt/commit/9b7ba5fed99f51ecf641088eebda2f49b6c1882d)]
